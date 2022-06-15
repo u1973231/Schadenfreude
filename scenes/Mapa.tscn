@@ -8,7 +8,6 @@
 
 [node name="Map-cells" type="Sprite" parent="."]
 position = Vector2( 535, 311 )
-scale = Vector2( 1, 1 )
 texture = ExtResource( 1 )
 
 [node name="Player" parent="." instance=ExtResource( 2 )]
