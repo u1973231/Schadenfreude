@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/tavern-medium-props (8).png-7189bfe3328aa7ae73fdd595e29bf42a.stex"
+path="res://.import/full spritesheet.png-19c62253ee3bf1085e62db0d66d223ad.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://textures/tavern/tavern-medium-props (8).png"
-dest_files=[ "res://.import/tavern-medium-props (8).png-7189bfe3328aa7ae73fdd595e29bf42a.stex" ]
+source_file="res://sprites/full spritesheet.png"
+dest_files=[ "res://.import/full spritesheet.png-19c62253ee3bf1085e62db0d66d223ad.stex" ]
 
 [params]
 
@@ -20,7 +20,7 @@ compress/hdr_mode=0
 compress/bptc_ldr=0
 compress/normal_map=0
 flags/repeat=0
-flags/filter=false
+flags/filter=true
 flags/mipmaps=false
 flags/anisotropic=false
 flags/srgb=2
