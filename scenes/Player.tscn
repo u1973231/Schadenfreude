@@ -1,9 +1,11 @@
-[gd_scene load_steps=7 format=2]
+[gd_scene load_steps=8 format=2]
 
 [ext_resource path="res://sprites/spr_player.png" type="Texture" id=1]
 [ext_resource path="res://scripts/scr_player.gd" type="Script" id=2]
 
 [sub_resource type="CapsuleShape2D" id=1]
+radius = 6.5
+height = 6.0
 
 [sub_resource type="Animation" id=2]
 length = 0.001
@@ -18,6 +20,22 @@ tracks/0/keys = {
 "transitions": PoolRealArray( 1 ),
 "update": 0,
 "values": [ 8 ]
+}
+
+[sub_resource type="Animation" id=5]
+resource_name = "hit"
+loop = true
+tracks/0/type = "value"
+tracks/0/path = NodePath("Sprite:frame")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7 ),
+"transitions": PoolRealArray( 1, 1, 1, 1, 1, 1, 1, 1 ),
+"update": 1,
+"values": [ 59, 75, 60, 75, 61, 75, 63, 64 ]
 }
 
 [sub_resource type="Animation" id=3]
@@ -64,6 +82,7 @@ vframes = 11
 frame = 8
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2( 0, 14.5 )
 shape = SubResource( 1 )
 
 [node name="Camera2D" type="Camera2D" parent="."]
@@ -71,5 +90,21 @@ current = true
 
 [node name="AnimationPlayer" type="AnimationPlayer" parent="."]
 anims/RESET = SubResource( 2 )
+anims/hit = SubResource( 5 )
 anims/idle = SubResource( 3 )
 anims/walk = SubResource( 4 )
+
+[node name="inmune" type="Timer" parent="."]
+one_shot = true
+
+[node name="animationHit" type="Timer" parent="."]
+wait_time = 0.3
+one_shot = true
+
+[node name="stun" type="Timer" parent="."]
+wait_time = 0.1
+one_shot = true
+
+[connection signal="timeout" from="inmune" to="." method="_on_inmune_timeout"]
+[connection signal="timeout" from="animationHit" to="." method="_on_animationHit_timeout"]
+[connection signal="timeout" from="stun" to="." method="_on_stun_timeout"]

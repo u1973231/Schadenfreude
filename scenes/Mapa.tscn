@@ -1,18 +1,19 @@
-[gd_scene load_steps=4 format=2]
+[gd_scene load_steps=5 format=2]
 
 [ext_resource path="res://textures/map-cells.jpg" type="Texture" id=1]
 [ext_resource path="res://scenes/Player.tscn" type="PackedScene" id=2]
 [ext_resource path="res://scenes/DialogTriger.tscn" type="PackedScene" id=3]
+[ext_resource path="res://scenes/slime.tscn" type="PackedScene" id=4]
 
 [node name="Map-cells" type="Node2D"]
 
 [node name="Map-cells" type="Sprite" parent="."]
-position = Vector2( 535, 311 )
+position = Vector2( 199, 305 )
 texture = ExtResource( 1 )
+offset = Vector2( 336, 6 )
 
 [node name="Player" parent="." instance=ExtResource( 2 )]
-position = Vector2( 511.56, 297.646 )
-scale = Vector2( 1, 1 )
+position = Vector2( 417, 294 )
 
 [node name="DialogTriger" parent="." instance=ExtResource( 3 )]
 position = Vector2( 825, 245 )
@@ -21,3 +22,7 @@ dialogPath = "res://dialogs/Dialogo0.json"
 [node name="DialogTriger2" parent="." instance=ExtResource( 3 )]
 position = Vector2( 358, 242 )
 dialogPath = "res://dialogs/Dialogo1.json"
+
+[node name="slime" parent="." instance=ExtResource( 4 )]
+position = Vector2( 593, 305 )
+scale = Vector2( 2, 2 )

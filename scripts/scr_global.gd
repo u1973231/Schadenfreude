@@ -3,7 +3,7 @@ extends Node
 
 #Variales Globales
 var currenDialogPath = ""
-
+var posJugador = Vector2.ZERO
 
 # Called when the node enters the scene tree for the first time.
 func _ready():
