@@ -1,0 +1,93 @@
+[gd_scene load_steps=8 format=2]
+
+[ext_resource path="res://sprites/full spritesheet.png" type="Texture" id=1]
+[ext_resource path="res://scenes/scr_slime.gd" type="Script" id=2]
+
+[sub_resource type="CircleShape2D" id=1]
+radius = 6.0
+
+[sub_resource type="Animation" id=2]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/path = NodePath("Sprite:frame")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ 84 ]
+}
+
+[sub_resource type="Animation" id=3]
+resource_name = "idle"
+loop = true
+tracks/0/type = "value"
+tracks/0/path = NodePath("Sprite:frame")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.2, 0.4, 0.6, 0.8, 1 ),
+"transitions": PoolRealArray( 1, 1, 1, 1, 1, 1 ),
+"update": 1,
+"values": [ 84, 85, 86, 87, 88, 89 ]
+}
+
+[sub_resource type="Animation" id=4]
+resource_name = "jump"
+length = 50.0
+loop = true
+tracks/0/type = "value"
+tracks/0/path = NodePath("Sprite:frame")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.1, 0.2, 0.3, 0.4, 0.5 ),
+"transitions": PoolRealArray( 1, 1, 1, 1, 1, 1 ),
+"update": 1,
+"values": [ 112, 113, 114, 115, 116, 117 ]
+}
+
+[sub_resource type="CircleShape2D" id=5]
+radius = 8.0
+
+[node name="slime" type="KinematicBody2D" groups=["enemy"]]
+script = ExtResource( 2 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource( 1 )
+
+[node name="Sprite" type="Sprite" parent="."]
+position = Vector2( 0, -1 )
+texture = ExtResource( 1 )
+hframes = 28
+vframes = 9
+frame = 84
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+anims/RESET = SubResource( 2 )
+anims/idle = SubResource( 3 )
+anims/jump = SubResource( 4 )
+
+[node name="jumpDely" type="Timer" parent="."]
+one_shot = true
+
+[node name="jumpDuration" type="Timer" parent="."]
+wait_time = 0.5
+one_shot = true
+
+[node name="damageArea" type="Area2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="damageArea"]
+shape = SubResource( 5 )
+
+[connection signal="timeout" from="jumpDely" to="." method="_on_jumpDely_timeout"]
+[connection signal="timeout" from="jumpDuration" to="." method="_on_jumpDuration_timeout"]
+[connection signal="body_entered" from="damageArea" to="." method="_on_damageArea_body_entered"]
+[connection signal="body_exited" from="damageArea" to="." method="_on_damageArea_body_exited"]
