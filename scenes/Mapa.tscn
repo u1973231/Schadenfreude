@@ -1,19 +1,27 @@
-[gd_scene load_steps=5 format=2]
+[gd_scene load_steps=6 format=2]
 
 [ext_resource path="res://textures/map-cells.jpg" type="Texture" id=1]
 [ext_resource path="res://scenes/Player.tscn" type="PackedScene" id=2]
 [ext_resource path="res://scenes/DialogTriger.tscn" type="PackedScene" id=3]
 [ext_resource path="res://scenes/slime.tscn" type="PackedScene" id=4]
+[ext_resource path="res://scenes/HUDMisiones.tscn" type="PackedScene" id=5]
 
 [node name="Map-cells" type="Node2D"]
 
 [node name="Map-cells" type="Sprite" parent="."]
-position = Vector2( 199, 305 )
+position = Vector2( 189, 304 )
 texture = ExtResource( 1 )
 offset = Vector2( 336, 6 )
 
 [node name="Player" parent="." instance=ExtResource( 2 )]
-position = Vector2( 417, 294 )
+position = Vector2( 487, 274 )
+scale = Vector2( 1, 1 )
+
+[node name="HUD" type="Node2D" parent="Player"]
+position = Vector2( -487, -274 )
+
+[node name="HUDMisiones" parent="Player/HUD" instance=ExtResource( 5 )]
+position = Vector2( 768, 233 )
 
 [node name="DialogTriger" parent="." instance=ExtResource( 3 )]
 position = Vector2( 825, 245 )
@@ -22,7 +30,59 @@ dialogPath = "res://dialogs/Dialogo0.json"
 [node name="DialogTriger2" parent="." instance=ExtResource( 3 )]
 position = Vector2( 358, 242 )
 dialogPath = "res://dialogs/Dialogo1.json"
+addMision = -1
 
 [node name="slime" parent="." instance=ExtResource( 4 )]
-position = Vector2( 593, 305 )
+position = Vector2( 658, 297 )
 scale = Vector2( 2, 2 )
+vida = 7
+
+[node name="slime2" parent="." instance=ExtResource( 4 )]
+position = Vector2( 658, 297 )
+scale = Vector2( 2, 2 )
+vida = 7
+
+[node name="slime3" parent="." instance=ExtResource( 4 )]
+position = Vector2( 658, 297 )
+scale = Vector2( 2, 2 )
+vida = 7
+
+[node name="slime4" parent="." instance=ExtResource( 4 )]
+position = Vector2( 658, 297 )
+scale = Vector2( 2, 2 )
+vida = 7
+
+[node name="slime5" parent="." instance=ExtResource( 4 )]
+position = Vector2( 658, 297 )
+scale = Vector2( 2, 2 )
+vida = 7
+
+[node name="slime6" parent="." instance=ExtResource( 4 )]
+position = Vector2( 658, 297 )
+scale = Vector2( 2, 2 )
+vida = 7
+
+[node name="slime7" parent="." instance=ExtResource( 4 )]
+position = Vector2( 658, 297 )
+scale = Vector2( 2, 2 )
+vida = 7
+
+[node name="slime8" parent="." instance=ExtResource( 4 )]
+position = Vector2( 658, 297 )
+scale = Vector2( 2, 2 )
+vida = 7
+
+[node name="slime9" parent="." instance=ExtResource( 4 )]
+position = Vector2( 658, 297 )
+scale = Vector2( 2, 2 )
+vida = 7
+
+[node name="slime10" parent="." instance=ExtResource( 4 )]
+position = Vector2( 658, 297 )
+scale = Vector2( 2, 2 )
+vida = 7
+
+[node name="slime11" parent="." instance=ExtResource( 4 )]
+position = Vector2( 658, 297 )
+scale = Vector2( 2, 2 )
+vida = 7
