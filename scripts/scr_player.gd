@@ -11,14 +11,25 @@ var inmune = false
 var animationHit = false
 var stun = false
 var posHit
+var arrow
+var disparar = true
+
+
 func _ready():
+	arrow = preload("res://scenes/arrow.tscn")
 	pass 
+
 	
 func _process(delta):
 	if not stun:
 		movePlayer()
 	else:
 		moveStun()
+	
+	if Input.is_action_just_pressed("atacar") and disparar:
+		lanzarFlecha()
+		disparar = false
+		$disparar.start()
 	
 	ScrGlobal.posJugador = position
 	
@@ -78,4 +89,18 @@ func _on_animationHit_timeout():
 
 func _on_stun_timeout():
 	stun = false
+	pass # Replace with function body.
+
+func lanzarFlecha():
+	var mouse = get_global_mouse_position()
+	var dir = mouse - position
+	var inst = arrow.instance()
+	inst.setDir(dir)
+	add_child(inst)
+	pass
+
+
+
+func _on_disparar_timeout():
+	disparar = true
 	pass # Replace with function body.

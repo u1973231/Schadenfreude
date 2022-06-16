@@ -2,7 +2,7 @@ extends Node
 
 
 #Variales Globales
-var currenDialogPath = ""
+var currenDialogPath = "res://dialogs/Dialogo0.json"
 var posJugador = Vector2.ZERO
 
 # Called when the node enters the scene tree for the first time.

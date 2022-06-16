@@ -19,6 +19,7 @@ func _ready():
 	pass 
 	
 func _process(delta):
+	print("existo")
 	if Input.is_action_just_pressed("ui_accept"):
 		if finished:
 			nextPhrase()

@@ -8,12 +8,13 @@
 [node name="Map-cells" type="Node2D"]
 
 [node name="Map-cells" type="Sprite" parent="."]
-position = Vector2( 199, 305 )
+position = Vector2( 189, 304 )
 texture = ExtResource( 1 )
 offset = Vector2( 336, 6 )
 
 [node name="Player" parent="." instance=ExtResource( 2 )]
-position = Vector2( 417, 294 )
+position = Vector2( 487, 274 )
+scale = Vector2( 1, 1 )
 
 [node name="DialogTriger" parent="." instance=ExtResource( 3 )]
 position = Vector2( 825, 245 )
@@ -24,5 +25,6 @@ position = Vector2( 358, 242 )
 dialogPath = "res://dialogs/Dialogo1.json"
 
 [node name="slime" parent="." instance=ExtResource( 4 )]
-position = Vector2( 593, 305 )
+position = Vector2( 658, 297 )
 scale = Vector2( 2, 2 )
+vida = 7

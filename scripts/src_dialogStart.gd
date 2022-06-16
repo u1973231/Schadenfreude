@@ -14,7 +14,7 @@ func _process(delta):
 	if Input.is_action_just_pressed("interactue") and playerIn:
 		ScrGlobal.currenDialogPath = dialogPath
 		var scene = dialog.instance()
-		scene.position = Vector2(-400,150)
+		scene.position = Vector2(-370,100)
 		var padre = get_parent()
 		padre.get_child(1).add_child(scene)
 		print("hola")

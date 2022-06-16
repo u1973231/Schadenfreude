@@ -9,7 +9,7 @@ export var damage = 5
 func morir():
 	queue_free()
 	
-func recivirDamage(damage):
+func recivirDamage(damage,posDamage):
 	vida -= damage
 	if vida <= 0:
 		morir()
