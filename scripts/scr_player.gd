@@ -33,7 +33,7 @@ func _process(delta):
 	elif dashing:
 		dash(delta)
 	
-	if Input.is_action_just_pressed("atacar") and disparar:
+	if Input.is_action_pressed("atacar") and disparar:
 		lanzarFlecha()
 		disparar = false
 		$disparar.start()

@@ -21,7 +21,7 @@ func compMisionCompleta(i):
 	var indexM = misionesAceptadas[i]
 	if int(misiones[indexM]["Cantidad"]) <= misionesProgreso[i]:
 		print("misionCumplida")
-		misionesCompletadas.append(misionesAceptadas[i])#Añade la mision como completada para poder recivir la recompensa al hablar con el npc 
+		misionesCompletadas.append(int(misionesAceptadas[i]))#Añade la mision como completada para poder recivir la recompensa al hablar con el npc 
 		misionesAceptadas[i] = -1 #Cuando una mision aceptada esta en -1 para indicar que ya no esta vijente
 		
 	
@@ -30,7 +30,7 @@ func compMisionCompleta(i):
 func addMistion(index):
 	misionesAceptadas.append(index)
 	misionesProgreso.append(0)
-	misionesCompletadas.append(false)
+	
 
 #Carrga las misiones en memoria
 func cargarMisiones() -> Array:
