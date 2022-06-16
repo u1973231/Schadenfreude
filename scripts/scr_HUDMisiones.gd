@@ -17,7 +17,7 @@ func _process(delta):
 
 func actualizarMisiones():
 	for i in get_children():
-		if i.name != "Mision":
+		if i.name != "Mision" and i.name != "rect":
 			i.queue_free()
 	
 	var ma = ScrGlobal.misionesAceptadas

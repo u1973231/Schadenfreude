@@ -21,9 +21,8 @@ func _process(delta):
 func hablar():
 	ScrGlobal.currenDialogPath = dialogPath
 	var scene = dialog.instance()
-	scene.position = Vector2(-370,100)
-	var padre = get_parent()
-	padre.get_child(1).add_child(scene)
+	scene.position = Vector2(280,480)
+	get_parent().add_child(scene)
 	if addMision != -1:
 		ScrGlobal.addMistion(addMision)
 		addMision = -1 
@@ -33,7 +32,7 @@ func hablar():
 func _on_Area2D_body_entered(body):
 	if body.is_in_group("player"):
 		HUD = HUDInter.instance()
-		var padre = get_parent()
+		var padre = get_parent().get_parent()
 		padre.get_child(1).add_child(HUD)
 		playerIn = true
 

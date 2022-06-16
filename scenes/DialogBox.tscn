@@ -36,29 +36,27 @@ tracks/0/keys = {
 }
 
 [node name="Dialog Box" type="ColorRect"]
-margin_right = 679.0
-margin_bottom = 102.0
+margin_right = 599.0
+margin_bottom = 98.0
 color = Color( 0.192157, 0.192157, 0.192157, 1 )
 script = ExtResource( 1 )
 
 [node name="content" type="Node2D" parent="."]
-position = Vector2( 3, 2 )
-__meta__ = {
-"_edit_group_": true
-}
+position = Vector2( -71, 0 )
 
 [node name="Name" type="RichTextLabel" parent="content"]
-margin_right = 683.0
-margin_bottom = 104.0
-text = "Saray"
+margin_left = 81.0
+margin_top = 5.0
+margin_right = 227.0
+margin_bottom = 23.0
+text = "NOMBRE"
 
 [node name="Text" type="RichTextLabel" parent="content"]
-margin_left = 8.0
-margin_top = 18.0
-margin_right = 676.0
-margin_bottom = 96.0
-text = "Hola, me llamo Saray. ¿Quieres que te parta la cara ?
-¿Porque no? Sera divertido. Tu sufres yo no "
+margin_left = 81.0
+margin_top = 21.0
+margin_right = 649.0
+margin_bottom = 86.0
+text = "TEXTO DE MUESTA"
 fit_content_height = true
 
 [node name="Indicator" type="Polygon2D" parent="content"]
@@ -70,7 +68,7 @@ anims/RESET = SubResource( 1 )
 anims/indicator = SubResource( 2 )
 
 [node name="Portrait" type="Sprite" parent="content"]
-position = Vector2( 50, -48 )
+position = Vector2( 128, -48 )
 scale = Vector2( 0.332031, 0.332031 )
 texture = ExtResource( 2 )
 

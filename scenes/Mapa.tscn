@@ -19,20 +19,7 @@ position = Vector2( 487, 274 )
 scale = Vector2( 1, 1 )
 
 [node name="HUD" type="Node2D" parent="Player"]
-position = Vector2( -487, -274 )
-
-[node name="HUDMisiones" parent="Player/HUD" instance=ExtResource( 5 )]
-position = Vector2( 766, 160 )
-scale = Vector2( 0.6, 0.6 )
-
-[node name="DialogTriger" parent="." instance=ExtResource( 3 )]
-position = Vector2( 825, 245 )
-dialogPath = "res://dialogs/Dialogo0.json"
-
-[node name="DialogTriger2" parent="." instance=ExtResource( 3 )]
-position = Vector2( 358, 242 )
-dialogPath = "res://dialogs/Dialogo1.json"
-addMision = -1
+position = Vector2( 25, 13 )
 
 [node name="slime" parent="." instance=ExtResource( 4 )]
 position = Vector2( 658, 297 )
@@ -90,3 +77,16 @@ scale = Vector2( 2, 2 )
 vida = 7
 
 [node name="Health" parent="." instance=ExtResource( 6 )]
+
+[node name="HUDMisiones" parent="Health" instance=ExtResource( 5 )]
+position = Vector2( 60, 86 )
+scale = Vector2( 0.7, 0.7 )
+
+[node name="DialogTriger" parent="Health" instance=ExtResource( 3 )]
+position = Vector2( 825, 245 )
+dialogPath = "res://dialogs/Dialogo0.json"
+
+[node name="DialogTriger2" parent="Health" instance=ExtResource( 3 )]
+position = Vector2( 358, 242 )
+dialogPath = "res://dialogs/Dialogo1.json"
+addMision = -1
