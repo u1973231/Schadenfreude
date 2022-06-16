@@ -1,4 +1,4 @@
-[gd_resource type="TileSet" load_steps=150 format=2]
+[gd_resource type="TileSet" load_steps=190 format=2]
 
 [ext_resource path="res://textures/tavern/tavern-small-props (17).png" type="Texture" id=1]
 [ext_resource path="res://textures/tavern/tavern-floor (16).png" type="Texture" id=2]
@@ -133,8 +133,53 @@ points = PoolVector2Array( 68.6855, 27.7923, 72.174, 42.3278, 77.6006, 64.2279, 
 [sub_resource type="ConvexPolygonShape2D" id=2]
 points = PoolVector2Array( 37.6764, 24.9986, 77.0192, 32.9447, 78.3758, 46.1618, 70.4297, 50.8131, 72.5616, 69.8062, 51.0491, 70.7554, 50.8553, 58.2684, 25.6604, 58.656, 23.1409, 63.3074, 3.95407, 63.5846, 5.69833, 45.5256, 15.5825, 42.0371, 15.0011, 29.2458 )
 
+[sub_resource type="ConvexPolygonShape2D" id=38]
+points = PoolVector2Array( 25.2728, 51.6305, 31.087, 56.2819, 25.8542, 59.3828, 19.4586, 56.6695 )
+
+[sub_resource type="ConvexPolygonShape2D" id=39]
+points = PoolVector2Array( 15.3887, 46.7853, 23.1409, 50.6615, 6.08595, 58.9952, 0.853169, 55.5066 )
+
+[sub_resource type="ConvexPolygonShape2D" id=40]
+points = PoolVector2Array( 16.7453, 47.3668, 23.3347, 50.6615, 6.27975, 58.9952, 0.659363, 56.0881 )
+
+[sub_resource type="ConvexPolygonShape2D" id=41]
+points = PoolVector2Array( 15.3887, 46.3977, 22.5595, 51.0491, 6.08595, 59.5766, 0.853169, 55.7004 )
+
+[sub_resource type="ConvexPolygonShape2D" id=42]
+points = PoolVector2Array( 15.1949, 48.5296, 22.5595, 50.8553, 5.69833, 59.3828, 0, 56.4757 )
+
+[sub_resource type="ConvexPolygonShape2D" id=43]
+points = PoolVector2Array( 14.032, 47.5606, 22.1719, 51.2429, 5.89214, 59.7704, 0.465556, 56.0881 )
+
+[sub_resource type="ConvexPolygonShape2D" id=44]
+points = PoolVector2Array( 24.8852, 52.2119, 32, 56.0881, 16.9391, 64, 10.1559, 61.3208 )
+
+[sub_resource type="ConvexPolygonShape2D" id=45]
+points = PoolVector2Array( 10.7373, 61.5146, 26.048, 51.6305, 32, 56.0881, 16.7453, 64 )
+
+[sub_resource type="ConvexPolygonShape2D" id=46]
+points = PoolVector2Array( 25.8542, 52.7934, 32, 56.2819, 16.3577, 64, 9.96208, 60.7394 )
+
+[sub_resource type="ConvexPolygonShape2D" id=47]
+points = PoolVector2Array( 25.4666, 52.0181, 32, 56.0881, 17.3267, 64, 9.57447, 61.3208 )
+
+[sub_resource type="ConvexPolygonShape2D" id=48]
+points = PoolVector2Array( 25.6604, 52.7934, 32, 56.4757, 16.7453, 64, 9.76827, 61.3208 )
+
+[sub_resource type="ConvexPolygonShape2D" id=49]
+points = PoolVector2Array( 15.9701, 45.4287, 22.5595, 55.119, 16.1639, 59.189, 9.76827, 56.0881 )
+
+[sub_resource type="ConvexPolygonShape2D" id=50]
+points = PoolVector2Array( 8.41163, 47.3668, 14.6134, 52.0181, 7.24879, 54.7314, 4.34169, 53.3748 )
+
+[sub_resource type="ConvexPolygonShape2D" id=51]
+points = PoolVector2Array( 23.5285, 47.3668, 27.4047, 48.3358, 27.0171, 53.181, 24.11, 54.7314, 18.102, 51.6305 )
+
 [sub_resource type="ConvexPolygonShape2D" id=3]
 points = PoolVector2Array( 72.9492, 31.8622, 76.2439, 44.6535, 70.0421, 48.5296, 71.0112, 68.6855, 49.6924, 68.8793, 49.6924, 56.6695, 36.7074, 57.2509, 39.0331, 70.4297, 16.7453, 71.205, 17.1329, 60.158, 1.24078, 59.7704, 3.17885, 45.8163, 17.1329, 42.9092, 15.0011, 23.3347, 47.9482, 24.4976 )
+
+[sub_resource type="ConvexPolygonShape2D" id=52]
+points = PoolVector2Array( 0, 8.02401, 15.7763, 0, 32, 7.6364, 16.1639, 16 )
 
 [sub_resource type="ConvexPolygonShape2D" id=4]
 points = PoolVector2Array( 10.7373, 52.2119, 20.4276, 52.2119, 27.2109, 55.5066, 22.1719, 59.5766, 15.5825, 61.7085, 8.79924, 59.5766, 5.11691, 55.119, 5.11691, 55.119 )
@@ -195,6 +240,81 @@ points = PoolVector2Array( 3.56646, 10.9311, 9.96208, 3.37265, 13.4506, 5.11691,
 
 [sub_resource type="ConvexPolygonShape2D" id=23]
 points = PoolVector2Array( 9.76827, 38.8393, 30.3118, 46.2039, 28.1799, 60.5456, 7.83021, 50.4677 )
+
+[sub_resource type="ConvexPolygonShape2D" id=24]
+points = PoolVector2Array( 8.02402, 53.181, 9.96208, 39.4207, 32, 44.6535, 31.4746, 59.189 )
+
+[sub_resource type="ConvexPolygonShape2D" id=25]
+points = PoolVector2Array( 9.96208, 40.7773, 32, 43.6844, 31.8622, 59.7704, 7.6364, 51.8243 )
+
+[sub_resource type="ConvexPolygonShape2D" id=26]
+points = PoolVector2Array( 10.3497, 28.3737, 31.2808, 47.5606, 31.4746, 56.4757, 7.44259, 45.4287 )
+
+[sub_resource type="ConvexPolygonShape2D" id=27]
+points = PoolVector2Array( 14.4196, 31.6684, 14.4196, 37.6764, 32, 46.0101, 28.7613, 55.5066, 9.38066, 45.8163, 7.6364, 29.1489 )
+
+[sub_resource type="ConvexPolygonShape2D" id=28]
+points = PoolVector2Array( 31.4746, 47.173, 27.0171, 54.5376, 8.79924, 45.0411, 9.38066, 32.8313 )
+
+[sub_resource type="ConvexPolygonShape2D" id=29]
+points = PoolVector2Array( 31.2808, 46.7853, 29.9242, 55.8942, 8.79924, 45.4287, 6.86118, 30.3118 )
+
+[sub_resource type="ConvexPolygonShape2D" id=30]
+points = PoolVector2Array( 7.83021, 28.3737, 31.8622, 46.2039, 32, 57.0571, 25.079, 61.3208, 8.21782, 49.4986 )
+
+[sub_resource type="ConvexPolygonShape2D" id=31]
+points = PoolVector2Array( 9.38066, 33.6065, 32, 43.2968, 31.8622, 56.2819, 23.9162, 60.5456, 8.60543, 49.111 )
+
+[sub_resource type="ConvexPolygonShape2D" id=32]
+points = PoolVector2Array( 2.98504, 57.4447, 10.9311, 46.7853, 30.3118, 52.0181, 19.071, 64 )
+
+[sub_resource type="ConvexPolygonShape2D" id=33]
+points = PoolVector2Array( 3.56646, 56.2819, 10.9311, 45.6225, 30.8932, 53.9562, 19.6524, 64 )
+
+[sub_resource type="ConvexPolygonShape2D" id=34]
+points = PoolVector2Array( 14.6134, 50.2739, 31.8622, 55.5066, 19.8462, 63.2589, 12.4816, 63.6465, 3.17885, 56.4757 )
+
+[sub_resource type="ConvexPolygonShape2D" id=35]
+points = PoolVector2Array( 15.3887, 48.7234, 31.4746, 54.9252, 19.8462, 64, 2.40362, 56.6695 )
+
+[sub_resource type="ConvexPolygonShape2D" id=36]
+points = PoolVector2Array( 14.8072, 47.3668, 32, 55.5066, 19.2648, 64, 2.40362, 55.5066 )
+
+[sub_resource type="ConvexPolygonShape2D" id=37]
+points = PoolVector2Array( 12.6754, 49.3048, 29.1489, 57.2509, 15.9701, 62.4837, 2.79124, 56.2819 )
+
+[sub_resource type="ConvexPolygonShape2D" id=53]
+points = PoolVector2Array( 15.7763, 47.5606, 32, 56.4757, 25.6604, 59.7704, 8.79924, 50.8553 )
+
+[sub_resource type="ConvexPolygonShape2D" id=54]
+points = PoolVector2Array( 15.3887, 47.7544, 32, 56.2819, 25.6604, 59.3828, 8.99305, 50.8553 )
+
+[sub_resource type="ConvexPolygonShape2D" id=55]
+points = PoolVector2Array( 15.3887, 48.3358, 31.4746, 56.4757, 25.8542, 58.9952, 8.60543, 50.4677 )
+
+[sub_resource type="ConvexPolygonShape2D" id=56]
+points = PoolVector2Array( 15.1949, 48.142, 30.8932, 56.2819, 25.079, 58.8014, 8.79924, 51.0491 )
+
+[sub_resource type="ConvexPolygonShape2D" id=57]
+points = PoolVector2Array( 14.032, 47.3668, 31.6684, 56.2819, 25.8542, 58.9952, 8.99305, 51.0491 )
+
+[sub_resource type="ConvexPolygonShape2D" id=58]
+points = PoolVector2Array( 4.92311, 53.5686, 21.5905, 62.0961, 14.8072, 64, 0, 56.6695, 0, 56.4757 )
+
+[sub_resource type="ConvexPolygonShape2D" id=59]
+points = PoolVector2Array( 5.11691, 52.0181, 20.8153, 61.5146, 14.6134, 64, 0, 56.6695 )
+
+[sub_resource type="ConvexPolygonShape2D" id=60]
+points = PoolVector2Array( 6.08595, 52.9872, 21.2029, 61.9023, 14.6134, 64, 0.0779428, 56.2819 )
+
+[sub_resource type="ConvexPolygonShape2D" id=61]
+points = PoolVector2Array( 4.14788, 52.9872, 21.3967, 61.5146, 14.8072, 64, 0.271749, 56.4757 )
+
+[sub_resource type="ConvexPolygonShape2D" id=62]
+points = PoolVector2Array( 6.27975, 54.15, 21.7843, 61.5146, 14.8072, 64, 0, 56.0881 )
+
+[sub_resource type="ConvexPolygonShape2D" id=63]
+points = PoolVector2Array( 15.7763, 55.3128, 21.7843, 61.3208, 16.5515, 64, 9.76827, 61.3208 )
 
 [resource]
 0/name = "Tavern-big-tables(1)"
@@ -543,9 +663,16 @@ points = PoolVector2Array( 9.76827, 38.8393, 30.3118, 46.2039, 28.1799, 60.5456,
 21/navigation_offset = Vector2( 16, 8 )
 21/shape_offset = Vector2( 0, 0 )
 21/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+21/shape = SubResource( 52 )
 21/shape_one_way = false
-21/shape_one_way_margin = 0.0
-21/shapes = [  ]
+21/shape_one_way_margin = 1.0
+21/shapes = [ {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 52 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+} ]
 21/z_index = 0
 22/name = "Tavern-medium-props(1)"
 22/texture = ExtResource( 7 )
@@ -1208,9 +1335,16 @@ points = PoolVector2Array( 9.76827, 38.8393, 30.3118, 46.2039, 28.1799, 60.5456,
 60/navigation_offset = Vector2( 16, 32 )
 60/shape_offset = Vector2( 0, 0 )
 60/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+60/shape = SubResource( 24 )
 60/shape_one_way = false
-60/shape_one_way_margin = 0.0
-60/shapes = [  ]
+60/shape_one_way_margin = 1.0
+60/shapes = [ {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 24 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+} ]
 60/z_index = 0
 61/name = "Tavern-walls(3)"
 61/texture = ExtResource( 66 )
@@ -1222,9 +1356,16 @@ points = PoolVector2Array( 9.76827, 38.8393, 30.3118, 46.2039, 28.1799, 60.5456,
 61/navigation_offset = Vector2( 16, 32 )
 61/shape_offset = Vector2( 0, 0 )
 61/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+61/shape = SubResource( 25 )
 61/shape_one_way = false
-61/shape_one_way_margin = 0.0
-61/shapes = [  ]
+61/shape_one_way_margin = 1.0
+61/shapes = [ {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 25 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+} ]
 61/z_index = 0
 62/name = "Tavern-walls(4)"
 62/texture = ExtResource( 60 )
@@ -1236,9 +1377,16 @@ points = PoolVector2Array( 9.76827, 38.8393, 30.3118, 46.2039, 28.1799, 60.5456,
 62/navigation_offset = Vector2( 16, 32 )
 62/shape_offset = Vector2( 0, 0 )
 62/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+62/shape = SubResource( 26 )
 62/shape_one_way = false
-62/shape_one_way_margin = 0.0
-62/shapes = [  ]
+62/shape_one_way_margin = 1.0
+62/shapes = [ {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 26 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+} ]
 62/z_index = 0
 63/name = "Tavern-walls(5)"
 63/texture = ExtResource( 62 )
@@ -1250,9 +1398,16 @@ points = PoolVector2Array( 9.76827, 38.8393, 30.3118, 46.2039, 28.1799, 60.5456,
 63/navigation_offset = Vector2( 16, 32 )
 63/shape_offset = Vector2( 0, 0 )
 63/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+63/shape = SubResource( 27 )
 63/shape_one_way = false
-63/shape_one_way_margin = 0.0
-63/shapes = [  ]
+63/shape_one_way_margin = 1.0
+63/shapes = [ {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 27 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+} ]
 63/z_index = 0
 64/name = "Tavern-walls(6)"
 64/texture = ExtResource( 67 )
@@ -1264,9 +1419,16 @@ points = PoolVector2Array( 9.76827, 38.8393, 30.3118, 46.2039, 28.1799, 60.5456,
 64/navigation_offset = Vector2( 16, 32 )
 64/shape_offset = Vector2( 0, 0 )
 64/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+64/shape = SubResource( 28 )
 64/shape_one_way = false
-64/shape_one_way_margin = 0.0
-64/shapes = [  ]
+64/shape_one_way_margin = 1.0
+64/shapes = [ {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 28 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+} ]
 64/z_index = 0
 65/name = "Tavern-walls(7)"
 65/texture = ExtResource( 63 )
@@ -1278,9 +1440,16 @@ points = PoolVector2Array( 9.76827, 38.8393, 30.3118, 46.2039, 28.1799, 60.5456,
 65/navigation_offset = Vector2( 16, 32 )
 65/shape_offset = Vector2( 0, 0 )
 65/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+65/shape = SubResource( 29 )
 65/shape_one_way = false
-65/shape_one_way_margin = 0.0
-65/shapes = [  ]
+65/shape_one_way_margin = 1.0
+65/shapes = [ {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 29 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+} ]
 65/z_index = 0
 66/name = "Tavern-walls(8)"
 66/texture = ExtResource( 68 )
@@ -1292,9 +1461,16 @@ points = PoolVector2Array( 9.76827, 38.8393, 30.3118, 46.2039, 28.1799, 60.5456,
 66/navigation_offset = Vector2( 16, 32 )
 66/shape_offset = Vector2( 0, 0 )
 66/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+66/shape = SubResource( 30 )
 66/shape_one_way = false
-66/shape_one_way_margin = 0.0
-66/shapes = [  ]
+66/shape_one_way_margin = 1.0
+66/shapes = [ {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 30 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+} ]
 66/z_index = 0
 67/name = "Tavern-walls(9)"
 67/texture = ExtResource( 59 )
@@ -1306,9 +1482,16 @@ points = PoolVector2Array( 9.76827, 38.8393, 30.3118, 46.2039, 28.1799, 60.5456,
 67/navigation_offset = Vector2( 16, 32 )
 67/shape_offset = Vector2( 0, 0 )
 67/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
-67/shape_one_way = false
-67/shape_one_way_margin = 0.0
-67/shapes = [  ]
+67/shape = SubResource( 31 )
+67/shape_one_way = true
+67/shape_one_way_margin = 1.0
+67/shapes = [ {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": true,
+"one_way_margin": 1.0,
+"shape": SubResource( 31 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+} ]
 67/z_index = 0
 68/name = "Tavern-walls(10)"
 68/texture = ExtResource( 58 )
@@ -1348,9 +1531,16 @@ points = PoolVector2Array( 9.76827, 38.8393, 30.3118, 46.2039, 28.1799, 60.5456,
 70/navigation_offset = Vector2( 16, 32 )
 70/shape_offset = Vector2( 0, 0 )
 70/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+70/shape = SubResource( 32 )
 70/shape_one_way = false
-70/shape_one_way_margin = 0.0
-70/shapes = [  ]
+70/shape_one_way_margin = 1.0
+70/shapes = [ {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 32 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+} ]
 70/z_index = 0
 71/name = "Tavern-walls(13)"
 71/texture = ExtResource( 65 )
@@ -1376,9 +1566,16 @@ points = PoolVector2Array( 9.76827, 38.8393, 30.3118, 46.2039, 28.1799, 60.5456,
 72/navigation_offset = Vector2( 16, 32 )
 72/shape_offset = Vector2( 0, 0 )
 72/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+72/shape = SubResource( 33 )
 72/shape_one_way = false
-72/shape_one_way_margin = 0.0
-72/shapes = [  ]
+72/shape_one_way_margin = 1.0
+72/shapes = [ {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 33 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+} ]
 72/z_index = 0
 73/name = "Tavern-walls(15)"
 73/texture = ExtResource( 83 )
@@ -1390,9 +1587,16 @@ points = PoolVector2Array( 9.76827, 38.8393, 30.3118, 46.2039, 28.1799, 60.5456,
 73/navigation_offset = Vector2( 16, 32 )
 73/shape_offset = Vector2( 0, 0 )
 73/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+73/shape = SubResource( 34 )
 73/shape_one_way = false
-73/shape_one_way_margin = 0.0
-73/shapes = [  ]
+73/shape_one_way_margin = 1.0
+73/shapes = [ {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 34 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+} ]
 73/z_index = 0
 74/name = "Tavern-walls(16)"
 74/texture = ExtResource( 81 )
@@ -1404,9 +1608,16 @@ points = PoolVector2Array( 9.76827, 38.8393, 30.3118, 46.2039, 28.1799, 60.5456,
 74/navigation_offset = Vector2( 16, 32 )
 74/shape_offset = Vector2( 0, 0 )
 74/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+74/shape = SubResource( 35 )
 74/shape_one_way = false
-74/shape_one_way_margin = 0.0
-74/shapes = [  ]
+74/shape_one_way_margin = 1.0
+74/shapes = [ {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 35 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+} ]
 74/z_index = 0
 75/name = "Tavern-walls(17)"
 75/texture = ExtResource( 75 )
@@ -1418,9 +1629,16 @@ points = PoolVector2Array( 9.76827, 38.8393, 30.3118, 46.2039, 28.1799, 60.5456,
 75/navigation_offset = Vector2( 16, 32 )
 75/shape_offset = Vector2( 0, 0 )
 75/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+75/shape = SubResource( 36 )
 75/shape_one_way = false
-75/shape_one_way_margin = 0.0
-75/shapes = [  ]
+75/shape_one_way_margin = 1.0
+75/shapes = [ {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 36 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+} ]
 75/z_index = 0
 76/name = "Tavern-walls(18)"
 76/texture = ExtResource( 76 )
@@ -1432,9 +1650,16 @@ points = PoolVector2Array( 9.76827, 38.8393, 30.3118, 46.2039, 28.1799, 60.5456,
 76/navigation_offset = Vector2( 16, 32 )
 76/shape_offset = Vector2( 0, 0 )
 76/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
-76/shape_one_way = false
-76/shape_one_way_margin = 0.0
-76/shapes = [  ]
+76/shape = SubResource( 37 )
+76/shape_one_way = true
+76/shape_one_way_margin = 1.0
+76/shapes = [ {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": true,
+"one_way_margin": 1.0,
+"shape": SubResource( 37 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+} ]
 76/z_index = 0
 77/name = "Tavern-walls(19)"
 77/texture = ExtResource( 85 )
@@ -1474,9 +1699,16 @@ points = PoolVector2Array( 9.76827, 38.8393, 30.3118, 46.2039, 28.1799, 60.5456,
 79/navigation_offset = Vector2( 16, 32 )
 79/shape_offset = Vector2( 0, 0 )
 79/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+79/shape = SubResource( 53 )
 79/shape_one_way = false
-79/shape_one_way_margin = 0.0
-79/shapes = [  ]
+79/shape_one_way_margin = 1.0
+79/shapes = [ {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 53 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+} ]
 79/z_index = 0
 80/name = "Tavern-walls(22)"
 80/texture = ExtResource( 74 )
@@ -1488,9 +1720,16 @@ points = PoolVector2Array( 9.76827, 38.8393, 30.3118, 46.2039, 28.1799, 60.5456,
 80/navigation_offset = Vector2( 16, 32 )
 80/shape_offset = Vector2( 0, 0 )
 80/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+80/shape = SubResource( 54 )
 80/shape_one_way = false
-80/shape_one_way_margin = 0.0
-80/shapes = [  ]
+80/shape_one_way_margin = 1.0
+80/shapes = [ {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 54 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+} ]
 80/z_index = 0
 81/name = "Tavern-walls(23)"
 81/texture = ExtResource( 78 )
@@ -1502,9 +1741,16 @@ points = PoolVector2Array( 9.76827, 38.8393, 30.3118, 46.2039, 28.1799, 60.5456,
 81/navigation_offset = Vector2( 16, 32 )
 81/shape_offset = Vector2( 0, 0 )
 81/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+81/shape = SubResource( 55 )
 81/shape_one_way = false
-81/shape_one_way_margin = 0.0
-81/shapes = [  ]
+81/shape_one_way_margin = 1.0
+81/shapes = [ {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 55 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+} ]
 81/z_index = 0
 82/name = "Tavern-walls(24)"
 82/texture = ExtResource( 79 )
@@ -1516,9 +1762,16 @@ points = PoolVector2Array( 9.76827, 38.8393, 30.3118, 46.2039, 28.1799, 60.5456,
 82/navigation_offset = Vector2( 16, 32 )
 82/shape_offset = Vector2( 0, 0 )
 82/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+82/shape = SubResource( 56 )
 82/shape_one_way = false
-82/shape_one_way_margin = 0.0
-82/shapes = [  ]
+82/shape_one_way_margin = 1.0
+82/shapes = [ {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 56 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+} ]
 82/z_index = 0
 83/name = "Tavern-walls(25)"
 83/texture = ExtResource( 80 )
@@ -1530,9 +1783,16 @@ points = PoolVector2Array( 9.76827, 38.8393, 30.3118, 46.2039, 28.1799, 60.5456,
 83/navigation_offset = Vector2( 16, 32 )
 83/shape_offset = Vector2( 0, 0 )
 83/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+83/shape = SubResource( 57 )
 83/shape_one_way = false
-83/shape_one_way_margin = 0.0
-83/shapes = [  ]
+83/shape_one_way_margin = 1.0
+83/shapes = [ {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 57 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+} ]
 83/z_index = 0
 84/name = "Tavern-walls(26)"
 84/texture = ExtResource( 86 )
@@ -1614,9 +1874,16 @@ points = PoolVector2Array( 9.76827, 38.8393, 30.3118, 46.2039, 28.1799, 60.5456,
 89/navigation_offset = Vector2( 16, 32 )
 89/shape_offset = Vector2( 0, 0 )
 89/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+89/shape = SubResource( 58 )
 89/shape_one_way = false
-89/shape_one_way_margin = 0.0
-89/shapes = [  ]
+89/shape_one_way_margin = 1.0
+89/shapes = [ {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 58 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+} ]
 89/z_index = 0
 90/name = "Tavern-walls(32)"
 90/texture = ExtResource( 92 )
@@ -1628,9 +1895,16 @@ points = PoolVector2Array( 9.76827, 38.8393, 30.3118, 46.2039, 28.1799, 60.5456,
 90/navigation_offset = Vector2( 16, 32 )
 90/shape_offset = Vector2( 0, 0 )
 90/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+90/shape = SubResource( 59 )
 90/shape_one_way = false
-90/shape_one_way_margin = 0.0
-90/shapes = [  ]
+90/shape_one_way_margin = 1.0
+90/shapes = [ {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 59 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+} ]
 90/z_index = 0
 91/name = "Tavern-walls(33)"
 91/texture = ExtResource( 99 )
@@ -1642,9 +1916,16 @@ points = PoolVector2Array( 9.76827, 38.8393, 30.3118, 46.2039, 28.1799, 60.5456,
 91/navigation_offset = Vector2( 16, 32 )
 91/shape_offset = Vector2( 0, 0 )
 91/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+91/shape = SubResource( 60 )
 91/shape_one_way = false
-91/shape_one_way_margin = 0.0
-91/shapes = [  ]
+91/shape_one_way_margin = 1.0
+91/shapes = [ {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 60 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+} ]
 91/z_index = 0
 92/name = "Tavern-walls(34)"
 92/texture = ExtResource( 100 )
@@ -1656,9 +1937,16 @@ points = PoolVector2Array( 9.76827, 38.8393, 30.3118, 46.2039, 28.1799, 60.5456,
 92/navigation_offset = Vector2( 16, 32 )
 92/shape_offset = Vector2( 0, 0 )
 92/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+92/shape = SubResource( 61 )
 92/shape_one_way = false
-92/shape_one_way_margin = 0.0
-92/shapes = [  ]
+92/shape_one_way_margin = 1.0
+92/shapes = [ {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 61 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+} ]
 92/z_index = 0
 93/name = "Tavern-walls(35)"
 93/texture = ExtResource( 93 )
@@ -1670,9 +1958,16 @@ points = PoolVector2Array( 9.76827, 38.8393, 30.3118, 46.2039, 28.1799, 60.5456,
 93/navigation_offset = Vector2( 16, 32 )
 93/shape_offset = Vector2( 0, 0 )
 93/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+93/shape = SubResource( 62 )
 93/shape_one_way = false
-93/shape_one_way_margin = 0.0
-93/shapes = [  ]
+93/shape_one_way_margin = 1.0
+93/shapes = [ {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 62 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+} ]
 93/z_index = 0
 94/name = "Tavern-walls(36)"
 94/texture = ExtResource( 94 )
@@ -1754,9 +2049,16 @@ points = PoolVector2Array( 9.76827, 38.8393, 30.3118, 46.2039, 28.1799, 60.5456,
 99/navigation_offset = Vector2( 16, 32 )
 99/shape_offset = Vector2( 0, 0 )
 99/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
-99/shape_one_way = false
-99/shape_one_way_margin = 0.0
-99/shapes = [  ]
+99/shape = SubResource( 63 )
+99/shape_one_way = true
+99/shape_one_way_margin = 1.0
+99/shapes = [ {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": true,
+"one_way_margin": 1.0,
+"shape": SubResource( 63 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+} ]
 99/z_index = 0
 100/name = "Tavern-walls(42)"
 100/texture = ExtResource( 98 )
@@ -1782,9 +2084,16 @@ points = PoolVector2Array( 9.76827, 38.8393, 30.3118, 46.2039, 28.1799, 60.5456,
 101/navigation_offset = Vector2( 16, 32 )
 101/shape_offset = Vector2( 0, 0 )
 101/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
-101/shape_one_way = false
-101/shape_one_way_margin = 0.0
-101/shapes = [  ]
+101/shape = SubResource( 38 )
+101/shape_one_way = true
+101/shape_one_way_margin = 1.0
+101/shapes = [ {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": true,
+"one_way_margin": 1.0,
+"shape": SubResource( 38 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+} ]
 101/z_index = 0
 102/name = "Tavern-walls(44)"
 102/texture = ExtResource( 103 )
@@ -1810,9 +2119,16 @@ points = PoolVector2Array( 9.76827, 38.8393, 30.3118, 46.2039, 28.1799, 60.5456,
 103/navigation_offset = Vector2( 16, 32 )
 103/shape_offset = Vector2( 0, 0 )
 103/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+103/shape = SubResource( 39 )
 103/shape_one_way = false
-103/shape_one_way_margin = 0.0
-103/shapes = [  ]
+103/shape_one_way_margin = 1.0
+103/shapes = [ {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 39 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+} ]
 103/z_index = 0
 104/name = "Tavern-walls(46)"
 104/texture = ExtResource( 91 )
@@ -1824,9 +2140,16 @@ points = PoolVector2Array( 9.76827, 38.8393, 30.3118, 46.2039, 28.1799, 60.5456,
 104/navigation_offset = Vector2( 16, 32 )
 104/shape_offset = Vector2( 0, 0 )
 104/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+104/shape = SubResource( 40 )
 104/shape_one_way = false
-104/shape_one_way_margin = 0.0
-104/shapes = [  ]
+104/shape_one_way_margin = 1.0
+104/shapes = [ {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 40 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+} ]
 104/z_index = 0
 105/name = "Tavern-walls(47)"
 105/texture = ExtResource( 115 )
@@ -1838,9 +2161,16 @@ points = PoolVector2Array( 9.76827, 38.8393, 30.3118, 46.2039, 28.1799, 60.5456,
 105/navigation_offset = Vector2( 16, 32 )
 105/shape_offset = Vector2( 0, 0 )
 105/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+105/shape = SubResource( 41 )
 105/shape_one_way = false
-105/shape_one_way_margin = 0.0
-105/shapes = [  ]
+105/shape_one_way_margin = 1.0
+105/shapes = [ {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 41 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+} ]
 105/z_index = 0
 106/name = "Tavern-walls(48)"
 106/texture = ExtResource( 110 )
@@ -1852,9 +2182,16 @@ points = PoolVector2Array( 9.76827, 38.8393, 30.3118, 46.2039, 28.1799, 60.5456,
 106/navigation_offset = Vector2( 16, 32 )
 106/shape_offset = Vector2( 0, 0 )
 106/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+106/shape = SubResource( 42 )
 106/shape_one_way = false
-106/shape_one_way_margin = 0.0
-106/shapes = [  ]
+106/shape_one_way_margin = 1.0
+106/shapes = [ {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 42 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+} ]
 106/z_index = 0
 107/name = "Tavern-walls(49)"
 107/texture = ExtResource( 111 )
@@ -1866,9 +2203,16 @@ points = PoolVector2Array( 9.76827, 38.8393, 30.3118, 46.2039, 28.1799, 60.5456,
 107/navigation_offset = Vector2( 16, 32 )
 107/shape_offset = Vector2( 0, 0 )
 107/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+107/shape = SubResource( 43 )
 107/shape_one_way = false
-107/shape_one_way_margin = 0.0
-107/shapes = [  ]
+107/shape_one_way_margin = 1.0
+107/shapes = [ {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 43 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+} ]
 107/z_index = 0
 108/name = "Tavern-walls(50)"
 108/texture = ExtResource( 116 )
@@ -1950,9 +2294,16 @@ points = PoolVector2Array( 9.76827, 38.8393, 30.3118, 46.2039, 28.1799, 60.5456,
 113/navigation_offset = Vector2( 16, 32 )
 113/shape_offset = Vector2( 0, 0 )
 113/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+113/shape = SubResource( 44 )
 113/shape_one_way = false
-113/shape_one_way_margin = 0.0
-113/shapes = [  ]
+113/shape_one_way_margin = 1.0
+113/shapes = [ {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 44 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+} ]
 113/z_index = 0
 114/name = "Tavern-walls(56)"
 114/texture = ExtResource( 114 )
@@ -1964,9 +2315,16 @@ points = PoolVector2Array( 9.76827, 38.8393, 30.3118, 46.2039, 28.1799, 60.5456,
 114/navigation_offset = Vector2( 16, 32 )
 114/shape_offset = Vector2( 0, 0 )
 114/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+114/shape = SubResource( 45 )
 114/shape_one_way = false
-114/shape_one_way_margin = 0.0
-114/shapes = [  ]
+114/shape_one_way_margin = 1.0
+114/shapes = [ {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 45 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+} ]
 114/z_index = 0
 115/name = "Tavern-walls(57)"
 115/texture = ExtResource( 117 )
@@ -1978,9 +2336,16 @@ points = PoolVector2Array( 9.76827, 38.8393, 30.3118, 46.2039, 28.1799, 60.5456,
 115/navigation_offset = Vector2( 16, 32 )
 115/shape_offset = Vector2( 0, 0 )
 115/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+115/shape = SubResource( 46 )
 115/shape_one_way = false
-115/shape_one_way_margin = 0.0
-115/shapes = [  ]
+115/shape_one_way_margin = 1.0
+115/shapes = [ {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 46 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+} ]
 115/z_index = 0
 116/name = "Tavern-walls(58)"
 116/texture = ExtResource( 118 )
@@ -1992,9 +2357,16 @@ points = PoolVector2Array( 9.76827, 38.8393, 30.3118, 46.2039, 28.1799, 60.5456,
 116/navigation_offset = Vector2( 16, 32 )
 116/shape_offset = Vector2( 0, 0 )
 116/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+116/shape = SubResource( 47 )
 116/shape_one_way = false
-116/shape_one_way_margin = 0.0
-116/shapes = [  ]
+116/shape_one_way_margin = 1.0
+116/shapes = [ {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 47 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+} ]
 116/z_index = 0
 117/name = "Tavern-walls(59)"
 117/texture = ExtResource( 120 )
@@ -2006,9 +2378,16 @@ points = PoolVector2Array( 9.76827, 38.8393, 30.3118, 46.2039, 28.1799, 60.5456,
 117/navigation_offset = Vector2( 16, 32 )
 117/shape_offset = Vector2( 0, 0 )
 117/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+117/shape = SubResource( 48 )
 117/shape_one_way = false
-117/shape_one_way_margin = 0.0
-117/shapes = [  ]
+117/shape_one_way_margin = 1.0
+117/shapes = [ {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 48 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+} ]
 117/z_index = 0
 118/name = "Tavern-walls(60)"
 118/texture = ExtResource( 106 )
@@ -2090,9 +2469,16 @@ points = PoolVector2Array( 9.76827, 38.8393, 30.3118, 46.2039, 28.1799, 60.5456,
 123/navigation_offset = Vector2( 16, 32 )
 123/shape_offset = Vector2( 0, 0 )
 123/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+123/shape = SubResource( 49 )
 123/shape_one_way = false
-123/shape_one_way_margin = 0.0
-123/shapes = [  ]
+123/shape_one_way_margin = 1.0
+123/shapes = [ {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 49 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+} ]
 123/z_index = 0
 124/name = "Tavern-walls(66)"
 124/texture = ExtResource( 123 )
@@ -2104,9 +2490,16 @@ points = PoolVector2Array( 9.76827, 38.8393, 30.3118, 46.2039, 28.1799, 60.5456,
 124/navigation_offset = Vector2( 16, 32 )
 124/shape_offset = Vector2( 0, 0 )
 124/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+124/shape = SubResource( 50 )
 124/shape_one_way = false
-124/shape_one_way_margin = 0.0
-124/shapes = [  ]
+124/shape_one_way_margin = 1.0
+124/shapes = [ {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 50 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+} ]
 124/z_index = 0
 125/name = "Tavern-walls(67)"
 125/texture = ExtResource( 122 )
@@ -2118,7 +2511,14 @@ points = PoolVector2Array( 9.76827, 38.8393, 30.3118, 46.2039, 28.1799, 60.5456,
 125/navigation_offset = Vector2( 16, 32 )
 125/shape_offset = Vector2( 0, 0 )
 125/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+125/shape = SubResource( 51 )
 125/shape_one_way = false
-125/shape_one_way_margin = 0.0
-125/shapes = [  ]
+125/shape_one_way_margin = 1.0
+125/shapes = [ {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 51 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+} ]
 125/z_index = 0
