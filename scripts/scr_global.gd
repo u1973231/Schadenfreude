@@ -17,7 +17,15 @@ func _ready():
 	misiones = cargarMisiones()
 	
 	
+func compMisionCompleta(i):
+	var indexM = misionesAceptadas[i]
+	if int(misiones[indexM]["Cantidad"]) <= misionesProgreso[i]:
+		print("misionCumplida")
+		misionesCompletadas.append(misionesAceptadas[i])#Añade la mision como completada para poder recivir la recompensa al hablar con el npc 
+		misionesAceptadas[i] = -1 #Cuando una mision aceptada esta en -1 para indicar que ya no esta vijente
+		
 	
+	pass
 
 func addMistion(index):
 	misionesAceptadas.append(index)

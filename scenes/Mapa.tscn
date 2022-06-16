@@ -61,3 +61,28 @@ vida = 7
 position = Vector2( 658, 297 )
 scale = Vector2( 2, 2 )
 vida = 7
+
+[node name="slime7" parent="." instance=ExtResource( 4 )]
+position = Vector2( 658, 297 )
+scale = Vector2( 2, 2 )
+vida = 7
+
+[node name="slime8" parent="." instance=ExtResource( 4 )]
+position = Vector2( 658, 297 )
+scale = Vector2( 2, 2 )
+vida = 7
+
+[node name="slime9" parent="." instance=ExtResource( 4 )]
+position = Vector2( 658, 297 )
+scale = Vector2( 2, 2 )
+vida = 7
+
+[node name="slime10" parent="." instance=ExtResource( 4 )]
+position = Vector2( 658, 297 )
+scale = Vector2( 2, 2 )
+vida = 7
+
+[node name="slime11" parent="." instance=ExtResource( 4 )]
+position = Vector2( 658, 297 )
+scale = Vector2( 2, 2 )
+vida = 7

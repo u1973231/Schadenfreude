@@ -1,4 +1,4 @@
 [
-    {"Index": "1","Descripcion":"Mata a 10 Slimes","Tipo":"matar","Objetivo":"slime","Cantidad": "10"},
-    {"Index": "2","Descripcion":"Robar el porro del Pato Porros","Tipo":"obtener","Objetivo":"porro","Cantidad": "1"}
+    {"Index": "0","Descripcion":"Mata a 10 Slimes","Tipo":"matar","Objetivo":"slime","Cantidad": "10"},
+    {"Index": "1","Descripcion":"Robar el porro del Pato Porros","Tipo":"obtener","Objetivo":"porro","Cantidad": "1"}
 ]
