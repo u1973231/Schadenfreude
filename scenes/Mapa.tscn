@@ -9,7 +9,7 @@
 [node name="Map-cells" type="Node2D"]
 
 [node name="Map-cells" type="Sprite" parent="."]
-position = Vector2( 189, 304 )
+position = Vector2( 178, 252 )
 texture = ExtResource( 1 )
 offset = Vector2( 336, 6 )
 
@@ -21,7 +21,8 @@ scale = Vector2( 1, 1 )
 position = Vector2( -487, -274 )
 
 [node name="HUDMisiones" parent="Player/HUD" instance=ExtResource( 5 )]
-position = Vector2( 768, 233 )
+position = Vector2( 766, 160 )
+scale = Vector2( 0.6, 0.6 )
 
 [node name="DialogTriger" parent="." instance=ExtResource( 3 )]
 position = Vector2( 825, 245 )
