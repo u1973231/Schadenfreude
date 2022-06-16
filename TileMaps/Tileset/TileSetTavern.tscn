@@ -1,0 +1,634 @@
+[gd_scene load_steps=127 format=2]
+
+[ext_resource path="res://textures/tavern/tavern-small-props (17).png" type="Texture" id=1]
+[ext_resource path="res://textures/tavern/tavern-floor (16).png" type="Texture" id=2]
+[ext_resource path="res://textures/tavern/tavern-medium-props (3).png" type="Texture" id=3]
+[ext_resource path="res://textures/tavern/tavern-floor (4).png" type="Texture" id=4]
+[ext_resource path="res://textures/tavern/tavern-floor (5).png" type="Texture" id=5]
+[ext_resource path="res://textures/tavern/tavern-floor (15).png" type="Texture" id=6]
+[ext_resource path="res://textures/tavern/tavern-medium-props (1).png" type="Texture" id=7]
+[ext_resource path="res://textures/tavern/tavern-medium-props (2).png" type="Texture" id=8]
+[ext_resource path="res://textures/tavern/tavern-floor (7).png" type="Texture" id=9]
+[ext_resource path="res://textures/tavern/tavern-floor (6).png" type="Texture" id=10]
+[ext_resource path="res://textures/tavern/tavern-floor (10).png" type="Texture" id=11]
+[ext_resource path="res://textures/tavern/tavern-floor (11).png" type="Texture" id=12]
+[ext_resource path="res://textures/tavern/tavern-floor (12).png" type="Texture" id=13]
+[ext_resource path="res://textures/tavern/tavern-floor (13).png" type="Texture" id=14]
+[ext_resource path="res://textures/tavern/tavern-floor (8).png" type="Texture" id=15]
+[ext_resource path="res://textures/tavern/tavern-floor (9).png" type="Texture" id=16]
+[ext_resource path="res://textures/tavern/tavern-floor (14).png" type="Texture" id=17]
+[ext_resource path="res://textures/tavern/tavern-medium-props (6).png" type="Texture" id=18]
+[ext_resource path="res://textures/tavern/tavern-medium-props (13).png" type="Texture" id=19]
+[ext_resource path="res://textures/tavern/tavern-medium-props (11).png" type="Texture" id=20]
+[ext_resource path="res://textures/tavern/tavern-medium-props (15).png" type="Texture" id=21]
+[ext_resource path="res://textures/tavern/tavern-medium-props (16).png" type="Texture" id=22]
+[ext_resource path="res://textures/tavern/tavern-medium-props (9).png" type="Texture" id=23]
+[ext_resource path="res://textures/tavern/tavern-medium-props (18).png" type="Texture" id=24]
+[ext_resource path="res://textures/tavern/tavern-medium-props (14).png" type="Texture" id=25]
+[ext_resource path="res://textures/tavern/tavern-small-props (1).png" type="Texture" id=26]
+[ext_resource path="res://textures/tavern/tavern-medium-props (5).png" type="Texture" id=27]
+[ext_resource path="res://textures/tavern/tavern-medium-props (4).png" type="Texture" id=28]
+[ext_resource path="res://textures/tavern/tavern-medium-props (8).png" type="Texture" id=29]
+[ext_resource path="res://textures/tavern/tavern-medium-props (17).png" type="Texture" id=30]
+[ext_resource path="res://textures/tavern/tavern-medium-props (7).png" type="Texture" id=31]
+[ext_resource path="res://textures/tavern/tavern-medium-props (10).png" type="Texture" id=32]
+[ext_resource path="res://textures/tavern/tavern-medium-props (12).png" type="Texture" id=33]
+[ext_resource path="res://textures/tavern/tavern-small-props (10).png" type="Texture" id=34]
+[ext_resource path="res://textures/tavern/tavern-small-props (6).png" type="Texture" id=35]
+[ext_resource path="res://textures/tavern/tavern-small-props (16).png" type="Texture" id=36]
+[ext_resource path="res://textures/tavern/tavern-small-props (5).png" type="Texture" id=37]
+[ext_resource path="res://textures/tavern/tavern-small-props (8).png" type="Texture" id=38]
+[ext_resource path="res://textures/tavern/tavern-small-props (13).png" type="Texture" id=39]
+[ext_resource path="res://textures/tavern/tavern-small-props (9).png" type="Texture" id=40]
+[ext_resource path="res://textures/tavern/tavern-small-props (11).png" type="Texture" id=41]
+[ext_resource path="res://textures/tavern/tavern-small-props (12).png" type="Texture" id=42]
+[ext_resource path="res://textures/tavern/tavern-small-props (7).png" type="Texture" id=43]
+[ext_resource path="res://textures/tavern/tavern-small-props (15).png" type="Texture" id=44]
+[ext_resource path="res://textures/tavern/tavern-small-props (4).png" type="Texture" id=45]
+[ext_resource path="res://textures/tavern/tavern-small-props (14).png" type="Texture" id=46]
+[ext_resource path="res://textures/tavern/tavern-small-props (2).png" type="Texture" id=47]
+[ext_resource path="res://textures/tavern/tavern-small-props (3).png" type="Texture" id=48]
+[ext_resource path="res://textures/tavern/tavern-big-tables (1).png" type="Texture" id=49]
+[ext_resource path="res://textures/tavern/tavern-big-tables (5).png" type="Texture" id=50]
+[ext_resource path="res://textures/tavern/tavern-floor (2).png" type="Texture" id=51]
+[ext_resource path="res://textures/tavern/tavern-floor (3).png" type="Texture" id=52]
+[ext_resource path="res://textures/tavern/tavern-big-tables (2).png" type="Texture" id=53]
+[ext_resource path="res://textures/tavern/tavern-big-tables (3).png" type="Texture" id=54]
+[ext_resource path="res://textures/tavern/tavern-big-tables (6).png" type="Texture" id=55]
+[ext_resource path="res://textures/tavern/tavern-big-tables (4).png" type="Texture" id=56]
+[ext_resource path="res://textures/tavern/tavern-floor (1).png" type="Texture" id=57]
+[ext_resource path="res://textures/tavern/tavern-walls (10).png" type="Texture" id=58]
+[ext_resource path="res://textures/tavern/tavern-walls (9).png" type="Texture" id=59]
+[ext_resource path="res://textures/tavern/tavern-walls (4).png" type="Texture" id=60]
+[ext_resource path="res://textures/tavern/tavern-walls (1).png" type="Texture" id=61]
+[ext_resource path="res://textures/tavern/tavern-walls (5).png" type="Texture" id=62]
+[ext_resource path="res://textures/tavern/tavern-walls (7).png" type="Texture" id=63]
+[ext_resource path="res://textures/tavern/tavern-walls (11).png" type="Texture" id=64]
+[ext_resource path="res://textures/tavern/tavern-walls (13).png" type="Texture" id=65]
+[ext_resource path="res://textures/tavern/tavern-walls (3).png" type="Texture" id=66]
+[ext_resource path="res://textures/tavern/tavern-walls (6).png" type="Texture" id=67]
+[ext_resource path="res://textures/tavern/tavern-walls (8).png" type="Texture" id=68]
+[ext_resource path="res://textures/tavern/tavern-walls (14).png" type="Texture" id=69]
+[ext_resource path="res://textures/tavern/tavern-walls (2).png" type="Texture" id=70]
+[ext_resource path="res://textures/tavern/tavern-small-props (18).png" type="Texture" id=71]
+[ext_resource path="res://textures/tavern/tavern-small-props (19).png" type="Texture" id=72]
+[ext_resource path="res://textures/tavern/tavern-walls (12).png" type="Texture" id=73]
+[ext_resource path="res://textures/tavern/tavern-walls (22).png" type="Texture" id=74]
+[ext_resource path="res://textures/tavern/tavern-walls (17).png" type="Texture" id=75]
+[ext_resource path="res://textures/tavern/tavern-walls (18).png" type="Texture" id=76]
+[ext_resource path="res://textures/tavern/tavern-walls (21).png" type="Texture" id=77]
+[ext_resource path="res://textures/tavern/tavern-walls (23).png" type="Texture" id=78]
+[ext_resource path="res://textures/tavern/tavern-walls (24).png" type="Texture" id=79]
+[ext_resource path="res://textures/tavern/tavern-walls (25).png" type="Texture" id=80]
+[ext_resource path="res://textures/tavern/tavern-walls (16).png" type="Texture" id=81]
+[ext_resource path="res://textures/tavern/tavern-walls (28).png" type="Texture" id=82]
+[ext_resource path="res://textures/tavern/tavern-walls (15).png" type="Texture" id=83]
+[ext_resource path="res://textures/tavern/tavern-walls (20).png" type="Texture" id=84]
+[ext_resource path="res://textures/tavern/tavern-walls (19).png" type="Texture" id=85]
+[ext_resource path="res://textures/tavern/tavern-walls (26).png" type="Texture" id=86]
+[ext_resource path="res://textures/tavern/tavern-walls (27).png" type="Texture" id=87]
+[ext_resource path="res://textures/tavern/tavern-walls (29).png" type="Texture" id=88]
+[ext_resource path="res://textures/tavern/tavern-walls (30).png" type="Texture" id=89]
+[ext_resource path="res://textures/tavern/tavern-walls (38).png" type="Texture" id=90]
+[ext_resource path="res://textures/tavern/tavern-walls (46).png" type="Texture" id=91]
+[ext_resource path="res://textures/tavern/tavern-walls (32).png" type="Texture" id=92]
+[ext_resource path="res://textures/tavern/tavern-walls (35).png" type="Texture" id=93]
+[ext_resource path="res://textures/tavern/tavern-walls (36).png" type="Texture" id=94]
+[ext_resource path="res://textures/tavern/tavern-walls (40).png" type="Texture" id=95]
+[ext_resource path="res://textures/tavern/tavern-walls (31).png" type="Texture" id=96]
+[ext_resource path="res://textures/tavern/tavern-walls (41).png" type="Texture" id=97]
+[ext_resource path="res://textures/tavern/tavern-walls (42).png" type="Texture" id=98]
+[ext_resource path="res://textures/tavern/tavern-walls (33).png" type="Texture" id=99]
+[ext_resource path="res://textures/tavern/tavern-walls (34).png" type="Texture" id=100]
+[ext_resource path="res://textures/tavern/tavern-walls (39).png" type="Texture" id=101]
+[ext_resource path="res://textures/tavern/tavern-walls (43).png" type="Texture" id=102]
+[ext_resource path="res://textures/tavern/tavern-walls (44).png" type="Texture" id=103]
+[ext_resource path="res://textures/tavern/tavern-walls (45).png" type="Texture" id=104]
+[ext_resource path="res://textures/tavern/tavern-walls (37).png" type="Texture" id=105]
+[ext_resource path="res://textures/tavern/tavern-walls (60).png" type="Texture" id=106]
+[ext_resource path="res://textures/tavern/tavern-walls (61).png" type="Texture" id=107]
+[ext_resource path="res://textures/tavern/tavern-walls (62).png" type="Texture" id=108]
+[ext_resource path="res://textures/tavern/tavern-walls (52).png" type="Texture" id=109]
+[ext_resource path="res://textures/tavern/tavern-walls (48).png" type="Texture" id=110]
+[ext_resource path="res://textures/tavern/tavern-walls (49).png" type="Texture" id=111]
+[ext_resource path="res://textures/tavern/tavern-walls (51).png" type="Texture" id=112]
+[ext_resource path="res://textures/tavern/tavern-walls (53).png" type="Texture" id=113]
+[ext_resource path="res://textures/tavern/tavern-walls (56).png" type="Texture" id=114]
+[ext_resource path="res://textures/tavern/tavern-walls (47).png" type="Texture" id=115]
+[ext_resource path="res://textures/tavern/tavern-walls (50).png" type="Texture" id=116]
+[ext_resource path="res://textures/tavern/tavern-walls (57).png" type="Texture" id=117]
+[ext_resource path="res://textures/tavern/tavern-walls (58).png" type="Texture" id=118]
+[ext_resource path="res://textures/tavern/tavern-walls (55).png" type="Texture" id=119]
+[ext_resource path="res://textures/tavern/tavern-walls (59).png" type="Texture" id=120]
+[ext_resource path="res://textures/tavern/tavern-walls (54).png" type="Texture" id=121]
+[ext_resource path="res://textures/tavern/tavern-walls (67).png" type="Texture" id=122]
+[ext_resource path="res://textures/tavern/tavern-walls (66).png" type="Texture" id=123]
+[ext_resource path="res://textures/tavern/tavern-walls (64).png" type="Texture" id=124]
+[ext_resource path="res://textures/tavern/tavern-walls (63).png" type="Texture" id=125]
+[ext_resource path="res://textures/tavern/tavern-walls (65).png" type="Texture" id=126]
+
+[node name="TileSetTavern" type="Node2D"]
+
+[node name="Tavern-big-tables(1)" type="Sprite" parent="."]
+position = Vector2( 7, 6 )
+texture = ExtResource( 49 )
+
+[node name="Tavern-big-tables(2)" type="Sprite" parent="."]
+position = Vector2( 7, 6 )
+texture = ExtResource( 53 )
+
+[node name="Tavern-big-tables(3)" type="Sprite" parent="."]
+position = Vector2( 7, 6 )
+texture = ExtResource( 54 )
+
+[node name="Tavern-big-tables(4)" type="Sprite" parent="."]
+position = Vector2( 7, 6 )
+texture = ExtResource( 56 )
+
+[node name="Tavern-big-tables(5)" type="Sprite" parent="."]
+position = Vector2( 7, 6 )
+texture = ExtResource( 50 )
+
+[node name="Tavern-big-tables(6)" type="Sprite" parent="."]
+position = Vector2( 7, 6 )
+texture = ExtResource( 55 )
+
+[node name="Tavern-floor(1)" type="Sprite" parent="."]
+position = Vector2( 7, 6 )
+texture = ExtResource( 57 )
+
+[node name="Tavern-floor(2)" type="Sprite" parent="."]
+position = Vector2( 7, 6 )
+texture = ExtResource( 51 )
+
+[node name="Tavern-floor(3)" type="Sprite" parent="."]
+position = Vector2( 7, 6 )
+texture = ExtResource( 52 )
+
+[node name="Tavern-floor(4)" type="Sprite" parent="."]
+position = Vector2( 7, 6 )
+texture = ExtResource( 4 )
+
+[node name="Tavern-floor(5)" type="Sprite" parent="."]
+position = Vector2( 7, 6 )
+texture = ExtResource( 5 )
+
+[node name="Tavern-floor(6)" type="Sprite" parent="."]
+position = Vector2( 7, 6 )
+texture = ExtResource( 10 )
+
+[node name="Tavern-floor(7)" type="Sprite" parent="."]
+position = Vector2( 7, 6 )
+texture = ExtResource( 9 )
+
+[node name="Tavern-floor(8)" type="Sprite" parent="."]
+position = Vector2( 7, 6 )
+texture = ExtResource( 15 )
+
+[node name="Tavern-floor(9)" type="Sprite" parent="."]
+position = Vector2( 7, 6 )
+texture = ExtResource( 16 )
+
+[node name="Tavern-floor(10)" type="Sprite" parent="."]
+position = Vector2( 7, 6 )
+texture = ExtResource( 11 )
+
+[node name="Tavern-floor(11)" type="Sprite" parent="."]
+position = Vector2( 7, 6 )
+texture = ExtResource( 12 )
+
+[node name="Tavern-floor(12)" type="Sprite" parent="."]
+position = Vector2( 7, 6 )
+texture = ExtResource( 13 )
+
+[node name="Tavern-floor(13)" type="Sprite" parent="."]
+position = Vector2( 7, 6 )
+texture = ExtResource( 14 )
+
+[node name="Tavern-floor(14)" type="Sprite" parent="."]
+position = Vector2( 7, 6 )
+texture = ExtResource( 17 )
+
+[node name="Tavern-floor(15)" type="Sprite" parent="."]
+position = Vector2( 7, 6 )
+texture = ExtResource( 6 )
+
+[node name="Tavern-floor(16)" type="Sprite" parent="."]
+position = Vector2( 7, 6 )
+texture = ExtResource( 2 )
+
+[node name="Tavern-medium-props(1)" type="Sprite" parent="."]
+position = Vector2( 7, 6 )
+texture = ExtResource( 7 )
+
+[node name="Tavern-medium-props(2)" type="Sprite" parent="."]
+position = Vector2( 7, 6 )
+texture = ExtResource( 8 )
+
+[node name="Tavern-medium-props(3)" type="Sprite" parent="."]
+position = Vector2( 7, 6 )
+texture = ExtResource( 3 )
+
+[node name="Tavern-medium-props(4)" type="Sprite" parent="."]
+position = Vector2( 7, 6 )
+texture = ExtResource( 28 )
+
+[node name="Tavern-medium-props(5)" type="Sprite" parent="."]
+position = Vector2( 7, 6 )
+texture = ExtResource( 27 )
+
+[node name="Tavern-medium-props(6)" type="Sprite" parent="."]
+position = Vector2( 7, 6 )
+texture = ExtResource( 18 )
+
+[node name="Tavern-medium-props(7)" type="Sprite" parent="."]
+position = Vector2( 7, 6 )
+texture = ExtResource( 31 )
+
+[node name="Tavern-medium-props(8)" type="Sprite" parent="."]
+position = Vector2( 7, 6 )
+texture = ExtResource( 29 )
+
+[node name="Tavern-medium-props(9)" type="Sprite" parent="."]
+position = Vector2( 7, 6 )
+texture = ExtResource( 23 )
+
+[node name="Tavern-medium-props(10)" type="Sprite" parent="."]
+position = Vector2( 7, 6 )
+texture = ExtResource( 32 )
+
+[node name="Tavern-medium-props(11)" type="Sprite" parent="."]
+position = Vector2( 7, 6 )
+texture = ExtResource( 20 )
+
+[node name="Tavern-medium-props(12)" type="Sprite" parent="."]
+position = Vector2( 7, 6 )
+texture = ExtResource( 33 )
+
+[node name="Tavern-medium-props(13)" type="Sprite" parent="."]
+position = Vector2( 7, 6 )
+texture = ExtResource( 19 )
+
+[node name="Tavern-medium-props(14)" type="Sprite" parent="."]
+position = Vector2( 7, 6 )
+texture = ExtResource( 25 )
+
+[node name="Tavern-medium-props(15)" type="Sprite" parent="."]
+position = Vector2( 7, 6 )
+texture = ExtResource( 21 )
+
+[node name="Tavern-medium-props(16)" type="Sprite" parent="."]
+position = Vector2( 7, 6 )
+texture = ExtResource( 22 )
+
+[node name="Tavern-medium-props(17)" type="Sprite" parent="."]
+position = Vector2( 7, 6 )
+texture = ExtResource( 30 )
+
+[node name="Tavern-medium-props(18)" type="Sprite" parent="."]
+position = Vector2( 7, 6 )
+texture = ExtResource( 24 )
+
+[node name="Tavern-small-props(1)" type="Sprite" parent="."]
+position = Vector2( 7, 6 )
+texture = ExtResource( 26 )
+
+[node name="Tavern-small-props(2)" type="Sprite" parent="."]
+position = Vector2( 7, 6 )
+texture = ExtResource( 47 )
+
+[node name="Tavern-small-props(3)" type="Sprite" parent="."]
+position = Vector2( 7, 6 )
+texture = ExtResource( 48 )
+
+[node name="Tavern-small-props(4)" type="Sprite" parent="."]
+position = Vector2( 7, 6 )
+texture = ExtResource( 45 )
+
+[node name="Tavern-small-props(5)" type="Sprite" parent="."]
+position = Vector2( 7, 6 )
+texture = ExtResource( 37 )
+
+[node name="Tavern-small-props(6)" type="Sprite" parent="."]
+position = Vector2( 7, 6 )
+texture = ExtResource( 35 )
+
+[node name="Tavern-small-props(7)" type="Sprite" parent="."]
+position = Vector2( 7, 6 )
+texture = ExtResource( 43 )
+
+[node name="Tavern-small-props(8)" type="Sprite" parent="."]
+position = Vector2( 7, 6 )
+texture = ExtResource( 38 )
+
+[node name="Tavern-small-props(9)" type="Sprite" parent="."]
+position = Vector2( 7, 6 )
+texture = ExtResource( 40 )
+
+[node name="Tavern-small-props(10)" type="Sprite" parent="."]
+position = Vector2( 7, 6 )
+texture = ExtResource( 34 )
+
+[node name="Tavern-small-props(11)" type="Sprite" parent="."]
+position = Vector2( 7, 6 )
+texture = ExtResource( 41 )
+
+[node name="Tavern-small-props(12)" type="Sprite" parent="."]
+position = Vector2( 7, 6 )
+texture = ExtResource( 42 )
+
+[node name="Tavern-small-props(13)" type="Sprite" parent="."]
+position = Vector2( 7, 6 )
+texture = ExtResource( 39 )
+
+[node name="Tavern-small-props(14)" type="Sprite" parent="."]
+position = Vector2( 7, 6 )
+texture = ExtResource( 46 )
+
+[node name="Tavern-small-props(15)" type="Sprite" parent="."]
+position = Vector2( 7, 6 )
+texture = ExtResource( 44 )
+
+[node name="Tavern-small-props(16)" type="Sprite" parent="."]
+position = Vector2( 7, 6 )
+texture = ExtResource( 36 )
+
+[node name="Tavern-small-props(17)" type="Sprite" parent="."]
+position = Vector2( 7, 6 )
+texture = ExtResource( 1 )
+
+[node name="Tavern-small-props(18)" type="Sprite" parent="."]
+position = Vector2( 7, 6 )
+texture = ExtResource( 71 )
+
+[node name="Tavern-small-props(19)" type="Sprite" parent="."]
+position = Vector2( 7, 6 )
+texture = ExtResource( 72 )
+
+[node name="Tavern-walls(1)" type="Sprite" parent="."]
+position = Vector2( 7, 6 )
+texture = ExtResource( 61 )
+
+[node name="Tavern-walls(2)" type="Sprite" parent="."]
+position = Vector2( 7, 6 )
+texture = ExtResource( 70 )
+
+[node name="Tavern-walls(3)" type="Sprite" parent="."]
+position = Vector2( 7, 6 )
+texture = ExtResource( 66 )
+
+[node name="Tavern-walls(4)" type="Sprite" parent="."]
+position = Vector2( 7, 6 )
+texture = ExtResource( 60 )
+
+[node name="Tavern-walls(5)" type="Sprite" parent="."]
+position = Vector2( 7, 6 )
+texture = ExtResource( 62 )
+
+[node name="Tavern-walls(6)" type="Sprite" parent="."]
+position = Vector2( 7, 6 )
+texture = ExtResource( 67 )
+
+[node name="Tavern-walls(7)" type="Sprite" parent="."]
+position = Vector2( 7, 6 )
+texture = ExtResource( 63 )
+
+[node name="Tavern-walls(8)" type="Sprite" parent="."]
+position = Vector2( 7, 6 )
+texture = ExtResource( 68 )
+
+[node name="Tavern-walls(9)" type="Sprite" parent="."]
+position = Vector2( 7, 6 )
+texture = ExtResource( 59 )
+
+[node name="Tavern-walls(10)" type="Sprite" parent="."]
+position = Vector2( 7, 6 )
+texture = ExtResource( 58 )
+
+[node name="Tavern-walls(11)" type="Sprite" parent="."]
+position = Vector2( 7, 6 )
+texture = ExtResource( 64 )
+
+[node name="Tavern-walls(12)" type="Sprite" parent="."]
+position = Vector2( 7, 6 )
+texture = ExtResource( 73 )
+
+[node name="Tavern-walls(13)" type="Sprite" parent="."]
+position = Vector2( 7, 6 )
+texture = ExtResource( 65 )
+
+[node name="Tavern-walls(14)" type="Sprite" parent="."]
+position = Vector2( 7, 6 )
+texture = ExtResource( 69 )
+
+[node name="Tavern-walls(15)" type="Sprite" parent="."]
+position = Vector2( 7, 6 )
+texture = ExtResource( 83 )
+
+[node name="Tavern-walls(16)" type="Sprite" parent="."]
+position = Vector2( 7, 6 )
+texture = ExtResource( 81 )
+
+[node name="Tavern-walls(17)" type="Sprite" parent="."]
+position = Vector2( 7, 6 )
+texture = ExtResource( 75 )
+
+[node name="Tavern-walls(18)" type="Sprite" parent="."]
+position = Vector2( 7, 6 )
+texture = ExtResource( 76 )
+
+[node name="Tavern-walls(19)" type="Sprite" parent="."]
+position = Vector2( 7, 6 )
+texture = ExtResource( 85 )
+
+[node name="Tavern-walls(20)" type="Sprite" parent="."]
+position = Vector2( 7, 6 )
+texture = ExtResource( 84 )
+
+[node name="Tavern-walls(21)" type="Sprite" parent="."]
+position = Vector2( 7, 6 )
+texture = ExtResource( 77 )
+
+[node name="Tavern-walls(22)" type="Sprite" parent="."]
+position = Vector2( 7, 6 )
+texture = ExtResource( 74 )
+
+[node name="Tavern-walls(23)" type="Sprite" parent="."]
+position = Vector2( 7, 6 )
+texture = ExtResource( 78 )
+
+[node name="Tavern-walls(24)" type="Sprite" parent="."]
+position = Vector2( 7, 6 )
+texture = ExtResource( 79 )
+
+[node name="Tavern-walls(25)" type="Sprite" parent="."]
+position = Vector2( 7, 6 )
+texture = ExtResource( 80 )
+
+[node name="Tavern-walls(26)" type="Sprite" parent="."]
+position = Vector2( 7, 6 )
+texture = ExtResource( 86 )
+
+[node name="Tavern-walls(27)" type="Sprite" parent="."]
+position = Vector2( 7, 6 )
+texture = ExtResource( 87 )
+
+[node name="Tavern-walls(28)" type="Sprite" parent="."]
+position = Vector2( 7, 6 )
+texture = ExtResource( 82 )
+
+[node name="Tavern-walls(29)" type="Sprite" parent="."]
+position = Vector2( 7, 6 )
+texture = ExtResource( 88 )
+
+[node name="Tavern-walls(30)" type="Sprite" parent="."]
+position = Vector2( 7, 6 )
+texture = ExtResource( 89 )
+
+[node name="Tavern-walls(31)" type="Sprite" parent="."]
+position = Vector2( 7, 6 )
+texture = ExtResource( 96 )
+
+[node name="Tavern-walls(32)" type="Sprite" parent="."]
+position = Vector2( 7, 6 )
+texture = ExtResource( 92 )
+
+[node name="Tavern-walls(33)" type="Sprite" parent="."]
+position = Vector2( 7, 6 )
+texture = ExtResource( 99 )
+
+[node name="Tavern-walls(34)" type="Sprite" parent="."]
+position = Vector2( 7, 6 )
+texture = ExtResource( 100 )
+
+[node name="Tavern-walls(35)" type="Sprite" parent="."]
+position = Vector2( 7, 6 )
+texture = ExtResource( 93 )
+
+[node name="Tavern-walls(36)" type="Sprite" parent="."]
+position = Vector2( 7, 6 )
+texture = ExtResource( 94 )
+
+[node name="Tavern-walls(37)" type="Sprite" parent="."]
+position = Vector2( 7, 6 )
+texture = ExtResource( 105 )
+
+[node name="Tavern-walls(38)" type="Sprite" parent="."]
+position = Vector2( 7, 6 )
+texture = ExtResource( 90 )
+
+[node name="Tavern-walls(39)" type="Sprite" parent="."]
+position = Vector2( 7, 6 )
+texture = ExtResource( 101 )
+
+[node name="Tavern-walls(40)" type="Sprite" parent="."]
+position = Vector2( 7, 6 )
+texture = ExtResource( 95 )
+
+[node name="Tavern-walls(41)" type="Sprite" parent="."]
+position = Vector2( 7, 6 )
+texture = ExtResource( 97 )
+
+[node name="Tavern-walls(42)" type="Sprite" parent="."]
+position = Vector2( 7, 6 )
+texture = ExtResource( 98 )
+
+[node name="Tavern-walls(43)" type="Sprite" parent="."]
+position = Vector2( 7, 6 )
+texture = ExtResource( 102 )
+
+[node name="Tavern-walls(44)" type="Sprite" parent="."]
+position = Vector2( 7, 6 )
+texture = ExtResource( 103 )
+
+[node name="Tavern-walls(45)" type="Sprite" parent="."]
+position = Vector2( 7, 6 )
+texture = ExtResource( 104 )
+
+[node name="Tavern-walls(46)" type="Sprite" parent="."]
+position = Vector2( 7, 6 )
+texture = ExtResource( 91 )
+
+[node name="Tavern-walls(47)" type="Sprite" parent="."]
+position = Vector2( 7, 6 )
+texture = ExtResource( 115 )
+
+[node name="Tavern-walls(48)" type="Sprite" parent="."]
+position = Vector2( 7, 6 )
+texture = ExtResource( 110 )
+
+[node name="Tavern-walls(49)" type="Sprite" parent="."]
+position = Vector2( 7, 6 )
+texture = ExtResource( 111 )
+
+[node name="Tavern-walls(50)" type="Sprite" parent="."]
+position = Vector2( 7, 6 )
+texture = ExtResource( 116 )
+
+[node name="Tavern-walls(51)" type="Sprite" parent="."]
+position = Vector2( 7, 6 )
+texture = ExtResource( 112 )
+
+[node name="Tavern-walls(52)" type="Sprite" parent="."]
+position = Vector2( 7, 6 )
+texture = ExtResource( 109 )
+
+[node name="Tavern-walls(53)" type="Sprite" parent="."]
+position = Vector2( 7, 6 )
+texture = ExtResource( 113 )
+
+[node name="Tavern-walls(54)" type="Sprite" parent="."]
+position = Vector2( 7, 6 )
+texture = ExtResource( 121 )
+
+[node name="Tavern-walls(55)" type="Sprite" parent="."]
+position = Vector2( 7, 6 )
+texture = ExtResource( 119 )
+
+[node name="Tavern-walls(56)" type="Sprite" parent="."]
+position = Vector2( 7, 6 )
+texture = ExtResource( 114 )
+
+[node name="Tavern-walls(57)" type="Sprite" parent="."]
+position = Vector2( 7, 6 )
+texture = ExtResource( 117 )
+
+[node name="Tavern-walls(58)" type="Sprite" parent="."]
+position = Vector2( 7, 6 )
+texture = ExtResource( 118 )
+
+[node name="Tavern-walls(59)" type="Sprite" parent="."]
+position = Vector2( 7, 6 )
+texture = ExtResource( 120 )
+
+[node name="Tavern-walls(60)" type="Sprite" parent="."]
+position = Vector2( 7, 6 )
+texture = ExtResource( 106 )
+
+[node name="Tavern-walls(61)" type="Sprite" parent="."]
+position = Vector2( 7, 6 )
+texture = ExtResource( 107 )
+
+[node name="Tavern-walls(62)" type="Sprite" parent="."]
+position = Vector2( 7, 6 )
+texture = ExtResource( 108 )
+
+[node name="Tavern-walls(63)" type="Sprite" parent="."]
+position = Vector2( 7, 6 )
+texture = ExtResource( 125 )
+
+[node name="Tavern-walls(64)" type="Sprite" parent="."]
+position = Vector2( 7, 6 )
+texture = ExtResource( 124 )
+
+[node name="Tavern-walls(65)" type="Sprite" parent="."]
+position = Vector2( 7, 6 )
+texture = ExtResource( 126 )
+
+[node name="Tavern-walls(66)" type="Sprite" parent="."]
+position = Vector2( 7, 6 )
+texture = ExtResource( 123 )
+
+[node name="Tavern-walls(67)" type="Sprite" parent="."]
+position = Vector2( 7, 6 )
+texture = ExtResource( 122 )

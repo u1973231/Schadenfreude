@@ -1,135 +1,204 @@
-[gd_resource type="TileSet" load_steps=127 format=2]
+[gd_resource type="TileSet" load_steps=150 format=2]
 
-[ext_resource path="res://textures/tavern-walls (47).png" type="Texture" id=1]
-[ext_resource path="res://textures/tavern-walls (41).png" type="Texture" id=2]
-[ext_resource path="res://textures/tavern-walls (37).png" type="Texture" id=3]
-[ext_resource path="res://textures/tavern-walls (35).png" type="Texture" id=4]
-[ext_resource path="res://textures/tavern-walls (40).png" type="Texture" id=5]
-[ext_resource path="res://textures/tavern-walls (36).png" type="Texture" id=6]
-[ext_resource path="res://textures/tavern-walls (42).png" type="Texture" id=7]
-[ext_resource path="res://textures/tavern-walls (44).png" type="Texture" id=8]
-[ext_resource path="res://textures/tavern-walls (46).png" type="Texture" id=9]
-[ext_resource path="res://textures/tavern-walls (43).png" type="Texture" id=10]
-[ext_resource path="res://textures/tavern-walls (48).png" type="Texture" id=11]
-[ext_resource path="res://textures/tavern-walls (38).png" type="Texture" id=12]
-[ext_resource path="res://textures/tavern-walls (45).png" type="Texture" id=13]
-[ext_resource path="res://textures/tavern-walls (39).png" type="Texture" id=14]
-[ext_resource path="res://textures/tavern-walls (49).png" type="Texture" id=15]
-[ext_resource path="res://textures/tavern-walls (34).png" type="Texture" id=16]
-[ext_resource path="res://textures/tavern-walls (50).png" type="Texture" id=17]
-[ext_resource path="res://textures/tavern-walls (57).png" type="Texture" id=18]
-[ext_resource path="res://textures/tavern-walls (53).png" type="Texture" id=19]
-[ext_resource path="res://textures/tavern-walls (54).png" type="Texture" id=20]
-[ext_resource path="res://textures/tavern-walls (52).png" type="Texture" id=21]
-[ext_resource path="res://textures/tavern-walls (59).png" type="Texture" id=22]
-[ext_resource path="res://textures/tavern-walls (51).png" type="Texture" id=23]
-[ext_resource path="res://textures/tavern-walls (62).png" type="Texture" id=24]
-[ext_resource path="res://textures/tavern-walls (55).png" type="Texture" id=25]
-[ext_resource path="res://textures/tavern-walls (63).png" type="Texture" id=26]
-[ext_resource path="res://textures/tavern-walls (56).png" type="Texture" id=27]
-[ext_resource path="res://textures/tavern-walls (60).png" type="Texture" id=28]
-[ext_resource path="res://textures/tavern-walls (58).png" type="Texture" id=29]
-[ext_resource path="res://textures/tavern-walls (64).png" type="Texture" id=30]
-[ext_resource path="res://textures/tavern-walls (65).png" type="Texture" id=31]
-[ext_resource path="res://textures/tavern-walls (61).png" type="Texture" id=32]
-[ext_resource path="res://textures/tavern-walls (66).png" type="Texture" id=33]
-[ext_resource path="res://textures/tavern-walls (67).png" type="Texture" id=34]
-[ext_resource path="res://textures/tavern-small-props (16).png" type="Texture" id=35]
-[ext_resource path="res://textures/tavern-small-props (17).png" type="Texture" id=36]
-[ext_resource path="res://textures/tavern-small-props (10).png" type="Texture" id=37]
-[ext_resource path="res://textures/tavern-small-props (15).png" type="Texture" id=38]
-[ext_resource path="res://textures/tavern-small-props (13).png" type="Texture" id=39]
-[ext_resource path="res://textures/tavern-small-props (9).png" type="Texture" id=40]
-[ext_resource path="res://textures/tavern-small-props (19).png" type="Texture" id=41]
-[ext_resource path="res://textures/tavern-walls (1).png" type="Texture" id=42]
-[ext_resource path="res://textures/tavern-small-props (7).png" type="Texture" id=43]
-[ext_resource path="res://textures/tavern-small-props (18).png" type="Texture" id=44]
-[ext_resource path="res://textures/tavern-small-props (11).png" type="Texture" id=45]
-[ext_resource path="res://textures/tavern-small-props (5).png" type="Texture" id=46]
-[ext_resource path="res://textures/tavern-small-props (6).png" type="Texture" id=47]
-[ext_resource path="res://textures/tavern-small-props (8).png" type="Texture" id=48]
-[ext_resource path="res://textures/tavern-small-props (14).png" type="Texture" id=49]
-[ext_resource path="res://textures/tavern-small-props (12).png" type="Texture" id=50]
-[ext_resource path="res://textures/tavern-walls (10).png" type="Texture" id=51]
-[ext_resource path="res://textures/tavern-walls (4).png" type="Texture" id=52]
-[ext_resource path="res://textures/tavern-walls (3).png" type="Texture" id=53]
-[ext_resource path="res://textures/tavern-walls (12).png" type="Texture" id=54]
-[ext_resource path="res://textures/tavern-walls (13).png" type="Texture" id=55]
-[ext_resource path="res://textures/tavern-walls (14).png" type="Texture" id=56]
-[ext_resource path="res://textures/tavern-walls (15).png" type="Texture" id=57]
-[ext_resource path="res://textures/tavern-walls (16).png" type="Texture" id=58]
-[ext_resource path="res://textures/tavern-walls (17).png" type="Texture" id=59]
-[ext_resource path="res://textures/tavern-walls (11).png" type="Texture" id=60]
-[ext_resource path="res://textures/tavern-walls (5).png" type="Texture" id=61]
-[ext_resource path="res://textures/tavern-walls (6).png" type="Texture" id=62]
-[ext_resource path="res://textures/tavern-walls (2).png" type="Texture" id=63]
-[ext_resource path="res://textures/tavern-walls (8).png" type="Texture" id=64]
-[ext_resource path="res://textures/tavern-walls (7).png" type="Texture" id=65]
-[ext_resource path="res://textures/tavern-walls (9).png" type="Texture" id=66]
-[ext_resource path="res://textures/tavern-walls (28).png" type="Texture" id=67]
-[ext_resource path="res://textures/tavern-walls (29).png" type="Texture" id=68]
-[ext_resource path="res://textures/tavern-walls (31).png" type="Texture" id=69]
-[ext_resource path="res://textures/tavern-walls (21).png" type="Texture" id=70]
-[ext_resource path="res://textures/tavern-walls (23).png" type="Texture" id=71]
-[ext_resource path="res://textures/tavern-walls (30).png" type="Texture" id=72]
-[ext_resource path="res://textures/tavern-walls (32).png" type="Texture" id=73]
-[ext_resource path="res://textures/tavern-walls (33).png" type="Texture" id=74]
-[ext_resource path="res://textures/tavern-walls (27).png" type="Texture" id=75]
-[ext_resource path="res://textures/tavern-walls (19).png" type="Texture" id=76]
-[ext_resource path="res://textures/tavern-walls (20).png" type="Texture" id=77]
-[ext_resource path="res://textures/tavern-walls (25).png" type="Texture" id=78]
-[ext_resource path="res://textures/tavern-walls (22).png" type="Texture" id=79]
-[ext_resource path="res://textures/tavern-walls (26).png" type="Texture" id=80]
-[ext_resource path="res://textures/tavern-walls (18).png" type="Texture" id=81]
-[ext_resource path="res://textures/tavern-walls (24).png" type="Texture" id=82]
-[ext_resource path="res://textures/tavern-big-tables (2).png" type="Texture" id=83]
-[ext_resource path="res://textures/tavern-big-tables (4).png" type="Texture" id=84]
-[ext_resource path="res://textures/tavern-floor (4).png" type="Texture" id=85]
-[ext_resource path="res://textures/tavern-big-tables (1).png" type="Texture" id=86]
-[ext_resource path="res://textures/tavern-floor (2).png" type="Texture" id=87]
-[ext_resource path="res://textures/tavern-big-tables (5).png" type="Texture" id=88]
-[ext_resource path="res://textures/tavern-floor (1).png" type="Texture" id=89]
-[ext_resource path="res://textures/tavern-big-tables (3).png" type="Texture" id=90]
-[ext_resource path="res://textures/tavern-floor (5).png" type="Texture" id=91]
-[ext_resource path="res://textures/tavern-floor (6).png" type="Texture" id=92]
-[ext_resource path="res://textures/tavern-floor (7).png" type="Texture" id=93]
-[ext_resource path="res://textures/tavern-big-tables (6).png" type="Texture" id=94]
-[ext_resource path="res://textures/tavern-floor (3).png" type="Texture" id=95]
-[ext_resource path="res://textures/tavern-medium-props (6).png" type="Texture" id=96]
-[ext_resource path="res://textures/tavern-medium-props (7).png" type="Texture" id=97]
-[ext_resource path="res://textures/tavern-floor (11).png" type="Texture" id=98]
-[ext_resource path="res://textures/tavern-floor (12).png" type="Texture" id=99]
-[ext_resource path="res://textures/tavern-medium-props (5).png" type="Texture" id=100]
-[ext_resource path="res://textures/tavern-floor (14).png" type="Texture" id=101]
-[ext_resource path="res://textures/tavern-floor (15).png" type="Texture" id=102]
-[ext_resource path="res://textures/tavern-floor (10).png" type="Texture" id=103]
-[ext_resource path="res://textures/tavern-medium-props (3).png" type="Texture" id=104]
-[ext_resource path="res://textures/tavern-floor (8).png" type="Texture" id=105]
-[ext_resource path="res://textures/tavern-medium-props (4).png" type="Texture" id=106]
-[ext_resource path="res://textures/tavern-floor (9).png" type="Texture" id=107]
-[ext_resource path="res://textures/tavern-floor (13).png" type="Texture" id=108]
-[ext_resource path="res://textures/tavern-floor (16).png" type="Texture" id=109]
-[ext_resource path="res://textures/tavern-medium-props (1).png" type="Texture" id=110]
-[ext_resource path="res://textures/tavern-medium-props (2).png" type="Texture" id=111]
-[ext_resource path="res://textures/tavern-medium-props (15).png" type="Texture" id=112]
-[ext_resource path="res://textures/tavern-medium-props (11).png" type="Texture" id=113]
-[ext_resource path="res://textures/tavern-medium-props (16).png" type="Texture" id=114]
-[ext_resource path="res://textures/tavern-medium-props (13).png" type="Texture" id=115]
-[ext_resource path="res://textures/tavern-small-props (2).png" type="Texture" id=116]
-[ext_resource path="res://textures/tavern-medium-props (8).png" type="Texture" id=117]
-[ext_resource path="res://textures/tavern-medium-props (12).png" type="Texture" id=118]
-[ext_resource path="res://textures/tavern-medium-props (18).png" type="Texture" id=119]
-[ext_resource path="res://textures/tavern-small-props (1).png" type="Texture" id=120]
-[ext_resource path="res://textures/tavern-medium-props (17).png" type="Texture" id=121]
-[ext_resource path="res://textures/tavern-medium-props (9).png" type="Texture" id=122]
-[ext_resource path="res://textures/tavern-small-props (4).png" type="Texture" id=123]
-[ext_resource path="res://textures/tavern-medium-props (14).png" type="Texture" id=124]
-[ext_resource path="res://textures/tavern-small-props (3).png" type="Texture" id=125]
-[ext_resource path="res://textures/tavern-medium-props (10).png" type="Texture" id=126]
+[ext_resource path="res://textures/tavern/tavern-small-props (17).png" type="Texture" id=1]
+[ext_resource path="res://textures/tavern/tavern-floor (16).png" type="Texture" id=2]
+[ext_resource path="res://textures/tavern/tavern-medium-props (3).png" type="Texture" id=3]
+[ext_resource path="res://textures/tavern/tavern-floor (4).png" type="Texture" id=4]
+[ext_resource path="res://textures/tavern/tavern-floor (5).png" type="Texture" id=5]
+[ext_resource path="res://textures/tavern/tavern-floor (15).png" type="Texture" id=6]
+[ext_resource path="res://textures/tavern/tavern-medium-props (1).png" type="Texture" id=7]
+[ext_resource path="res://textures/tavern/tavern-medium-props (2).png" type="Texture" id=8]
+[ext_resource path="res://textures/tavern/tavern-floor (7).png" type="Texture" id=9]
+[ext_resource path="res://textures/tavern/tavern-floor (6).png" type="Texture" id=10]
+[ext_resource path="res://textures/tavern/tavern-floor (10).png" type="Texture" id=11]
+[ext_resource path="res://textures/tavern/tavern-floor (11).png" type="Texture" id=12]
+[ext_resource path="res://textures/tavern/tavern-floor (12).png" type="Texture" id=13]
+[ext_resource path="res://textures/tavern/tavern-floor (13).png" type="Texture" id=14]
+[ext_resource path="res://textures/tavern/tavern-floor (8).png" type="Texture" id=15]
+[ext_resource path="res://textures/tavern/tavern-floor (9).png" type="Texture" id=16]
+[ext_resource path="res://textures/tavern/tavern-floor (14).png" type="Texture" id=17]
+[ext_resource path="res://textures/tavern/tavern-medium-props (6).png" type="Texture" id=18]
+[ext_resource path="res://textures/tavern/tavern-medium-props (13).png" type="Texture" id=19]
+[ext_resource path="res://textures/tavern/tavern-medium-props (11).png" type="Texture" id=20]
+[ext_resource path="res://textures/tavern/tavern-medium-props (15).png" type="Texture" id=21]
+[ext_resource path="res://textures/tavern/tavern-medium-props (16).png" type="Texture" id=22]
+[ext_resource path="res://textures/tavern/tavern-medium-props (9).png" type="Texture" id=23]
+[ext_resource path="res://textures/tavern/tavern-medium-props (18).png" type="Texture" id=24]
+[ext_resource path="res://textures/tavern/tavern-medium-props (14).png" type="Texture" id=25]
+[ext_resource path="res://textures/tavern/tavern-small-props (1).png" type="Texture" id=26]
+[ext_resource path="res://textures/tavern/tavern-medium-props (5).png" type="Texture" id=27]
+[ext_resource path="res://textures/tavern/tavern-medium-props (4).png" type="Texture" id=28]
+[ext_resource path="res://textures/tavern/tavern-medium-props (8).png" type="Texture" id=29]
+[ext_resource path="res://textures/tavern/tavern-medium-props (17).png" type="Texture" id=30]
+[ext_resource path="res://textures/tavern/tavern-medium-props (7).png" type="Texture" id=31]
+[ext_resource path="res://textures/tavern/tavern-medium-props (10).png" type="Texture" id=32]
+[ext_resource path="res://textures/tavern/tavern-medium-props (12).png" type="Texture" id=33]
+[ext_resource path="res://textures/tavern/tavern-small-props (10).png" type="Texture" id=34]
+[ext_resource path="res://textures/tavern/tavern-small-props (6).png" type="Texture" id=35]
+[ext_resource path="res://textures/tavern/tavern-small-props (16).png" type="Texture" id=36]
+[ext_resource path="res://textures/tavern/tavern-small-props (5).png" type="Texture" id=37]
+[ext_resource path="res://textures/tavern/tavern-small-props (8).png" type="Texture" id=38]
+[ext_resource path="res://textures/tavern/tavern-small-props (13).png" type="Texture" id=39]
+[ext_resource path="res://textures/tavern/tavern-small-props (9).png" type="Texture" id=40]
+[ext_resource path="res://textures/tavern/tavern-small-props (11).png" type="Texture" id=41]
+[ext_resource path="res://textures/tavern/tavern-small-props (12).png" type="Texture" id=42]
+[ext_resource path="res://textures/tavern/tavern-small-props (7).png" type="Texture" id=43]
+[ext_resource path="res://textures/tavern/tavern-small-props (15).png" type="Texture" id=44]
+[ext_resource path="res://textures/tavern/tavern-small-props (4).png" type="Texture" id=45]
+[ext_resource path="res://textures/tavern/tavern-small-props (14).png" type="Texture" id=46]
+[ext_resource path="res://textures/tavern/tavern-small-props (2).png" type="Texture" id=47]
+[ext_resource path="res://textures/tavern/tavern-small-props (3).png" type="Texture" id=48]
+[ext_resource path="res://textures/tavern/tavern-big-tables (1).png" type="Texture" id=49]
+[ext_resource path="res://textures/tavern/tavern-big-tables (5).png" type="Texture" id=50]
+[ext_resource path="res://textures/tavern/tavern-floor (2).png" type="Texture" id=51]
+[ext_resource path="res://textures/tavern/tavern-floor (3).png" type="Texture" id=52]
+[ext_resource path="res://textures/tavern/tavern-big-tables (2).png" type="Texture" id=53]
+[ext_resource path="res://textures/tavern/tavern-big-tables (3).png" type="Texture" id=54]
+[ext_resource path="res://textures/tavern/tavern-big-tables (6).png" type="Texture" id=55]
+[ext_resource path="res://textures/tavern/tavern-big-tables (4).png" type="Texture" id=56]
+[ext_resource path="res://textures/tavern/tavern-floor (1).png" type="Texture" id=57]
+[ext_resource path="res://textures/tavern/tavern-walls (10).png" type="Texture" id=58]
+[ext_resource path="res://textures/tavern/tavern-walls (9).png" type="Texture" id=59]
+[ext_resource path="res://textures/tavern/tavern-walls (4).png" type="Texture" id=60]
+[ext_resource path="res://textures/tavern/tavern-walls (1).png" type="Texture" id=61]
+[ext_resource path="res://textures/tavern/tavern-walls (5).png" type="Texture" id=62]
+[ext_resource path="res://textures/tavern/tavern-walls (7).png" type="Texture" id=63]
+[ext_resource path="res://textures/tavern/tavern-walls (11).png" type="Texture" id=64]
+[ext_resource path="res://textures/tavern/tavern-walls (13).png" type="Texture" id=65]
+[ext_resource path="res://textures/tavern/tavern-walls (3).png" type="Texture" id=66]
+[ext_resource path="res://textures/tavern/tavern-walls (6).png" type="Texture" id=67]
+[ext_resource path="res://textures/tavern/tavern-walls (8).png" type="Texture" id=68]
+[ext_resource path="res://textures/tavern/tavern-walls (14).png" type="Texture" id=69]
+[ext_resource path="res://textures/tavern/tavern-walls (2).png" type="Texture" id=70]
+[ext_resource path="res://textures/tavern/tavern-small-props (18).png" type="Texture" id=71]
+[ext_resource path="res://textures/tavern/tavern-small-props (19).png" type="Texture" id=72]
+[ext_resource path="res://textures/tavern/tavern-walls (12).png" type="Texture" id=73]
+[ext_resource path="res://textures/tavern/tavern-walls (22).png" type="Texture" id=74]
+[ext_resource path="res://textures/tavern/tavern-walls (17).png" type="Texture" id=75]
+[ext_resource path="res://textures/tavern/tavern-walls (18).png" type="Texture" id=76]
+[ext_resource path="res://textures/tavern/tavern-walls (21).png" type="Texture" id=77]
+[ext_resource path="res://textures/tavern/tavern-walls (23).png" type="Texture" id=78]
+[ext_resource path="res://textures/tavern/tavern-walls (24).png" type="Texture" id=79]
+[ext_resource path="res://textures/tavern/tavern-walls (25).png" type="Texture" id=80]
+[ext_resource path="res://textures/tavern/tavern-walls (16).png" type="Texture" id=81]
+[ext_resource path="res://textures/tavern/tavern-walls (28).png" type="Texture" id=82]
+[ext_resource path="res://textures/tavern/tavern-walls (15).png" type="Texture" id=83]
+[ext_resource path="res://textures/tavern/tavern-walls (20).png" type="Texture" id=84]
+[ext_resource path="res://textures/tavern/tavern-walls (19).png" type="Texture" id=85]
+[ext_resource path="res://textures/tavern/tavern-walls (26).png" type="Texture" id=86]
+[ext_resource path="res://textures/tavern/tavern-walls (27).png" type="Texture" id=87]
+[ext_resource path="res://textures/tavern/tavern-walls (29).png" type="Texture" id=88]
+[ext_resource path="res://textures/tavern/tavern-walls (30).png" type="Texture" id=89]
+[ext_resource path="res://textures/tavern/tavern-walls (38).png" type="Texture" id=90]
+[ext_resource path="res://textures/tavern/tavern-walls (46).png" type="Texture" id=91]
+[ext_resource path="res://textures/tavern/tavern-walls (32).png" type="Texture" id=92]
+[ext_resource path="res://textures/tavern/tavern-walls (35).png" type="Texture" id=93]
+[ext_resource path="res://textures/tavern/tavern-walls (36).png" type="Texture" id=94]
+[ext_resource path="res://textures/tavern/tavern-walls (40).png" type="Texture" id=95]
+[ext_resource path="res://textures/tavern/tavern-walls (31).png" type="Texture" id=96]
+[ext_resource path="res://textures/tavern/tavern-walls (41).png" type="Texture" id=97]
+[ext_resource path="res://textures/tavern/tavern-walls (42).png" type="Texture" id=98]
+[ext_resource path="res://textures/tavern/tavern-walls (33).png" type="Texture" id=99]
+[ext_resource path="res://textures/tavern/tavern-walls (34).png" type="Texture" id=100]
+[ext_resource path="res://textures/tavern/tavern-walls (39).png" type="Texture" id=101]
+[ext_resource path="res://textures/tavern/tavern-walls (43).png" type="Texture" id=102]
+[ext_resource path="res://textures/tavern/tavern-walls (44).png" type="Texture" id=103]
+[ext_resource path="res://textures/tavern/tavern-walls (45).png" type="Texture" id=104]
+[ext_resource path="res://textures/tavern/tavern-walls (37).png" type="Texture" id=105]
+[ext_resource path="res://textures/tavern/tavern-walls (60).png" type="Texture" id=106]
+[ext_resource path="res://textures/tavern/tavern-walls (61).png" type="Texture" id=107]
+[ext_resource path="res://textures/tavern/tavern-walls (62).png" type="Texture" id=108]
+[ext_resource path="res://textures/tavern/tavern-walls (52).png" type="Texture" id=109]
+[ext_resource path="res://textures/tavern/tavern-walls (48).png" type="Texture" id=110]
+[ext_resource path="res://textures/tavern/tavern-walls (49).png" type="Texture" id=111]
+[ext_resource path="res://textures/tavern/tavern-walls (51).png" type="Texture" id=112]
+[ext_resource path="res://textures/tavern/tavern-walls (53).png" type="Texture" id=113]
+[ext_resource path="res://textures/tavern/tavern-walls (56).png" type="Texture" id=114]
+[ext_resource path="res://textures/tavern/tavern-walls (47).png" type="Texture" id=115]
+[ext_resource path="res://textures/tavern/tavern-walls (50).png" type="Texture" id=116]
+[ext_resource path="res://textures/tavern/tavern-walls (57).png" type="Texture" id=117]
+[ext_resource path="res://textures/tavern/tavern-walls (58).png" type="Texture" id=118]
+[ext_resource path="res://textures/tavern/tavern-walls (55).png" type="Texture" id=119]
+[ext_resource path="res://textures/tavern/tavern-walls (59).png" type="Texture" id=120]
+[ext_resource path="res://textures/tavern/tavern-walls (54).png" type="Texture" id=121]
+[ext_resource path="res://textures/tavern/tavern-walls (67).png" type="Texture" id=122]
+[ext_resource path="res://textures/tavern/tavern-walls (66).png" type="Texture" id=123]
+[ext_resource path="res://textures/tavern/tavern-walls (64).png" type="Texture" id=124]
+[ext_resource path="res://textures/tavern/tavern-walls (63).png" type="Texture" id=125]
+[ext_resource path="res://textures/tavern/tavern-walls (65).png" type="Texture" id=126]
+
+[sub_resource type="ConvexPolygonShape2D" id=1]
+points = PoolVector2Array( 68.6855, 27.7923, 72.174, 42.3278, 77.6006, 64.2279, 59.3828, 65.5846, 54.9252, 59.3828, 30.8932, 58.2199, 29.3427, 69.6545, 10.7373, 70.0421, 11.3187, 51.6305, 4.92311, 43.2968, 5.50453, 29.7304 )
+
+[sub_resource type="ConvexPolygonShape2D" id=2]
+points = PoolVector2Array( 37.6764, 24.9986, 77.0192, 32.9447, 78.3758, 46.1618, 70.4297, 50.8131, 72.5616, 69.8062, 51.0491, 70.7554, 50.8553, 58.2684, 25.6604, 58.656, 23.1409, 63.3074, 3.95407, 63.5846, 5.69833, 45.5256, 15.5825, 42.0371, 15.0011, 29.2458 )
+
+[sub_resource type="ConvexPolygonShape2D" id=3]
+points = PoolVector2Array( 72.9492, 31.8622, 76.2439, 44.6535, 70.0421, 48.5296, 71.0112, 68.6855, 49.6924, 68.8793, 49.6924, 56.6695, 36.7074, 57.2509, 39.0331, 70.4297, 16.7453, 71.205, 17.1329, 60.158, 1.24078, 59.7704, 3.17885, 45.8163, 17.1329, 42.9092, 15.0011, 23.3347, 47.9482, 24.4976 )
+
+[sub_resource type="ConvexPolygonShape2D" id=4]
+points = PoolVector2Array( 10.7373, 52.2119, 20.4276, 52.2119, 27.2109, 55.5066, 22.1719, 59.5766, 15.5825, 61.7085, 8.79924, 59.5766, 5.11691, 55.119, 5.11691, 55.119 )
+
+[sub_resource type="ConvexPolygonShape2D" id=5]
+points = PoolVector2Array( 11.1249, 53.181, 20.2338, 52.9872, 25.4666, 55.8942, 22.9471, 58.9952, 15.9701, 61.127, 9.96208, 59.5766, 6.08595, 55.8942 )
+
+[sub_resource type="ConvexPolygonShape2D" id=6]
+points = PoolVector2Array( 8.41163, 26.8233, 71.9802, 25.4666, 74.3059, 39.8083, 76.0501, 62.2899, 50.0801, 62.4837, 51.2429, 71.3988, 30.5056, 71.7864, 30.6994, 58.9952, 1.8222, 59.189, 4.34169, 37.4826, 9.96208, 33.8003 )
+
+[sub_resource type="ConvexPolygonShape2D" id=7]
+points = PoolVector2Array( 10.3497, 53.3748, 18.4896, 53.3748, 26.2418, 56.0881, 23.1409, 58.6075, 15.3887, 61.127, 9.76827, 59.3828, 7.05498, 57.4447, 5.50453, 55.7004 )
+
+[sub_resource type="ConvexPolygonShape2D" id=8]
+points = PoolVector2Array( 15.3887, 54.5376, 25.2728, 58.8014, 15.5825, 63.6465, 6.27975, 58.8014 )
+
+[sub_resource type="ConvexPolygonShape2D" id=9]
+points = PoolVector2Array( 10.3497, 51.4367, 20.2338, 55.8942, 10.9311, 60.3518, 1.04698, 55.7004 )
+
+[sub_resource type="ConvexPolygonShape2D" id=10]
+points = PoolVector2Array( 17.1329, 48.3358, 26.8233, 52.5995, 16.9391, 58.2199, 7.05498, 52.7933 )
+
+[sub_resource type="ConvexPolygonShape2D" id=11]
+points = PoolVector2Array( 20.6214, 50.8553, 30.5056, 56.2819, 20.8153, 60.5456, 10.9311, 55.7004 )
+
+[sub_resource type="ConvexPolygonShape2D" id=12]
+points = PoolVector2Array( 20.4276, 50.2739, 29.9242, 55.7004, 20.04, 60.5456, 10.1559, 55.5066 )
+
+[sub_resource type="ConvexPolygonShape2D" id=13]
+points = PoolVector2Array( 14.6134, 47.9482, 25.4666, 53.9562, 15.1949, 58.9952, 4.53549, 53.7624 )
+
+[sub_resource type="ConvexPolygonShape2D" id=14]
+points = PoolVector2Array( 15.1949, 44.8473, 26.4356, 52.4057, 15.3887, 58.9952, 3.56646, 52.9872 )
+
+[sub_resource type="ConvexPolygonShape2D" id=15]
+points = PoolVector2Array( 9.96208, 50.6615, 21.3967, 50.4677, 25.8542, 55.8942, 22.3657, 60.158, 16.1639, 61.5146, 8.41163, 59.5766, 5.69833, 55.8942 )
+
+[sub_resource type="ConvexPolygonShape2D" id=16]
+points = PoolVector2Array( 9.76827, 51.4367, 19.8462, 51.4367, 25.8542, 56.0881, 21.2029, 60.9332, 10.3497, 60.5456, 5.89214, 56.0881 )
+
+[sub_resource type="ConvexPolygonShape2D" id=17]
+points = PoolVector2Array( 15.9701, 27.0171, 73.3369, 25.4666, 76.6316, 40.3897, 69.2669, 45.2349, 72.3678, 66.9412, 51.4367, 66.7474, 52.5995, 57.2509, 31.087, 57.4447, 31.087, 67.9103, 12.8692, 68.2979, 14.032, 48.9172, 17.1329, 42.9092 )
+
+[sub_resource type="ConvexPolygonShape2D" id=18]
+points = PoolVector2Array( 11.3187, 8.02401, 12.6754, 10.5435, 10.3497, 13.2568, 6.27975, 13.2568, 4.14788, 10.9311, 5.50453, 8.21782 )
+
+[sub_resource type="ConvexPolygonShape2D" id=19]
+points = PoolVector2Array( 6.27975, 10.1559, 10.1559, 10.1559, 10.3497, 14.8072, 6.27975, 14.8072 )
+
+[sub_resource type="ConvexPolygonShape2D" id=20]
+points = PoolVector2Array( 3.56646, 9.76827, 11.5125, 4.92311, 12.8692, 7.6364, 4.92311, 12.2878 )
+
+[sub_resource type="ConvexPolygonShape2D" id=21]
+points = PoolVector2Array( 8.60543, 28.9551, 71.9802, 29.9242, 73.5307, 45.8163, 71.5926, 48.142, 74.1121, 67.3288, 51.8243, 67.135, 51.2429, 57.2509, 28.7613, 57.2509, 28.9551, 66.7474, 6.47356, 66.5536, 9.57447, 47.173, 6.47356, 40.7773 )
+
+[sub_resource type="ConvexPolygonShape2D" id=22]
+points = PoolVector2Array( 3.56646, 10.9311, 9.96208, 3.37265, 13.4506, 5.11691, 6.08595, 13.6444 )
+
+[sub_resource type="ConvexPolygonShape2D" id=23]
+points = PoolVector2Array( 9.76827, 38.8393, 30.3118, 46.2039, 28.1799, 60.5456, 7.83021, 50.4677 )
 
 [resource]
 0/name = "Tavern-big-tables(1)"
-0/texture = ExtResource( 86 )
+0/texture = ExtResource( 49 )
 0/tex_offset = Vector2( 0, 0 )
 0/modulate = Color( 1, 1, 1, 1 )
 0/region = Rect2( 0, 0, 80, 80 )
@@ -138,12 +207,19 @@
 0/navigation_offset = Vector2( 40, 40 )
 0/shape_offset = Vector2( 0, 0 )
 0/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
-0/shape_one_way = false
-0/shape_one_way_margin = 0.0
-0/shapes = [  ]
+0/shape = SubResource( 1 )
+0/shape_one_way = true
+0/shape_one_way_margin = 1.0
+0/shapes = [ {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": true,
+"one_way_margin": 1.0,
+"shape": SubResource( 1 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+} ]
 0/z_index = 0
 1/name = "Tavern-big-tables(2)"
-1/texture = ExtResource( 83 )
+1/texture = ExtResource( 53 )
 1/tex_offset = Vector2( 0, 0 )
 1/modulate = Color( 1, 1, 1, 1 )
 1/region = Rect2( 0, 0, 80, 80 )
@@ -152,12 +228,19 @@
 1/navigation_offset = Vector2( 40, 40 )
 1/shape_offset = Vector2( 0, 0 )
 1/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
-1/shape_one_way = false
-1/shape_one_way_margin = 0.0
-1/shapes = [  ]
+1/shape = SubResource( 2 )
+1/shape_one_way = true
+1/shape_one_way_margin = 1.0
+1/shapes = [ {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": true,
+"one_way_margin": 1.0,
+"shape": SubResource( 2 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+} ]
 1/z_index = 0
 2/name = "Tavern-big-tables(3)"
-2/texture = ExtResource( 90 )
+2/texture = ExtResource( 54 )
 2/tex_offset = Vector2( 0, 0 )
 2/modulate = Color( 1, 1, 1, 1 )
 2/region = Rect2( 0, 0, 80, 80 )
@@ -166,12 +249,19 @@
 2/navigation_offset = Vector2( 40, 40 )
 2/shape_offset = Vector2( 0, 0 )
 2/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+2/shape = SubResource( 3 )
 2/shape_one_way = false
-2/shape_one_way_margin = 0.0
-2/shapes = [  ]
+2/shape_one_way_margin = 1.0
+2/shapes = [ {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 3 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+} ]
 2/z_index = 0
 3/name = "Tavern-big-tables(4)"
-3/texture = ExtResource( 84 )
+3/texture = ExtResource( 56 )
 3/tex_offset = Vector2( 0, 0 )
 3/modulate = Color( 1, 1, 1, 1 )
 3/region = Rect2( 0, 0, 80, 80 )
@@ -180,12 +270,19 @@
 3/navigation_offset = Vector2( 40, 40 )
 3/shape_offset = Vector2( 0, 0 )
 3/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+3/shape = SubResource( 6 )
 3/shape_one_way = false
-3/shape_one_way_margin = 0.0
-3/shapes = [  ]
+3/shape_one_way_margin = 1.0
+3/shapes = [ {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 6 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+} ]
 3/z_index = 0
 4/name = "Tavern-big-tables(5)"
-4/texture = ExtResource( 88 )
+4/texture = ExtResource( 50 )
 4/tex_offset = Vector2( 0, 0 )
 4/modulate = Color( 1, 1, 1, 1 )
 4/region = Rect2( 0, 0, 80, 80 )
@@ -194,12 +291,19 @@
 4/navigation_offset = Vector2( 40, 40 )
 4/shape_offset = Vector2( 0, 0 )
 4/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+4/shape = SubResource( 17 )
 4/shape_one_way = false
-4/shape_one_way_margin = 0.0
-4/shapes = [  ]
+4/shape_one_way_margin = 1.0
+4/shapes = [ {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 17 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+} ]
 4/z_index = 0
 5/name = "Tavern-big-tables(6)"
-5/texture = ExtResource( 94 )
+5/texture = ExtResource( 55 )
 5/tex_offset = Vector2( 0, 0 )
 5/modulate = Color( 1, 1, 1, 1 )
 5/region = Rect2( 0, 0, 80, 80 )
@@ -208,12 +312,19 @@
 5/navigation_offset = Vector2( 40, 40 )
 5/shape_offset = Vector2( 0, 0 )
 5/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+5/shape = SubResource( 21 )
 5/shape_one_way = false
-5/shape_one_way_margin = 0.0
-5/shapes = [  ]
+5/shape_one_way_margin = 1.0
+5/shapes = [ {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 21 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+} ]
 5/z_index = 0
 6/name = "Tavern-floor(1)"
-6/texture = ExtResource( 89 )
+6/texture = ExtResource( 57 )
 6/tex_offset = Vector2( 0, 0 )
 6/modulate = Color( 1, 1, 1, 1 )
 6/region = Rect2( 0, 0, 32, 16 )
@@ -227,7 +338,7 @@
 6/shapes = [  ]
 6/z_index = 0
 7/name = "Tavern-floor(2)"
-7/texture = ExtResource( 87 )
+7/texture = ExtResource( 51 )
 7/tex_offset = Vector2( 0, 0 )
 7/modulate = Color( 1, 1, 1, 1 )
 7/region = Rect2( 0, 0, 32, 16 )
@@ -241,7 +352,7 @@
 7/shapes = [  ]
 7/z_index = 0
 8/name = "Tavern-floor(3)"
-8/texture = ExtResource( 95 )
+8/texture = ExtResource( 52 )
 8/tex_offset = Vector2( 0, 0 )
 8/modulate = Color( 1, 1, 1, 1 )
 8/region = Rect2( 0, 0, 32, 16 )
@@ -255,7 +366,7 @@
 8/shapes = [  ]
 8/z_index = 0
 9/name = "Tavern-floor(4)"
-9/texture = ExtResource( 85 )
+9/texture = ExtResource( 4 )
 9/tex_offset = Vector2( 0, 0 )
 9/modulate = Color( 1, 1, 1, 1 )
 9/region = Rect2( 0, 0, 32, 16 )
@@ -269,7 +380,7 @@
 9/shapes = [  ]
 9/z_index = 0
 10/name = "Tavern-floor(5)"
-10/texture = ExtResource( 91 )
+10/texture = ExtResource( 5 )
 10/tex_offset = Vector2( 0, 0 )
 10/modulate = Color( 1, 1, 1, 1 )
 10/region = Rect2( 0, 0, 32, 16 )
@@ -283,7 +394,7 @@
 10/shapes = [  ]
 10/z_index = 0
 11/name = "Tavern-floor(6)"
-11/texture = ExtResource( 92 )
+11/texture = ExtResource( 10 )
 11/tex_offset = Vector2( 0, 0 )
 11/modulate = Color( 1, 1, 1, 1 )
 11/region = Rect2( 0, 0, 32, 16 )
@@ -297,7 +408,7 @@
 11/shapes = [  ]
 11/z_index = 0
 12/name = "Tavern-floor(7)"
-12/texture = ExtResource( 93 )
+12/texture = ExtResource( 9 )
 12/tex_offset = Vector2( 0, 0 )
 12/modulate = Color( 1, 1, 1, 1 )
 12/region = Rect2( 0, 0, 32, 16 )
@@ -311,7 +422,7 @@
 12/shapes = [  ]
 12/z_index = 0
 13/name = "Tavern-floor(8)"
-13/texture = ExtResource( 105 )
+13/texture = ExtResource( 15 )
 13/tex_offset = Vector2( 0, 0 )
 13/modulate = Color( 1, 1, 1, 1 )
 13/region = Rect2( 0, 0, 32, 16 )
@@ -325,7 +436,7 @@
 13/shapes = [  ]
 13/z_index = 0
 14/name = "Tavern-floor(9)"
-14/texture = ExtResource( 107 )
+14/texture = ExtResource( 16 )
 14/tex_offset = Vector2( 0, 0 )
 14/modulate = Color( 1, 1, 1, 1 )
 14/region = Rect2( 0, 0, 32, 16 )
@@ -339,7 +450,7 @@
 14/shapes = [  ]
 14/z_index = 0
 15/name = "Tavern-floor(10)"
-15/texture = ExtResource( 103 )
+15/texture = ExtResource( 11 )
 15/tex_offset = Vector2( 0, 0 )
 15/modulate = Color( 1, 1, 1, 1 )
 15/region = Rect2( 0, 0, 32, 16 )
@@ -353,7 +464,7 @@
 15/shapes = [  ]
 15/z_index = 0
 16/name = "Tavern-floor(11)"
-16/texture = ExtResource( 98 )
+16/texture = ExtResource( 12 )
 16/tex_offset = Vector2( 0, 0 )
 16/modulate = Color( 1, 1, 1, 1 )
 16/region = Rect2( 0, 0, 32, 16 )
@@ -367,7 +478,7 @@
 16/shapes = [  ]
 16/z_index = 0
 17/name = "Tavern-floor(12)"
-17/texture = ExtResource( 99 )
+17/texture = ExtResource( 13 )
 17/tex_offset = Vector2( 0, 0 )
 17/modulate = Color( 1, 1, 1, 1 )
 17/region = Rect2( 0, 0, 32, 16 )
@@ -381,7 +492,7 @@
 17/shapes = [  ]
 17/z_index = 0
 18/name = "Tavern-floor(13)"
-18/texture = ExtResource( 108 )
+18/texture = ExtResource( 14 )
 18/tex_offset = Vector2( 0, 0 )
 18/modulate = Color( 1, 1, 1, 1 )
 18/region = Rect2( 0, 0, 32, 16 )
@@ -395,7 +506,7 @@
 18/shapes = [  ]
 18/z_index = 0
 19/name = "Tavern-floor(14)"
-19/texture = ExtResource( 101 )
+19/texture = ExtResource( 17 )
 19/tex_offset = Vector2( 0, 0 )
 19/modulate = Color( 1, 1, 1, 1 )
 19/region = Rect2( 0, 0, 32, 16 )
@@ -409,7 +520,7 @@
 19/shapes = [  ]
 19/z_index = 0
 20/name = "Tavern-floor(15)"
-20/texture = ExtResource( 102 )
+20/texture = ExtResource( 6 )
 20/tex_offset = Vector2( 0, 0 )
 20/modulate = Color( 1, 1, 1, 1 )
 20/region = Rect2( 0, 0, 32, 16 )
@@ -423,7 +534,7 @@
 20/shapes = [  ]
 20/z_index = 0
 21/name = "Tavern-floor(16)"
-21/texture = ExtResource( 109 )
+21/texture = ExtResource( 2 )
 21/tex_offset = Vector2( 0, 0 )
 21/modulate = Color( 1, 1, 1, 1 )
 21/region = Rect2( 0, 0, 32, 16 )
@@ -437,7 +548,7 @@
 21/shapes = [  ]
 21/z_index = 0
 22/name = "Tavern-medium-props(1)"
-22/texture = ExtResource( 110 )
+22/texture = ExtResource( 7 )
 22/tex_offset = Vector2( 0, 0 )
 22/modulate = Color( 1, 1, 1, 1 )
 22/region = Rect2( 0, 0, 32, 64 )
@@ -451,7 +562,7 @@
 22/shapes = [  ]
 22/z_index = 0
 23/name = "Tavern-medium-props(2)"
-23/texture = ExtResource( 111 )
+23/texture = ExtResource( 8 )
 23/tex_offset = Vector2( 0, 0 )
 23/modulate = Color( 1, 1, 1, 1 )
 23/region = Rect2( 0, 0, 32, 64 )
@@ -465,7 +576,7 @@
 23/shapes = [  ]
 23/z_index = 0
 24/name = "Tavern-medium-props(3)"
-24/texture = ExtResource( 104 )
+24/texture = ExtResource( 3 )
 24/tex_offset = Vector2( 0, 0 )
 24/modulate = Color( 1, 1, 1, 1 )
 24/region = Rect2( 0, 0, 32, 64 )
@@ -479,7 +590,7 @@
 24/shapes = [  ]
 24/z_index = 0
 25/name = "Tavern-medium-props(4)"
-25/texture = ExtResource( 106 )
+25/texture = ExtResource( 28 )
 25/tex_offset = Vector2( 0, 0 )
 25/modulate = Color( 1, 1, 1, 1 )
 25/region = Rect2( 0, 0, 32, 64 )
@@ -493,7 +604,7 @@
 25/shapes = [  ]
 25/z_index = 0
 26/name = "Tavern-medium-props(5)"
-26/texture = ExtResource( 100 )
+26/texture = ExtResource( 27 )
 26/tex_offset = Vector2( 0, 0 )
 26/modulate = Color( 1, 1, 1, 1 )
 26/region = Rect2( 0, 0, 32, 64 )
@@ -507,7 +618,7 @@
 26/shapes = [  ]
 26/z_index = 0
 27/name = "Tavern-medium-props(6)"
-27/texture = ExtResource( 96 )
+27/texture = ExtResource( 18 )
 27/tex_offset = Vector2( 0, 0 )
 27/modulate = Color( 1, 1, 1, 1 )
 27/region = Rect2( 0, 0, 32, 64 )
@@ -521,7 +632,7 @@
 27/shapes = [  ]
 27/z_index = 0
 28/name = "Tavern-medium-props(7)"
-28/texture = ExtResource( 97 )
+28/texture = ExtResource( 31 )
 28/tex_offset = Vector2( 0, 0 )
 28/modulate = Color( 1, 1, 1, 1 )
 28/region = Rect2( 0, 0, 32, 64 )
@@ -530,12 +641,19 @@
 28/navigation_offset = Vector2( 16, 32 )
 28/shape_offset = Vector2( 0, 0 )
 28/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+28/shape = SubResource( 4 )
 28/shape_one_way = false
-28/shape_one_way_margin = 0.0
-28/shapes = [  ]
+28/shape_one_way_margin = 1.0
+28/shapes = [ {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 4 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+} ]
 28/z_index = 0
 29/name = "Tavern-medium-props(8)"
-29/texture = ExtResource( 117 )
+29/texture = ExtResource( 29 )
 29/tex_offset = Vector2( 0, 0 )
 29/modulate = Color( 1, 1, 1, 1 )
 29/region = Rect2( 0, 0, 32, 64 )
@@ -544,12 +662,19 @@
 29/navigation_offset = Vector2( 16, 32 )
 29/shape_offset = Vector2( 0, 0 )
 29/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+29/shape = SubResource( 5 )
 29/shape_one_way = false
-29/shape_one_way_margin = 0.0
-29/shapes = [  ]
+29/shape_one_way_margin = 1.0
+29/shapes = [ {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 5 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+} ]
 29/z_index = 0
 30/name = "Tavern-medium-props(9)"
-30/texture = ExtResource( 122 )
+30/texture = ExtResource( 23 )
 30/tex_offset = Vector2( 0, 0 )
 30/modulate = Color( 1, 1, 1, 1 )
 30/region = Rect2( 0, 0, 32, 64 )
@@ -558,12 +683,19 @@
 30/navigation_offset = Vector2( 16, 32 )
 30/shape_offset = Vector2( 0, 0 )
 30/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+30/shape = SubResource( 7 )
 30/shape_one_way = false
-30/shape_one_way_margin = 0.0
-30/shapes = [  ]
+30/shape_one_way_margin = 1.0
+30/shapes = [ {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 7 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+} ]
 30/z_index = 0
 31/name = "Tavern-medium-props(10)"
-31/texture = ExtResource( 126 )
+31/texture = ExtResource( 32 )
 31/tex_offset = Vector2( 0, 0 )
 31/modulate = Color( 1, 1, 1, 1 )
 31/region = Rect2( 0, 0, 32, 64 )
@@ -572,12 +704,19 @@
 31/navigation_offset = Vector2( 16, 32 )
 31/shape_offset = Vector2( 0, 0 )
 31/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+31/shape = SubResource( 8 )
 31/shape_one_way = false
-31/shape_one_way_margin = 0.0
-31/shapes = [  ]
+31/shape_one_way_margin = 1.0
+31/shapes = [ {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 8 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+} ]
 31/z_index = 0
 32/name = "Tavern-medium-props(11)"
-32/texture = ExtResource( 113 )
+32/texture = ExtResource( 20 )
 32/tex_offset = Vector2( 0, 0 )
 32/modulate = Color( 1, 1, 1, 1 )
 32/region = Rect2( 0, 0, 32, 64 )
@@ -586,12 +725,19 @@
 32/navigation_offset = Vector2( 16, 32 )
 32/shape_offset = Vector2( 0, 0 )
 32/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+32/shape = SubResource( 9 )
 32/shape_one_way = false
-32/shape_one_way_margin = 0.0
-32/shapes = [  ]
+32/shape_one_way_margin = 1.0
+32/shapes = [ {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 9 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+} ]
 32/z_index = 0
 33/name = "Tavern-medium-props(12)"
-33/texture = ExtResource( 118 )
+33/texture = ExtResource( 33 )
 33/tex_offset = Vector2( 0, 0 )
 33/modulate = Color( 1, 1, 1, 1 )
 33/region = Rect2( 0, 0, 32, 64 )
@@ -600,12 +746,19 @@
 33/navigation_offset = Vector2( 16, 32 )
 33/shape_offset = Vector2( 0, 0 )
 33/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+33/shape = SubResource( 10 )
 33/shape_one_way = false
-33/shape_one_way_margin = 0.0
-33/shapes = [  ]
+33/shape_one_way_margin = 1.0
+33/shapes = [ {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 10 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+} ]
 33/z_index = 0
 34/name = "Tavern-medium-props(13)"
-34/texture = ExtResource( 115 )
+34/texture = ExtResource( 19 )
 34/tex_offset = Vector2( 0, 0 )
 34/modulate = Color( 1, 1, 1, 1 )
 34/region = Rect2( 0, 0, 32, 64 )
@@ -614,12 +767,19 @@
 34/navigation_offset = Vector2( 16, 32 )
 34/shape_offset = Vector2( 0, 0 )
 34/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+34/shape = SubResource( 11 )
 34/shape_one_way = false
-34/shape_one_way_margin = 0.0
-34/shapes = [  ]
+34/shape_one_way_margin = 1.0
+34/shapes = [ {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 11 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+} ]
 34/z_index = 0
 35/name = "Tavern-medium-props(14)"
-35/texture = ExtResource( 124 )
+35/texture = ExtResource( 25 )
 35/tex_offset = Vector2( 0, 0 )
 35/modulate = Color( 1, 1, 1, 1 )
 35/region = Rect2( 0, 0, 32, 64 )
@@ -628,12 +788,19 @@
 35/navigation_offset = Vector2( 16, 32 )
 35/shape_offset = Vector2( 0, 0 )
 35/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+35/shape = SubResource( 12 )
 35/shape_one_way = false
-35/shape_one_way_margin = 0.0
-35/shapes = [  ]
+35/shape_one_way_margin = 1.0
+35/shapes = [ {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 12 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+} ]
 35/z_index = 0
 36/name = "Tavern-medium-props(15)"
-36/texture = ExtResource( 112 )
+36/texture = ExtResource( 21 )
 36/tex_offset = Vector2( 0, 0 )
 36/modulate = Color( 1, 1, 1, 1 )
 36/region = Rect2( 0, 0, 32, 64 )
@@ -642,12 +809,19 @@
 36/navigation_offset = Vector2( 16, 32 )
 36/shape_offset = Vector2( 0, 0 )
 36/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+36/shape = SubResource( 13 )
 36/shape_one_way = false
-36/shape_one_way_margin = 0.0
-36/shapes = [  ]
+36/shape_one_way_margin = 1.0
+36/shapes = [ {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 13 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+} ]
 36/z_index = 0
 37/name = "Tavern-medium-props(16)"
-37/texture = ExtResource( 114 )
+37/texture = ExtResource( 22 )
 37/tex_offset = Vector2( 0, 0 )
 37/modulate = Color( 1, 1, 1, 1 )
 37/region = Rect2( 0, 0, 32, 64 )
@@ -656,12 +830,19 @@
 37/navigation_offset = Vector2( 16, 32 )
 37/shape_offset = Vector2( 0, 0 )
 37/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+37/shape = SubResource( 14 )
 37/shape_one_way = false
-37/shape_one_way_margin = 0.0
-37/shapes = [  ]
+37/shape_one_way_margin = 1.0
+37/shapes = [ {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 14 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+} ]
 37/z_index = 0
 38/name = "Tavern-medium-props(17)"
-38/texture = ExtResource( 121 )
+38/texture = ExtResource( 30 )
 38/tex_offset = Vector2( 0, 0 )
 38/modulate = Color( 1, 1, 1, 1 )
 38/region = Rect2( 0, 0, 32, 64 )
@@ -670,12 +851,19 @@
 38/navigation_offset = Vector2( 16, 32 )
 38/shape_offset = Vector2( 0, 0 )
 38/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+38/shape = SubResource( 15 )
 38/shape_one_way = false
-38/shape_one_way_margin = 0.0
-38/shapes = [  ]
+38/shape_one_way_margin = 1.0
+38/shapes = [ {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 15 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+} ]
 38/z_index = 0
 39/name = "Tavern-medium-props(18)"
-39/texture = ExtResource( 119 )
+39/texture = ExtResource( 24 )
 39/tex_offset = Vector2( 0, 0 )
 39/modulate = Color( 1, 1, 1, 1 )
 39/region = Rect2( 0, 0, 32, 64 )
@@ -684,12 +872,19 @@
 39/navigation_offset = Vector2( 16, 32 )
 39/shape_offset = Vector2( 0, 0 )
 39/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+39/shape = SubResource( 16 )
 39/shape_one_way = false
-39/shape_one_way_margin = 0.0
-39/shapes = [  ]
+39/shape_one_way_margin = 1.0
+39/shapes = [ {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 16 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+} ]
 39/z_index = 0
 40/name = "Tavern-small-props(1)"
-40/texture = ExtResource( 120 )
+40/texture = ExtResource( 26 )
 40/tex_offset = Vector2( 0, 0 )
 40/modulate = Color( 1, 1, 1, 1 )
 40/region = Rect2( 0, 0, 16, 16 )
@@ -703,7 +898,7 @@
 40/shapes = [  ]
 40/z_index = 0
 41/name = "Tavern-small-props(2)"
-41/texture = ExtResource( 116 )
+41/texture = ExtResource( 47 )
 41/tex_offset = Vector2( 0, 0 )
 41/modulate = Color( 1, 1, 1, 1 )
 41/region = Rect2( 0, 0, 16, 16 )
@@ -717,7 +912,7 @@
 41/shapes = [  ]
 41/z_index = 0
 42/name = "Tavern-small-props(3)"
-42/texture = ExtResource( 125 )
+42/texture = ExtResource( 48 )
 42/tex_offset = Vector2( 0, 0 )
 42/modulate = Color( 1, 1, 1, 1 )
 42/region = Rect2( 0, 0, 16, 16 )
@@ -731,7 +926,7 @@
 42/shapes = [  ]
 42/z_index = 0
 43/name = "Tavern-small-props(4)"
-43/texture = ExtResource( 123 )
+43/texture = ExtResource( 45 )
 43/tex_offset = Vector2( 0, 0 )
 43/modulate = Color( 1, 1, 1, 1 )
 43/region = Rect2( 0, 0, 16, 16 )
@@ -745,7 +940,7 @@
 43/shapes = [  ]
 43/z_index = 0
 44/name = "Tavern-small-props(5)"
-44/texture = ExtResource( 46 )
+44/texture = ExtResource( 37 )
 44/tex_offset = Vector2( 0, 0 )
 44/modulate = Color( 1, 1, 1, 1 )
 44/region = Rect2( 0, 0, 16, 16 )
@@ -754,12 +949,19 @@
 44/navigation_offset = Vector2( 8, 8 )
 44/shape_offset = Vector2( 0, 0 )
 44/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+44/shape = SubResource( 18 )
 44/shape_one_way = false
-44/shape_one_way_margin = 0.0
-44/shapes = [  ]
+44/shape_one_way_margin = 1.0
+44/shapes = [ {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 18 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+} ]
 44/z_index = 0
 45/name = "Tavern-small-props(6)"
-45/texture = ExtResource( 47 )
+45/texture = ExtResource( 35 )
 45/tex_offset = Vector2( 0, 0 )
 45/modulate = Color( 1, 1, 1, 1 )
 45/region = Rect2( 0, 0, 16, 16 )
@@ -787,7 +989,7 @@
 46/shapes = [  ]
 46/z_index = 0
 47/name = "Tavern-small-props(8)"
-47/texture = ExtResource( 48 )
+47/texture = ExtResource( 38 )
 47/tex_offset = Vector2( 0, 0 )
 47/modulate = Color( 1, 1, 1, 1 )
 47/region = Rect2( 0, 0, 16, 16 )
@@ -796,9 +998,16 @@
 47/navigation_offset = Vector2( 8, 8 )
 47/shape_offset = Vector2( 0, 0 )
 47/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+47/shape = SubResource( 19 )
 47/shape_one_way = false
-47/shape_one_way_margin = 0.0
-47/shapes = [  ]
+47/shape_one_way_margin = 1.0
+47/shapes = [ {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 19 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+} ]
 47/z_index = 0
 48/name = "Tavern-small-props(9)"
 48/texture = ExtResource( 40 )
@@ -810,12 +1019,19 @@
 48/navigation_offset = Vector2( 8, 8 )
 48/shape_offset = Vector2( 0, 0 )
 48/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+48/shape = SubResource( 20 )
 48/shape_one_way = false
-48/shape_one_way_margin = 0.0
-48/shapes = [  ]
+48/shape_one_way_margin = 1.0
+48/shapes = [ {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 20 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+} ]
 48/z_index = 0
 49/name = "Tavern-small-props(10)"
-49/texture = ExtResource( 37 )
+49/texture = ExtResource( 34 )
 49/tex_offset = Vector2( 0, 0 )
 49/modulate = Color( 1, 1, 1, 1 )
 49/region = Rect2( 0, 0, 16, 16 )
@@ -829,7 +1045,7 @@
 49/shapes = [  ]
 49/z_index = 0
 50/name = "Tavern-small-props(11)"
-50/texture = ExtResource( 45 )
+50/texture = ExtResource( 41 )
 50/tex_offset = Vector2( 0, 0 )
 50/modulate = Color( 1, 1, 1, 1 )
 50/region = Rect2( 0, 0, 16, 16 )
@@ -843,7 +1059,7 @@
 50/shapes = [  ]
 50/z_index = 0
 51/name = "Tavern-small-props(12)"
-51/texture = ExtResource( 50 )
+51/texture = ExtResource( 42 )
 51/tex_offset = Vector2( 0, 0 )
 51/modulate = Color( 1, 1, 1, 1 )
 51/region = Rect2( 0, 0, 16, 16 )
@@ -871,7 +1087,7 @@
 52/shapes = [  ]
 52/z_index = 0
 53/name = "Tavern-small-props(14)"
-53/texture = ExtResource( 49 )
+53/texture = ExtResource( 46 )
 53/tex_offset = Vector2( 0, 0 )
 53/modulate = Color( 1, 1, 1, 1 )
 53/region = Rect2( 0, 0, 16, 16 )
@@ -885,7 +1101,7 @@
 53/shapes = [  ]
 53/z_index = 0
 54/name = "Tavern-small-props(15)"
-54/texture = ExtResource( 38 )
+54/texture = ExtResource( 44 )
 54/tex_offset = Vector2( 0, 0 )
 54/modulate = Color( 1, 1, 1, 1 )
 54/region = Rect2( 0, 0, 16, 16 )
@@ -899,7 +1115,7 @@
 54/shapes = [  ]
 54/z_index = 0
 55/name = "Tavern-small-props(16)"
-55/texture = ExtResource( 35 )
+55/texture = ExtResource( 36 )
 55/tex_offset = Vector2( 0, 0 )
 55/modulate = Color( 1, 1, 1, 1 )
 55/region = Rect2( 0, 0, 16, 16 )
@@ -913,7 +1129,7 @@
 55/shapes = [  ]
 55/z_index = 0
 56/name = "Tavern-small-props(17)"
-56/texture = ExtResource( 36 )
+56/texture = ExtResource( 1 )
 56/tex_offset = Vector2( 0, 0 )
 56/modulate = Color( 1, 1, 1, 1 )
 56/region = Rect2( 0, 0, 16, 16 )
@@ -927,7 +1143,7 @@
 56/shapes = [  ]
 56/z_index = 0
 57/name = "Tavern-small-props(18)"
-57/texture = ExtResource( 44 )
+57/texture = ExtResource( 71 )
 57/tex_offset = Vector2( 0, 0 )
 57/modulate = Color( 1, 1, 1, 1 )
 57/region = Rect2( 0, 0, 16, 16 )
@@ -936,12 +1152,19 @@
 57/navigation_offset = Vector2( 8, 8 )
 57/shape_offset = Vector2( 0, 0 )
 57/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+57/shape = SubResource( 22 )
 57/shape_one_way = false
-57/shape_one_way_margin = 0.0
-57/shapes = [  ]
+57/shape_one_way_margin = 1.0
+57/shapes = [ {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 22 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+} ]
 57/z_index = 0
 58/name = "Tavern-small-props(19)"
-58/texture = ExtResource( 41 )
+58/texture = ExtResource( 72 )
 58/tex_offset = Vector2( 0, 0 )
 58/modulate = Color( 1, 1, 1, 1 )
 58/region = Rect2( 0, 0, 16, 16 )
@@ -955,7 +1178,7 @@
 58/shapes = [  ]
 58/z_index = 0
 59/name = "Tavern-walls(1)"
-59/texture = ExtResource( 42 )
+59/texture = ExtResource( 61 )
 59/tex_offset = Vector2( 0, 0 )
 59/modulate = Color( 1, 1, 1, 1 )
 59/region = Rect2( 0, 0, 32, 64 )
@@ -964,12 +1187,19 @@
 59/navigation_offset = Vector2( 16, 32 )
 59/shape_offset = Vector2( 0, 0 )
 59/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+59/shape = SubResource( 23 )
 59/shape_one_way = false
-59/shape_one_way_margin = 0.0
-59/shapes = [  ]
+59/shape_one_way_margin = 1.0
+59/shapes = [ {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 23 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+} ]
 59/z_index = 0
 60/name = "Tavern-walls(2)"
-60/texture = ExtResource( 63 )
+60/texture = ExtResource( 70 )
 60/tex_offset = Vector2( 0, 0 )
 60/modulate = Color( 1, 1, 1, 1 )
 60/region = Rect2( 0, 0, 32, 64 )
@@ -983,7 +1213,7 @@
 60/shapes = [  ]
 60/z_index = 0
 61/name = "Tavern-walls(3)"
-61/texture = ExtResource( 53 )
+61/texture = ExtResource( 66 )
 61/tex_offset = Vector2( 0, 0 )
 61/modulate = Color( 1, 1, 1, 1 )
 61/region = Rect2( 0, 0, 32, 64 )
@@ -997,7 +1227,7 @@
 61/shapes = [  ]
 61/z_index = 0
 62/name = "Tavern-walls(4)"
-62/texture = ExtResource( 52 )
+62/texture = ExtResource( 60 )
 62/tex_offset = Vector2( 0, 0 )
 62/modulate = Color( 1, 1, 1, 1 )
 62/region = Rect2( 0, 0, 32, 64 )
@@ -1011,7 +1241,7 @@
 62/shapes = [  ]
 62/z_index = 0
 63/name = "Tavern-walls(5)"
-63/texture = ExtResource( 61 )
+63/texture = ExtResource( 62 )
 63/tex_offset = Vector2( 0, 0 )
 63/modulate = Color( 1, 1, 1, 1 )
 63/region = Rect2( 0, 0, 32, 64 )
@@ -1025,7 +1255,7 @@
 63/shapes = [  ]
 63/z_index = 0
 64/name = "Tavern-walls(6)"
-64/texture = ExtResource( 62 )
+64/texture = ExtResource( 67 )
 64/tex_offset = Vector2( 0, 0 )
 64/modulate = Color( 1, 1, 1, 1 )
 64/region = Rect2( 0, 0, 32, 64 )
@@ -1039,7 +1269,7 @@
 64/shapes = [  ]
 64/z_index = 0
 65/name = "Tavern-walls(7)"
-65/texture = ExtResource( 65 )
+65/texture = ExtResource( 63 )
 65/tex_offset = Vector2( 0, 0 )
 65/modulate = Color( 1, 1, 1, 1 )
 65/region = Rect2( 0, 0, 32, 64 )
@@ -1053,7 +1283,7 @@
 65/shapes = [  ]
 65/z_index = 0
 66/name = "Tavern-walls(8)"
-66/texture = ExtResource( 64 )
+66/texture = ExtResource( 68 )
 66/tex_offset = Vector2( 0, 0 )
 66/modulate = Color( 1, 1, 1, 1 )
 66/region = Rect2( 0, 0, 32, 64 )
@@ -1067,7 +1297,7 @@
 66/shapes = [  ]
 66/z_index = 0
 67/name = "Tavern-walls(9)"
-67/texture = ExtResource( 66 )
+67/texture = ExtResource( 59 )
 67/tex_offset = Vector2( 0, 0 )
 67/modulate = Color( 1, 1, 1, 1 )
 67/region = Rect2( 0, 0, 32, 64 )
@@ -1081,7 +1311,7 @@
 67/shapes = [  ]
 67/z_index = 0
 68/name = "Tavern-walls(10)"
-68/texture = ExtResource( 51 )
+68/texture = ExtResource( 58 )
 68/tex_offset = Vector2( 0, 0 )
 68/modulate = Color( 1, 1, 1, 1 )
 68/region = Rect2( 0, 0, 32, 64 )
@@ -1095,7 +1325,7 @@
 68/shapes = [  ]
 68/z_index = 0
 69/name = "Tavern-walls(11)"
-69/texture = ExtResource( 60 )
+69/texture = ExtResource( 64 )
 69/tex_offset = Vector2( 0, 0 )
 69/modulate = Color( 1, 1, 1, 1 )
 69/region = Rect2( 0, 0, 32, 64 )
@@ -1109,7 +1339,7 @@
 69/shapes = [  ]
 69/z_index = 0
 70/name = "Tavern-walls(12)"
-70/texture = ExtResource( 54 )
+70/texture = ExtResource( 73 )
 70/tex_offset = Vector2( 0, 0 )
 70/modulate = Color( 1, 1, 1, 1 )
 70/region = Rect2( 0, 0, 32, 64 )
@@ -1123,7 +1353,7 @@
 70/shapes = [  ]
 70/z_index = 0
 71/name = "Tavern-walls(13)"
-71/texture = ExtResource( 55 )
+71/texture = ExtResource( 65 )
 71/tex_offset = Vector2( 0, 0 )
 71/modulate = Color( 1, 1, 1, 1 )
 71/region = Rect2( 0, 0, 32, 64 )
@@ -1137,7 +1367,7 @@
 71/shapes = [  ]
 71/z_index = 0
 72/name = "Tavern-walls(14)"
-72/texture = ExtResource( 56 )
+72/texture = ExtResource( 69 )
 72/tex_offset = Vector2( 0, 0 )
 72/modulate = Color( 1, 1, 1, 1 )
 72/region = Rect2( 0, 0, 32, 64 )
@@ -1151,7 +1381,7 @@
 72/shapes = [  ]
 72/z_index = 0
 73/name = "Tavern-walls(15)"
-73/texture = ExtResource( 57 )
+73/texture = ExtResource( 83 )
 73/tex_offset = Vector2( 0, 0 )
 73/modulate = Color( 1, 1, 1, 1 )
 73/region = Rect2( 0, 0, 32, 64 )
@@ -1165,7 +1395,7 @@
 73/shapes = [  ]
 73/z_index = 0
 74/name = "Tavern-walls(16)"
-74/texture = ExtResource( 58 )
+74/texture = ExtResource( 81 )
 74/tex_offset = Vector2( 0, 0 )
 74/modulate = Color( 1, 1, 1, 1 )
 74/region = Rect2( 0, 0, 32, 64 )
@@ -1179,7 +1409,7 @@
 74/shapes = [  ]
 74/z_index = 0
 75/name = "Tavern-walls(17)"
-75/texture = ExtResource( 59 )
+75/texture = ExtResource( 75 )
 75/tex_offset = Vector2( 0, 0 )
 75/modulate = Color( 1, 1, 1, 1 )
 75/region = Rect2( 0, 0, 32, 64 )
@@ -1193,7 +1423,7 @@
 75/shapes = [  ]
 75/z_index = 0
 76/name = "Tavern-walls(18)"
-76/texture = ExtResource( 81 )
+76/texture = ExtResource( 76 )
 76/tex_offset = Vector2( 0, 0 )
 76/modulate = Color( 1, 1, 1, 1 )
 76/region = Rect2( 0, 0, 32, 64 )
@@ -1207,7 +1437,7 @@
 76/shapes = [  ]
 76/z_index = 0
 77/name = "Tavern-walls(19)"
-77/texture = ExtResource( 76 )
+77/texture = ExtResource( 85 )
 77/tex_offset = Vector2( 0, 0 )
 77/modulate = Color( 1, 1, 1, 1 )
 77/region = Rect2( 0, 0, 32, 64 )
@@ -1221,7 +1451,7 @@
 77/shapes = [  ]
 77/z_index = 0
 78/name = "Tavern-walls(20)"
-78/texture = ExtResource( 77 )
+78/texture = ExtResource( 84 )
 78/tex_offset = Vector2( 0, 0 )
 78/modulate = Color( 1, 1, 1, 1 )
 78/region = Rect2( 0, 0, 32, 64 )
@@ -1235,7 +1465,7 @@
 78/shapes = [  ]
 78/z_index = 0
 79/name = "Tavern-walls(21)"
-79/texture = ExtResource( 70 )
+79/texture = ExtResource( 77 )
 79/tex_offset = Vector2( 0, 0 )
 79/modulate = Color( 1, 1, 1, 1 )
 79/region = Rect2( 0, 0, 32, 64 )
@@ -1249,7 +1479,7 @@
 79/shapes = [  ]
 79/z_index = 0
 80/name = "Tavern-walls(22)"
-80/texture = ExtResource( 79 )
+80/texture = ExtResource( 74 )
 80/tex_offset = Vector2( 0, 0 )
 80/modulate = Color( 1, 1, 1, 1 )
 80/region = Rect2( 0, 0, 32, 64 )
@@ -1263,7 +1493,7 @@
 80/shapes = [  ]
 80/z_index = 0
 81/name = "Tavern-walls(23)"
-81/texture = ExtResource( 71 )
+81/texture = ExtResource( 78 )
 81/tex_offset = Vector2( 0, 0 )
 81/modulate = Color( 1, 1, 1, 1 )
 81/region = Rect2( 0, 0, 32, 64 )
@@ -1277,7 +1507,7 @@
 81/shapes = [  ]
 81/z_index = 0
 82/name = "Tavern-walls(24)"
-82/texture = ExtResource( 82 )
+82/texture = ExtResource( 79 )
 82/tex_offset = Vector2( 0, 0 )
 82/modulate = Color( 1, 1, 1, 1 )
 82/region = Rect2( 0, 0, 32, 64 )
@@ -1291,7 +1521,7 @@
 82/shapes = [  ]
 82/z_index = 0
 83/name = "Tavern-walls(25)"
-83/texture = ExtResource( 78 )
+83/texture = ExtResource( 80 )
 83/tex_offset = Vector2( 0, 0 )
 83/modulate = Color( 1, 1, 1, 1 )
 83/region = Rect2( 0, 0, 32, 64 )
@@ -1305,7 +1535,7 @@
 83/shapes = [  ]
 83/z_index = 0
 84/name = "Tavern-walls(26)"
-84/texture = ExtResource( 80 )
+84/texture = ExtResource( 86 )
 84/tex_offset = Vector2( 0, 0 )
 84/modulate = Color( 1, 1, 1, 1 )
 84/region = Rect2( 0, 0, 32, 64 )
@@ -1319,7 +1549,7 @@
 84/shapes = [  ]
 84/z_index = 0
 85/name = "Tavern-walls(27)"
-85/texture = ExtResource( 75 )
+85/texture = ExtResource( 87 )
 85/tex_offset = Vector2( 0, 0 )
 85/modulate = Color( 1, 1, 1, 1 )
 85/region = Rect2( 0, 0, 32, 64 )
@@ -1333,7 +1563,7 @@
 85/shapes = [  ]
 85/z_index = 0
 86/name = "Tavern-walls(28)"
-86/texture = ExtResource( 67 )
+86/texture = ExtResource( 82 )
 86/tex_offset = Vector2( 0, 0 )
 86/modulate = Color( 1, 1, 1, 1 )
 86/region = Rect2( 0, 0, 32, 64 )
@@ -1347,7 +1577,7 @@
 86/shapes = [  ]
 86/z_index = 0
 87/name = "Tavern-walls(29)"
-87/texture = ExtResource( 68 )
+87/texture = ExtResource( 88 )
 87/tex_offset = Vector2( 0, 0 )
 87/modulate = Color( 1, 1, 1, 1 )
 87/region = Rect2( 0, 0, 32, 64 )
@@ -1361,7 +1591,7 @@
 87/shapes = [  ]
 87/z_index = 0
 88/name = "Tavern-walls(30)"
-88/texture = ExtResource( 72 )
+88/texture = ExtResource( 89 )
 88/tex_offset = Vector2( 0, 0 )
 88/modulate = Color( 1, 1, 1, 1 )
 88/region = Rect2( 0, 0, 32, 64 )
@@ -1375,7 +1605,7 @@
 88/shapes = [  ]
 88/z_index = 0
 89/name = "Tavern-walls(31)"
-89/texture = ExtResource( 69 )
+89/texture = ExtResource( 96 )
 89/tex_offset = Vector2( 0, 0 )
 89/modulate = Color( 1, 1, 1, 1 )
 89/region = Rect2( 0, 0, 32, 64 )
@@ -1389,7 +1619,7 @@
 89/shapes = [  ]
 89/z_index = 0
 90/name = "Tavern-walls(32)"
-90/texture = ExtResource( 73 )
+90/texture = ExtResource( 92 )
 90/tex_offset = Vector2( 0, 0 )
 90/modulate = Color( 1, 1, 1, 1 )
 90/region = Rect2( 0, 0, 32, 64 )
@@ -1403,7 +1633,7 @@
 90/shapes = [  ]
 90/z_index = 0
 91/name = "Tavern-walls(33)"
-91/texture = ExtResource( 74 )
+91/texture = ExtResource( 99 )
 91/tex_offset = Vector2( 0, 0 )
 91/modulate = Color( 1, 1, 1, 1 )
 91/region = Rect2( 0, 0, 32, 64 )
@@ -1417,7 +1647,7 @@
 91/shapes = [  ]
 91/z_index = 0
 92/name = "Tavern-walls(34)"
-92/texture = ExtResource( 16 )
+92/texture = ExtResource( 100 )
 92/tex_offset = Vector2( 0, 0 )
 92/modulate = Color( 1, 1, 1, 1 )
 92/region = Rect2( 0, 0, 32, 64 )
@@ -1431,7 +1661,7 @@
 92/shapes = [  ]
 92/z_index = 0
 93/name = "Tavern-walls(35)"
-93/texture = ExtResource( 4 )
+93/texture = ExtResource( 93 )
 93/tex_offset = Vector2( 0, 0 )
 93/modulate = Color( 1, 1, 1, 1 )
 93/region = Rect2( 0, 0, 32, 64 )
@@ -1445,7 +1675,7 @@
 93/shapes = [  ]
 93/z_index = 0
 94/name = "Tavern-walls(36)"
-94/texture = ExtResource( 6 )
+94/texture = ExtResource( 94 )
 94/tex_offset = Vector2( 0, 0 )
 94/modulate = Color( 1, 1, 1, 1 )
 94/region = Rect2( 0, 0, 32, 64 )
@@ -1459,7 +1689,7 @@
 94/shapes = [  ]
 94/z_index = 0
 95/name = "Tavern-walls(37)"
-95/texture = ExtResource( 3 )
+95/texture = ExtResource( 105 )
 95/tex_offset = Vector2( 0, 0 )
 95/modulate = Color( 1, 1, 1, 1 )
 95/region = Rect2( 0, 0, 32, 64 )
@@ -1473,7 +1703,7 @@
 95/shapes = [  ]
 95/z_index = 0
 96/name = "Tavern-walls(38)"
-96/texture = ExtResource( 12 )
+96/texture = ExtResource( 90 )
 96/tex_offset = Vector2( 0, 0 )
 96/modulate = Color( 1, 1, 1, 1 )
 96/region = Rect2( 0, 0, 32, 64 )
@@ -1487,7 +1717,7 @@
 96/shapes = [  ]
 96/z_index = 0
 97/name = "Tavern-walls(39)"
-97/texture = ExtResource( 14 )
+97/texture = ExtResource( 101 )
 97/tex_offset = Vector2( 0, 0 )
 97/modulate = Color( 1, 1, 1, 1 )
 97/region = Rect2( 0, 0, 32, 64 )
@@ -1501,7 +1731,7 @@
 97/shapes = [  ]
 97/z_index = 0
 98/name = "Tavern-walls(40)"
-98/texture = ExtResource( 5 )
+98/texture = ExtResource( 95 )
 98/tex_offset = Vector2( 0, 0 )
 98/modulate = Color( 1, 1, 1, 1 )
 98/region = Rect2( 0, 0, 32, 64 )
@@ -1515,7 +1745,7 @@
 98/shapes = [  ]
 98/z_index = 0
 99/name = "Tavern-walls(41)"
-99/texture = ExtResource( 2 )
+99/texture = ExtResource( 97 )
 99/tex_offset = Vector2( 0, 0 )
 99/modulate = Color( 1, 1, 1, 1 )
 99/region = Rect2( 0, 0, 32, 64 )
@@ -1529,7 +1759,7 @@
 99/shapes = [  ]
 99/z_index = 0
 100/name = "Tavern-walls(42)"
-100/texture = ExtResource( 7 )
+100/texture = ExtResource( 98 )
 100/tex_offset = Vector2( 0, 0 )
 100/modulate = Color( 1, 1, 1, 1 )
 100/region = Rect2( 0, 0, 32, 64 )
@@ -1543,7 +1773,7 @@
 100/shapes = [  ]
 100/z_index = 0
 101/name = "Tavern-walls(43)"
-101/texture = ExtResource( 10 )
+101/texture = ExtResource( 102 )
 101/tex_offset = Vector2( 0, 0 )
 101/modulate = Color( 1, 1, 1, 1 )
 101/region = Rect2( 0, 0, 32, 64 )
@@ -1557,7 +1787,7 @@
 101/shapes = [  ]
 101/z_index = 0
 102/name = "Tavern-walls(44)"
-102/texture = ExtResource( 8 )
+102/texture = ExtResource( 103 )
 102/tex_offset = Vector2( 0, 0 )
 102/modulate = Color( 1, 1, 1, 1 )
 102/region = Rect2( 0, 0, 32, 64 )
@@ -1571,7 +1801,7 @@
 102/shapes = [  ]
 102/z_index = 0
 103/name = "Tavern-walls(45)"
-103/texture = ExtResource( 13 )
+103/texture = ExtResource( 104 )
 103/tex_offset = Vector2( 0, 0 )
 103/modulate = Color( 1, 1, 1, 1 )
 103/region = Rect2( 0, 0, 32, 64 )
@@ -1585,7 +1815,7 @@
 103/shapes = [  ]
 103/z_index = 0
 104/name = "Tavern-walls(46)"
-104/texture = ExtResource( 9 )
+104/texture = ExtResource( 91 )
 104/tex_offset = Vector2( 0, 0 )
 104/modulate = Color( 1, 1, 1, 1 )
 104/region = Rect2( 0, 0, 32, 64 )
@@ -1599,7 +1829,7 @@
 104/shapes = [  ]
 104/z_index = 0
 105/name = "Tavern-walls(47)"
-105/texture = ExtResource( 1 )
+105/texture = ExtResource( 115 )
 105/tex_offset = Vector2( 0, 0 )
 105/modulate = Color( 1, 1, 1, 1 )
 105/region = Rect2( 0, 0, 32, 64 )
@@ -1613,7 +1843,7 @@
 105/shapes = [  ]
 105/z_index = 0
 106/name = "Tavern-walls(48)"
-106/texture = ExtResource( 11 )
+106/texture = ExtResource( 110 )
 106/tex_offset = Vector2( 0, 0 )
 106/modulate = Color( 1, 1, 1, 1 )
 106/region = Rect2( 0, 0, 32, 64 )
@@ -1627,7 +1857,7 @@
 106/shapes = [  ]
 106/z_index = 0
 107/name = "Tavern-walls(49)"
-107/texture = ExtResource( 15 )
+107/texture = ExtResource( 111 )
 107/tex_offset = Vector2( 0, 0 )
 107/modulate = Color( 1, 1, 1, 1 )
 107/region = Rect2( 0, 0, 32, 64 )
@@ -1641,7 +1871,7 @@
 107/shapes = [  ]
 107/z_index = 0
 108/name = "Tavern-walls(50)"
-108/texture = ExtResource( 17 )
+108/texture = ExtResource( 116 )
 108/tex_offset = Vector2( 0, 0 )
 108/modulate = Color( 1, 1, 1, 1 )
 108/region = Rect2( 0, 0, 32, 64 )
@@ -1655,7 +1885,7 @@
 108/shapes = [  ]
 108/z_index = 0
 109/name = "Tavern-walls(51)"
-109/texture = ExtResource( 23 )
+109/texture = ExtResource( 112 )
 109/tex_offset = Vector2( 0, 0 )
 109/modulate = Color( 1, 1, 1, 1 )
 109/region = Rect2( 0, 0, 32, 64 )
@@ -1669,7 +1899,7 @@
 109/shapes = [  ]
 109/z_index = 0
 110/name = "Tavern-walls(52)"
-110/texture = ExtResource( 21 )
+110/texture = ExtResource( 109 )
 110/tex_offset = Vector2( 0, 0 )
 110/modulate = Color( 1, 1, 1, 1 )
 110/region = Rect2( 0, 0, 32, 64 )
@@ -1683,7 +1913,7 @@
 110/shapes = [  ]
 110/z_index = 0
 111/name = "Tavern-walls(53)"
-111/texture = ExtResource( 19 )
+111/texture = ExtResource( 113 )
 111/tex_offset = Vector2( 0, 0 )
 111/modulate = Color( 1, 1, 1, 1 )
 111/region = Rect2( 0, 0, 32, 64 )
@@ -1697,7 +1927,7 @@
 111/shapes = [  ]
 111/z_index = 0
 112/name = "Tavern-walls(54)"
-112/texture = ExtResource( 20 )
+112/texture = ExtResource( 121 )
 112/tex_offset = Vector2( 0, 0 )
 112/modulate = Color( 1, 1, 1, 1 )
 112/region = Rect2( 0, 0, 32, 64 )
@@ -1711,7 +1941,7 @@
 112/shapes = [  ]
 112/z_index = 0
 113/name = "Tavern-walls(55)"
-113/texture = ExtResource( 25 )
+113/texture = ExtResource( 119 )
 113/tex_offset = Vector2( 0, 0 )
 113/modulate = Color( 1, 1, 1, 1 )
 113/region = Rect2( 0, 0, 32, 64 )
@@ -1725,7 +1955,7 @@
 113/shapes = [  ]
 113/z_index = 0
 114/name = "Tavern-walls(56)"
-114/texture = ExtResource( 27 )
+114/texture = ExtResource( 114 )
 114/tex_offset = Vector2( 0, 0 )
 114/modulate = Color( 1, 1, 1, 1 )
 114/region = Rect2( 0, 0, 32, 64 )
@@ -1739,7 +1969,7 @@
 114/shapes = [  ]
 114/z_index = 0
 115/name = "Tavern-walls(57)"
-115/texture = ExtResource( 18 )
+115/texture = ExtResource( 117 )
 115/tex_offset = Vector2( 0, 0 )
 115/modulate = Color( 1, 1, 1, 1 )
 115/region = Rect2( 0, 0, 32, 64 )
@@ -1753,7 +1983,7 @@
 115/shapes = [  ]
 115/z_index = 0
 116/name = "Tavern-walls(58)"
-116/texture = ExtResource( 29 )
+116/texture = ExtResource( 118 )
 116/tex_offset = Vector2( 0, 0 )
 116/modulate = Color( 1, 1, 1, 1 )
 116/region = Rect2( 0, 0, 32, 64 )
@@ -1767,7 +1997,7 @@
 116/shapes = [  ]
 116/z_index = 0
 117/name = "Tavern-walls(59)"
-117/texture = ExtResource( 22 )
+117/texture = ExtResource( 120 )
 117/tex_offset = Vector2( 0, 0 )
 117/modulate = Color( 1, 1, 1, 1 )
 117/region = Rect2( 0, 0, 32, 64 )
@@ -1781,7 +2011,7 @@
 117/shapes = [  ]
 117/z_index = 0
 118/name = "Tavern-walls(60)"
-118/texture = ExtResource( 28 )
+118/texture = ExtResource( 106 )
 118/tex_offset = Vector2( 0, 0 )
 118/modulate = Color( 1, 1, 1, 1 )
 118/region = Rect2( 0, 0, 32, 64 )
@@ -1795,7 +2025,7 @@
 118/shapes = [  ]
 118/z_index = 0
 119/name = "Tavern-walls(61)"
-119/texture = ExtResource( 32 )
+119/texture = ExtResource( 107 )
 119/tex_offset = Vector2( 0, 0 )
 119/modulate = Color( 1, 1, 1, 1 )
 119/region = Rect2( 0, 0, 32, 64 )
@@ -1809,7 +2039,7 @@
 119/shapes = [  ]
 119/z_index = 0
 120/name = "Tavern-walls(62)"
-120/texture = ExtResource( 24 )
+120/texture = ExtResource( 108 )
 120/tex_offset = Vector2( 0, 0 )
 120/modulate = Color( 1, 1, 1, 1 )
 120/region = Rect2( 0, 0, 32, 64 )
@@ -1823,7 +2053,7 @@
 120/shapes = [  ]
 120/z_index = 0
 121/name = "Tavern-walls(63)"
-121/texture = ExtResource( 26 )
+121/texture = ExtResource( 125 )
 121/tex_offset = Vector2( 0, 0 )
 121/modulate = Color( 1, 1, 1, 1 )
 121/region = Rect2( 0, 0, 32, 64 )
@@ -1837,7 +2067,7 @@
 121/shapes = [  ]
 121/z_index = 0
 122/name = "Tavern-walls(64)"
-122/texture = ExtResource( 30 )
+122/texture = ExtResource( 124 )
 122/tex_offset = Vector2( 0, 0 )
 122/modulate = Color( 1, 1, 1, 1 )
 122/region = Rect2( 0, 0, 32, 64 )
@@ -1851,7 +2081,7 @@
 122/shapes = [  ]
 122/z_index = 0
 123/name = "Tavern-walls(65)"
-123/texture = ExtResource( 31 )
+123/texture = ExtResource( 126 )
 123/tex_offset = Vector2( 0, 0 )
 123/modulate = Color( 1, 1, 1, 1 )
 123/region = Rect2( 0, 0, 32, 64 )
@@ -1865,7 +2095,7 @@
 123/shapes = [  ]
 123/z_index = 0
 124/name = "Tavern-walls(66)"
-124/texture = ExtResource( 33 )
+124/texture = ExtResource( 123 )
 124/tex_offset = Vector2( 0, 0 )
 124/modulate = Color( 1, 1, 1, 1 )
 124/region = Rect2( 0, 0, 32, 64 )
@@ -1879,7 +2109,7 @@
 124/shapes = [  ]
 124/z_index = 0
 125/name = "Tavern-walls(67)"
-125/texture = ExtResource( 34 )
+125/texture = ExtResource( 122 )
 125/tex_offset = Vector2( 0, 0 )
 125/modulate = Color( 1, 1, 1, 1 )
 125/region = Rect2( 0, 0, 32, 64 )
