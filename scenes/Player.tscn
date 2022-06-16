@@ -73,6 +73,7 @@ tracks/0/keys = {
 
 [node name="Player" type="KinematicBody2D" groups=["player"]]
 scale = Vector2( 3, 3 )
+collision_mask = 3
 script = ExtResource( 2 )
 
 [node name="Sprite" type="Sprite" parent="."]
@@ -82,6 +83,7 @@ vframes = 11
 frame = 8
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+light_mask = 0
 position = Vector2( 0, 14.5 )
 shape = SubResource( 1 )
 
@@ -110,7 +112,16 @@ one_shot = true
 wait_time = 0.5
 one_shot = true
 
+[node name="dash" type="Timer" parent="."]
+wait_time = 0.1
+
+[node name="dashCD" type="Timer" parent="."]
+wait_time = 0.7
+one_shot = true
+
 [connection signal="timeout" from="inmune" to="." method="_on_inmune_timeout"]
 [connection signal="timeout" from="animationHit" to="." method="_on_animationHit_timeout"]
 [connection signal="timeout" from="stun" to="." method="_on_stun_timeout"]
 [connection signal="timeout" from="disparar" to="." method="_on_disparar_timeout"]
+[connection signal="timeout" from="dash" to="." method="_on_dash_timeout"]
+[connection signal="timeout" from="dashCD" to="." method="_on_dashCD_timeout"]

@@ -1,0 +1,8 @@
+[gd_scene format=2]
+
+[node name="HUDMisiones" type="Node2D"]
+
+[node name="Label" type="Label" parent="."]
+margin_right = 64.0
+margin_bottom = 14.0
+text = "MISIÓNES"
