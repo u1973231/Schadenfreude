@@ -22,3 +22,4 @@ __meta__ = {
 
 [node name="EnemyGoblin" parent="Path2D/PathFollow2D" instance=ExtResource( 1 )]
 position = Vector2( 0, 1 )
+vida = 10
