@@ -12,6 +12,13 @@ margin_right = 192.0
 margin_bottom = 186.0
 color = Color( 0, 0, 0, 0.411765 )
 
+[node name="Reputacion" type="Label" parent="."]
+margin_left = -5.0
+margin_top = 198.0
+margin_right = 74.0
+margin_bottom = 212.0
+text = "Reputació: 0"
+
 [node name="Mision" type="Label" parent="."]
 margin_right = 64.0
 margin_bottom = 14.0

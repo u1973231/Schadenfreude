@@ -36,12 +36,12 @@ func hablar():
 		recompensa = false
 	
 func aniadirMision():
-	if addMision != -1:
+	if not ScrGlobal.tieneMision(addMision) and not ScrGlobal.comprovarMisionCompletada(indexMision):
 		ScrGlobal.addMistion(addMision)
-		addMision = -1 	
+		
 
 func crearCuadroDialogo():
-	if addMision != -1: #Dialogo de mision
+	if not ScrGlobal.tieneMision(addMision) and not ScrGlobal.comprovarMisionCompletada(indexMision): #Dialogo de mision
 		ScrGlobal.currenDialogPath = path + dialogoMision
 	elif not recompensa: #El jugador ya ha sido recompensado
 		ScrGlobal.currenDialogPath = path + dialogoDefault

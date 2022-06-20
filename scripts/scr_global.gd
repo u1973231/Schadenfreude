@@ -42,6 +42,10 @@ func setJugadorHablando(hablando):
 func getJugadorHablando():
 	return jugadorHablando
 
+func tieneMision(i):
+	return i in misionesAceptadas
+		
+
 #Comprueva si la mision ha sido completada por el jugador.
 func comprovarMisionCompletada(index):
 	return index in misionesCompletadas

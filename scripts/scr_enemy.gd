@@ -24,7 +24,7 @@ func comprovarMisiones():
 	var ma = ScrGlobal.misionesAceptadas
 	var m = ScrGlobal.misiones
 	while i < len(ma):
-		if ma[i] != -1 and m[ma[i]]["Tipo"] == "matar" and m[ma[i]]["Objetivo"] == "slime":
+		if ma[i] != -1 and m[ma[i]]["Tipo"] == "matar" and is_in_group(m[ma[i]]["Objetivo"]):
 			ScrGlobal.misionesProgreso[i] += 1
 			print("+1 Slime")
 			ScrGlobal.compMisionCompleta(i)

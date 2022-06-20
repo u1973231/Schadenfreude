@@ -1,10 +1,11 @@
-[gd_scene load_steps=6 format=2]
+[gd_scene load_steps=7 format=2]
 
 [ext_resource path="res://scenes/Player.tscn" type="PackedScene" id=1]
 [ext_resource path="res://TileMaps/Floor.tres" type="TileSet" id=2]
 [ext_resource path="res://scenes/Path.tscn" type="PackedScene" id=3]
 [ext_resource path="res://scenes/Health.tscn" type="PackedScene" id=4]
 [ext_resource path="res://scenes/dorTavern.tscn" type="PackedScene" id=5]
+[ext_resource path="res://scenes/slime.tscn" type="PackedScene" id=6]
 
 [node name="Out" type="Node2D"]
 __meta__ = {
@@ -39,17 +40,89 @@ position = Vector2( 413, 315 )
 scale = Vector2( 1, 1 )
 velocidad = 200.0
 
-[node name="Path" parent="." instance=ExtResource( 3 )]
-position = Vector2( 341, 18 )
-
-[node name="Path2" parent="." instance=ExtResource( 3 )]
-position = Vector2( -62, -139 )
-
-[node name="Path3" parent="." instance=ExtResource( 3 )]
-position = Vector2( 84, 359 )
-
 [node name="Health" parent="." instance=ExtResource( 4 )]
 
 [node name="dorTavern" parent="." instance=ExtResource( 5 )]
 position = Vector2( 475, 273 )
 outSide = true
+
+[node name="Enemigos" type="Node2D" parent="."]
+
+[node name="Enemigo2" type="Node2D" parent="Enemigos"]
+
+[node name="Path" parent="Enemigos/Enemigo2" instance=ExtResource( 3 )]
+position = Vector2( 133, -646 )
+
+[node name="Path4" parent="Enemigos/Enemigo2" instance=ExtResource( 3 )]
+position = Vector2( 1024, -697 )
+
+[node name="Path2" parent="Enemigos/Enemigo2" instance=ExtResource( 3 )]
+position = Vector2( 1519, 657 )
+
+[node name="Path8" parent="Enemigos/Enemigo2" instance=ExtResource( 3 )]
+position = Vector2( 2078, -979 )
+
+[node name="Path3" parent="Enemigos/Enemigo2" instance=ExtResource( 3 )]
+position = Vector2( -236, 979 )
+
+[node name="Path6" parent="Enemigos/Enemigo2" instance=ExtResource( 3 )]
+position = Vector2( -1341, -236 )
+
+[node name="Path7" parent="Enemigos/Enemigo2" instance=ExtResource( 3 )]
+position = Vector2( -1045, -918 )
+
+[node name="Path5" parent="Enemigos/Enemigo2" instance=ExtResource( 3 )]
+position = Vector2( -844, 339 )
+
+[node name="Slimes" type="Node2D" parent="Enemigos"]
+
+[node name="slime" parent="Enemigos/Slimes" instance=ExtResource( 6 )]
+position = Vector2( -436, 162 )
+
+[node name="slime2" parent="Enemigos/Slimes" instance=ExtResource( 6 )]
+position = Vector2( 547, -226 )
+
+[node name="slime3" parent="Enemigos/Slimes" instance=ExtResource( 6 )]
+position = Vector2( 799, 58 )
+
+[node name="slime4" parent="Enemigos/Slimes" instance=ExtResource( 6 )]
+position = Vector2( 741, 414 )
+
+[node name="slime6" parent="Enemigos/Slimes" instance=ExtResource( 6 )]
+position = Vector2( 416, 490 )
+
+[node name="slime7" parent="Enemigos/Slimes" instance=ExtResource( 6 )]
+position = Vector2( -143, 472 )
+
+[node name="slime8" parent="Enemigos/Slimes" instance=ExtResource( 6 )]
+position = Vector2( -125, 309 )
+
+[node name="slime9" parent="Enemigos/Slimes" instance=ExtResource( 6 )]
+position = Vector2( 23, 573 )
+
+[node name="slime12" parent="Enemigos/Slimes" instance=ExtResource( 6 )]
+position = Vector2( 134, 779 )
+
+[node name="slime13" parent="Enemigos/Slimes" instance=ExtResource( 6 )]
+position = Vector2( 313, 783 )
+
+[node name="slime14" parent="Enemigos/Slimes" instance=ExtResource( 6 )]
+position = Vector2( 208, 878 )
+
+[node name="slime15" parent="Enemigos/Slimes" instance=ExtResource( 6 )]
+position = Vector2( 332, -23 )
+
+[node name="slime16" parent="Enemigos/Slimes" instance=ExtResource( 6 )]
+position = Vector2( -169, 153 )
+
+[node name="slime17" parent="Enemigos/Slimes" instance=ExtResource( 6 )]
+position = Vector2( -19, 367 )
+
+[node name="slime10" parent="Enemigos/Slimes" instance=ExtResource( 6 )]
+position = Vector2( 387, 634 )
+
+[node name="slime11" parent="Enemigos/Slimes" instance=ExtResource( 6 )]
+position = Vector2( 525, 595 )
+
+[node name="slime5" parent="Enemigos/Slimes" instance=ExtResource( 6 )]
+position = Vector2( 942, 412 )

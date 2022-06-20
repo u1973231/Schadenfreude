@@ -17,6 +17,7 @@ offset = Vector2( 336, 6 )
 [node name="Player" parent="." instance=ExtResource( 2 )]
 position = Vector2( 487, 274 )
 scale = Vector2( 1, 1 )
+velocidad = 200.0
 
 [node name="slime" parent="." instance=ExtResource( 4 )]
 position = Vector2( 658, 297 )

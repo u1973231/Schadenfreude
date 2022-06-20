@@ -12,12 +12,14 @@ func _ready():
 	
 	pass # Replace with function body.
 
-func _process(delta):
+func _process(delta):	
 	actualizarMisiones()
+	$Reputacion.text = "Reputación: " + str(ScrGlobal.recompensa)
+
 
 func actualizarMisiones():
 	for i in get_children():
-		if i.name != "Mision" and i.name != "rect":
+		if i.name != "Mision" and i.name != "rect" and i.name != "Reputacion":
 			i.queue_free()
 	
 	var ma = ScrGlobal.misionesAceptadas
