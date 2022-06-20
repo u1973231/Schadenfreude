@@ -16,6 +16,8 @@ var arrow
 var disparar = true
 var dashing = false
 var dash = true
+var caminando = false
+var sonidoPasos = false
 
 func _ready():
 	arrow = preload("res://scenes/arrow.tscn")
@@ -24,27 +26,33 @@ func _ready():
 	
 func _process(delta):
 	
+	if caminando and not sonidoPasos:
+		$Sonidos/pasos.play()
+		sonidoPasos = true
+	elif not caminando:
+		$Sonidos/pasos.stop()
+		sonidoPasos = false
 	
-	
-	if not stun and not dashing:
-		movePlayer()
-	elif stun:
-		moveStun()
-	elif dashing:
-		dash(delta)
-	
-	if Input.is_action_pressed("atacar") and disparar:
-		lanzarFlecha()
-		disparar = false
-		$disparar.start()
-	
-	
-	if Input.is_action_just_pressed("dash") and dash:
-		dashing = true
-		dash = false
-		set_collision_mask_bit(1, false) #Desactivamos la colision para los enemigos
-		$dash.start()
-		$dashCD.start()
+	if not ScrGlobal.getJugadorHablando():
+		if not stun and not dashing:
+			movePlayer()
+		elif stun:
+			moveStun()
+		elif dashing:
+			dash(delta)
+		
+		if Input.is_action_pressed("atacar") and disparar:
+			lanzarFlecha()
+			disparar = false
+			$disparar.start()
+		
+		
+		if Input.is_action_just_pressed("dash") and dash:
+			dashing = true
+			dash = false
+			set_collision_mask_bit(1, false) #Desactivamos la colision para los enemigos
+			$dash.start()
+			$dashCD.start()
 	
 	ScrGlobal.posJugador = position
 	
@@ -68,7 +76,12 @@ func movePlayer():
 	vecMov.y = Input.get_action_strength("move_down") - Input.get_action_strength("move_up")
 	vecMov.y /= 2
 	vecMov = vecMov.normalized() * velocidad
-	move_and_slide(vecMov)
+	if vecMov != Vector2.ZERO:
+		caminando = true
+	else: 
+		caminando = false
+	vecMov = move_and_slide(vecMov)
+	
 	
 	#Animaciones
 	if not animationHit and not dashing:
@@ -97,8 +110,8 @@ func recivirDamage(posSurce):
 		stun = true
 		$stun.start()
 		$animationHit.start()
-		print(vida) 
 		$inmune.start()
+		$Sonidos/hit.play()
 
 
 func _on_inmune_timeout():
@@ -115,6 +128,7 @@ func _on_stun_timeout():
 	pass # Replace with function body.
 
 func lanzarFlecha():
+	$Sonidos/arco.play()
 	var mouse = get_global_mouse_position()
 	var dir = mouse - position
 	var inst = arrow.instance()

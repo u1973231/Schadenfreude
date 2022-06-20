@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/slime (mp3cut.net).wav-8ee51c773184cac16dfc13e9e195c580.sample"
+
+[deps]
+
+source_file="res://sounds/slime (mp3cut.net).wav"
+dest_files=[ "res://.import/slime (mp3cut.net).wav-8ee51c773184cac16dfc13e9e195c580.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop=false
+compress/mode=0

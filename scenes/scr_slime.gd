@@ -32,6 +32,7 @@ func _process(delta):
 	if tocandoJugador:
 		jugador.recivirDamage(position)
 	
+	#Maquina de estados Slime
 	if currenStat == stats.idle:
 		$AnimationPlayer.play("idle")		
 		pass
@@ -45,6 +46,9 @@ func _process(delta):
 		if not isJumping: # esta en el suelo			
 			if not waitingForJump:
 				$AnimationPlayer.play("idle")
+				var rng = RandomNumberGenerator.new()
+				rng.randomize()
+				$jumpDely.wait_time = rng.randf_range(0.5,1.2)
 				$jumpDely.start()
 				waitingForJump = true
 		else: # esta saltando
@@ -58,6 +62,7 @@ func _process(delta):
 
 func _on_jumpDely_timeout():
 	#Animacion
+	$sounds/jump.play()
 	$AnimationPlayer.play("jump")
 	$jumpDuration.start()
 	#Establecemos la direccion del salto.

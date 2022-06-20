@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/pasosHierva (mp3cut.net).wav-a424ed09ceb3ea9c5e3b81bad57dd970.sample"
+
+[deps]
+
+source_file="res://sounds/pasosHierva (mp3cut.net).wav"
+dest_files=[ "res://.import/pasosHierva (mp3cut.net).wav-a424ed09ceb3ea9c5e3b81bad57dd970.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop=true
+compress/mode=0

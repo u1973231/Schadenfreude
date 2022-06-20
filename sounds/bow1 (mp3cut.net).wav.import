@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/bow1 (mp3cut.net).wav-3516bdb38bb2075d79f3e14f23f3053c.sample"
+
+[deps]
+
+source_file="res://sounds/bow1 (mp3cut.net).wav"
+dest_files=[ "res://.import/bow1 (mp3cut.net).wav-3516bdb38bb2075d79f3e14f23f3053c.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop=false
+compress/mode=0

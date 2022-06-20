@@ -84,9 +84,13 @@ scale = Vector2( 0.7, 0.7 )
 
 [node name="DialogTriger" parent="Health" instance=ExtResource( 3 )]
 position = Vector2( 825, 245 )
-dialogPath = "res://dialogs/Dialogo0.json"
+dialogoDefault = "Dig_Tabernero_Default.json"
+dialogoMision = "Dig_Tabernero_MisionSlime.json"
+dialogoTengoMision = "Dig_Tabernero_MisionCogida.json"
+dialogoRecompensa = "Dig_Tabernero_MisionCompletada.json"
 
 [node name="DialogTriger2" parent="Health" instance=ExtResource( 3 )]
 position = Vector2( 358, 242 )
-dialogPath = "res://dialogs/Dialogo1.json"
+dialogoDefault = "Dialogo1.json"
 addMision = -1
+recompensa = false

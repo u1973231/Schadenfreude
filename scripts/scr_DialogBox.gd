@@ -9,9 +9,11 @@ var dialog
 
 var phraseNum = 0
 var finished = false
-
+var sound = false
 func _ready():
+	$content/Indicator/AnimationPlayer.play("indicator")
 	dialogPath = ScrGlobal.currenDialogPath
+	print(dialogPath)
 	$content/Timer.wait_time = textSpeed
 	dialog = getDialog()
 	assert(dialog, "Dialogo no encontrado")
@@ -19,7 +21,19 @@ func _ready():
 	pass 
 	
 func _process(delta):
-	
+	if finished:
+		$content/Indicator.visible = true
+	else:
+		$content/Indicator.visible = false
+		
+	if finished and sound:
+		sound = false
+		$sonidos/texto.stop()
+	elif not sound:
+		$sonidos/texto.play()
+		sound = true
+		
+		
 	if Input.is_action_just_pressed("ui_accept"):
 		if finished:
 			nextPhrase()
@@ -41,8 +55,9 @@ func getDialog() -> Array:
 		return []
 		
 func nextPhrase() -> void:
-	if phraseNum >= len(dialog):
+	if phraseNum >= len(dialog): #Termina de hablar
 		queue_free()
+		ScrGlobal.setJugadorHablando(false)
 		return
 	finished = false
 	$content/Name.bbcode_text = dialog[phraseNum]["Name"]

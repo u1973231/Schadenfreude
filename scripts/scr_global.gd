@@ -8,15 +8,17 @@ var misionesAceptadas = []
 var misionesProgreso = []
 var misionesCompletadas = []
 var misiones
+var recompensa = 0
 
 #Variables privadas
 var pathMisiones = "res://Misiones/Misiones.json"
+var jugadorHablando = false
 
 
 func _ready():
 	misiones = cargarMisiones()
 	
-	
+#Comprueva si la mision ha sido completada para marcarla como completada, si ha sido completada añiade el index de la mision a misionesCompletadas
 func compMisionCompleta(i):
 	var indexM = misionesAceptadas[i]
 	if int(misiones[indexM]["Cantidad"]) <= misionesProgreso[i]:
@@ -30,7 +32,20 @@ func compMisionCompleta(i):
 func addMistion(index):
 	misionesAceptadas.append(index)
 	misionesProgreso.append(0)
-	
+
+func darRecompensa(cantidad):
+	recompensa = cantidad
+
+func setJugadorHablando(hablando):
+	jugadorHablando = hablando	
+
+func getJugadorHablando():
+	return jugadorHablando
+
+#Comprueva si la mision ha sido completada por el jugador.
+func comprovarMisionCompletada(index):
+	return index in misionesCompletadas
+		
 
 #Carrga las misiones en memoria
 func cargarMisiones() -> Array:
