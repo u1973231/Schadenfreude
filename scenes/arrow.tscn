@@ -4,7 +4,7 @@
 [ext_resource path="res://scripts/scr_arrow.gd" type="Script" id=2]
 
 [sub_resource type="RectangleShape2D" id=1]
-extents = Vector2( 6, 3.5 )
+extents = Vector2( 6, 10 )
 
 [node name="arrow" type="Node2D"]
 scale = Vector2( 0.5, 0.5 )
@@ -19,7 +19,7 @@ texture = ExtResource( 1 )
 collision_mask = 3
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
-position = Vector2( -5, 0 )
+position = Vector2( -6, 0 )
 shape = SubResource( 1 )
 
 [node name="Death" type="Timer" parent="."]
