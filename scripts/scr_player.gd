@@ -6,6 +6,7 @@ export var velocidad := 6000.0
 export var vida = 6
 export var hitNokback = 250
 export var dashSpeed = 600.0
+export var exterior = false
 #Variables privadas
 var vecMov := Vector2.ZERO
 var inmune = false
@@ -19,6 +20,7 @@ var dash = true
 var caminando = false
 var sonidoPasos = false
 
+
 func _ready():
 	arrow = preload("res://scenes/arrow.tscn")
 	pass 
@@ -27,10 +29,17 @@ func _ready():
 func _process(delta):
 	
 	if caminando and not sonidoPasos:
-		$Sonidos/pasos.play()
+		if exterior:
+			$Sonidos/pasosHierba.play()
+		else:
+			$Sonidos/pasosMadera.play()
+			
 		sonidoPasos = true
 	elif not caminando:
-		$Sonidos/pasos.stop()
+		if exterior:
+			$Sonidos/pasosHierba.stop()
+		else:
+			$Sonidos/pasosMadera.play()
 		sonidoPasos = false
 	
 	if not ScrGlobal.getJugadorHablando():
