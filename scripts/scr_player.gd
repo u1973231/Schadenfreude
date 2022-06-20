@@ -19,6 +19,8 @@ var dashing = false
 var dash = true
 var caminando = false
 var sonidoPasos = false
+var muerto = false
+
 
 
 func _ready():
@@ -42,7 +44,7 @@ func _process(delta):
 			$Sonidos/pasosMadera.play()
 		sonidoPasos = false
 	
-	if not ScrGlobal.getJugadorHablando():
+	if not ScrGlobal.getJugadorHablando() and not muerto:
 		if not stun and not dashing:
 			movePlayer(delta)
 		elif stun:
@@ -64,6 +66,13 @@ func _process(delta):
 			$dashCD.start()
 	
 	ScrGlobal.posJugador = position
+	
+	if vida <= 0 and not muerto:
+		$menuMuero.start()
+		muerto = true
+	
+	if muerto:
+		$AnimationPlayer.play("muerte")
 	
 	pass
 
@@ -161,3 +170,8 @@ func _on_dash_timeout():
 func _on_dashCD_timeout():
 	dash = true
 	
+
+
+func _on_menuMuero_timeout():
+	get_tree().change_scene("res://scenes/GameOver.tscn")
+	pass # Replace with function body.
