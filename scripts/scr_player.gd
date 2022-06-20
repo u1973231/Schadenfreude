@@ -2,7 +2,7 @@ extends KinematicBody2D
 
 
 #Variables exportadas
-export var velocidad := 100.0
+export var velocidad := 6000.0
 export var vida = 6
 export var hitNokback = 250
 export var dashSpeed = 600.0
@@ -35,7 +35,7 @@ func _process(delta):
 	
 	if not ScrGlobal.getJugadorHablando():
 		if not stun and not dashing:
-			movePlayer()
+			movePlayer(delta)
 		elif stun:
 			moveStun()
 		elif dashing:
@@ -70,12 +70,12 @@ func moveStun():
 	pass
 	
 	
-func movePlayer():
+func movePlayer(delta):
 	#Movimiento Jugador
 	vecMov.x = Input.get_action_strength("move_right") - Input.get_action_strength("move_left") 
 	vecMov.y = Input.get_action_strength("move_down") - Input.get_action_strength("move_up")
 	vecMov.y /= 2
-	vecMov = vecMov.normalized() * velocidad
+	vecMov = vecMov.normalized() * velocidad 
 	if vecMov != Vector2.ZERO:
 		caminando = true
 	else: 
