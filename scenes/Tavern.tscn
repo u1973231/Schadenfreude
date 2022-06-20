@@ -50,7 +50,8 @@ tile_data = PoolIntArray( -1703915, 24, 0, -1638379, 29, 0, -1638371, 22, 0, -15
 [node name="Bartender" parent="Entorno" instance=ExtResource( 5 )]
 
 [node name="Fisherman" parent="Entorno" instance=ExtResource( 8 )]
-position = Vector2( -690.667, 293.333 )
+position = Vector2( -685.333, 300 )
+scale = Vector2( 0.9, 0.9 )
 
 [node name="ObjectsUp" type="TileMap" parent="Entorno"]
 position = Vector2( -1029.33, -82.6667 )
