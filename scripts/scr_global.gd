@@ -34,7 +34,7 @@ func addMistion(index):
 	misionesProgreso.append(0)
 
 func darRecompensa(cantidad):
-	recompensa = cantidad
+	recompensa += cantidad
 
 func setJugadorHablando(hablando):
 	jugadorHablando = hablando	
