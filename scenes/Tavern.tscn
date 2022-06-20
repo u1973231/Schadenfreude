@@ -98,8 +98,9 @@ cantidadRecompensa = 30
 
 [node name="TrigerHablarFernand" parent="Health" instance=ExtResource( 7 )]
 position = Vector2( 252, 310 )
-dialogoDefault = "Dialogo0.json"
-dialogoMision = "Dialogo0.json"
-dialogoTengoMision = "Dialogo0.json"
-dialogoRecompensa = "Dialogo0.json"
+dialogoDefault = "Dig_Fisherman_Default.json"
+dialogoMision = "Dig_Fisherman_MisionGoblin.json"
+dialogoTengoMision = "Dig_Fisherman_MisionCogida.json"
+dialogoRecompensa = "Dig_Fisherman_MisionCompletada.json"
 addMision = 1
+cantidadRecompensa = 50

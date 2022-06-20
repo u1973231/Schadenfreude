@@ -1,4 +1,4 @@
 [
     {"Index": "0","Descripcion":"Mata a 10 Slimes","Tipo":"matar","Objetivo":"slime","Cantidad": "10"},
-    {"Index": "1","Descripcion":"Pipo","Tipo":"matar","Objetivo":"","Cantidad": ""}
+    {"Index": "1","Descripcion":"Elimina 3 Goblins","Tipo":"matar","Objetivo":"goblin","Cantidad": "3"}
 ]
