@@ -1,8 +1,17 @@
-[gd_scene load_steps=6 format=2]
+[gd_scene load_steps=9 format=2]
 
 [ext_resource path="res://scripts/scr_DialogBox.gd" type="Script" id=1]
 [ext_resource path="res://textures/avatares/gato.png" type="Texture" id=2]
 [ext_resource path="res://sounds/dialogo (mp3cut.net).wav" type="AudioStream" id=3]
+[ext_resource path="res://Font/Salmon Typewriter fonts/Salmon Typewriter 9 Bold.ttf" type="DynamicFontData" id=4]
+
+[sub_resource type="DynamicFont" id=3]
+size = 15
+font_data = ExtResource( 4 )
+
+[sub_resource type="DynamicFont" id=4]
+size = 12
+font_data = ExtResource( 4 )
 
 [sub_resource type="Animation" id=1]
 length = 0.001
@@ -51,6 +60,7 @@ margin_left = 81.0
 margin_top = 5.0
 margin_right = 227.0
 margin_bottom = 23.0
+custom_fonts/normal_font = SubResource( 3 )
 text = "NOMBRE"
 
 [node name="Text" type="RichTextLabel" parent="content"]
@@ -58,6 +68,7 @@ margin_left = 81.0
 margin_top = 21.0
 margin_right = 649.0
 margin_bottom = 86.0
+custom_fonts/normal_font = SubResource( 4 )
 text = "TEXTO DE MUESTA"
 fit_content_height = true
 
