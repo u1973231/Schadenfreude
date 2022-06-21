@@ -88,7 +88,7 @@ func moveStun():
 	pass
 	
 	
-func movePlayer(delta):
+func movePlayer(_delta):
 	#Movimiento Jugador
 	vecMov.x = Input.get_action_strength("move_right") - Input.get_action_strength("move_left") 
 	vecMov.y = Input.get_action_strength("move_down") - Input.get_action_strength("move_up")

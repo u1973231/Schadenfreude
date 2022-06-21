@@ -20,7 +20,7 @@ func _ready():
 	nextPhrase()
 	pass 
 	
-func _process(delta):
+func _process(_delta):
 	if finished:
 		$content/Indicator.visible = true
 	else:

@@ -22,7 +22,7 @@ func _ready():
 	indexMision = addMision #Nos guardamos el indice de la mision
 	pass # Replace with function body.
 
-func _process(delta):
+func _process(_delta):
 	if Input.is_action_just_pressed("interactue") and playerIn and not ScrGlobal.getJugadorHablando():
 		hablar()
 		ScrGlobal.setJugadorHablando(true)
