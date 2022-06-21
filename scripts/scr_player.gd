@@ -41,7 +41,7 @@ func _process(delta):
 		if exterior:
 			$Sonidos/pasosHierba.stop()
 		else:
-			$Sonidos/pasosMadera.play()
+			$Sonidos/pasosMadera.stop()
 		sonidoPasos = false
 	
 	if not ScrGlobal.getJugadorHablando() and not muerto:

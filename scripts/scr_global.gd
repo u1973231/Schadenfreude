@@ -21,8 +21,7 @@ func _ready():
 #Comprueva si la mision ha sido completada para marcarla como completada, si ha sido completada añiade el index de la mision a misionesCompletadas
 func compMisionCompleta(i):
 	var indexM = misionesAceptadas[i]
-	if int(misiones[indexM]["Cantidad"]) <= misionesProgreso[i]:
-		print("misionCumplida")
+	if int(misiones[indexM]["Cantidad"]) <= misionesProgreso[i]:	
 		misionesCompletadas.append(int(misionesAceptadas[i]))#Añade la mision como completada para poder recivir la recompensa al hablar con el npc 
 		misionesAceptadas[i] = -1 #Cuando una mision aceptada esta en -1 para indicar que ya no esta vijente
 		
@@ -35,6 +34,19 @@ func addMistion(index):
 
 func darRecompensa(cantidad):
 	recompensa += cantidad
+	comprovarReputacion()
+	
+func comprovarReputacion():
+	var i = 0
+	var ma = ScrGlobal.misionesAceptadas
+	var m = ScrGlobal.misiones
+	while i < len(ma):
+		if ma[i] != -1 and m[ma[i]]["Tipo"] == "recaudar" and m[ma[i]]["Objetivo"] == "reputacion":
+			ScrGlobal.misionesProgreso[i] = recompensa
+			ScrGlobal.compMisionCompleta(i)
+			
+			pass			
+		i += 1		
 
 func setJugadorHablando(hablando):
 	jugadorHablando = hablando	
@@ -44,7 +56,8 @@ func getJugadorHablando():
 
 func tieneMision(i):
 	return i in misionesAceptadas
-		
+	
+	
 
 #Comprueva si la mision ha sido completada por el jugador.
 func comprovarMisionCompletada(index):

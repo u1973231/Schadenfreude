@@ -7,6 +7,7 @@ export var dialogoRecompensa = ""
 export var addMision = 0
 export var recompensa = true
 export var cantidadRecompensa = 100
+export var hunterAlchemist = false
 var playerIn = false
 var dialog
 var HUDInter
@@ -32,13 +33,19 @@ func hablar():
 	crearCuadroDialogo()
 	aniadirMision()
 	if recompensa and ScrGlobal.comprovarMisionCompletada(indexMision):
-		ScrGlobal.darRecompensa(cantidadRecompensa)
-		recompensa = false
+		if hunterAlchemist:
+			get_tree().change_scene("res://scenes/GameWin.tscn")
+		else:
+			ScrGlobal.darRecompensa(cantidadRecompensa)
+			recompensa = false
 	
 func aniadirMision():
 	if not ScrGlobal.tieneMision(addMision) and not ScrGlobal.comprovarMisionCompletada(indexMision):
 		ScrGlobal.addMistion(addMision)
-		
+	
+	if not ScrGlobal.tieneMision(addMision) and ScrGlobal.misiones[addMision]["Tipo"] == "recaudar"  and ScrGlobal.misiones[addMision]["Objetivo"] == "reputacion":
+		ScrGlobal.comprovarReputacion()
+		pass
 
 func crearCuadroDialogo():
 	if not ScrGlobal.tieneMision(addMision) and not ScrGlobal.comprovarMisionCompletada(indexMision): #Dialogo de mision
